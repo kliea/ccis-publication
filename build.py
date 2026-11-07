@@ -9,6 +9,7 @@ import html
 import json
 import re
 import time
+import unicodedata
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
@@ -77,7 +78,7 @@ UNCHECKED = [
     ("Cherry I. Tabada", "Cherry Tabada"),
     ("Jessie Lynde M. Poralan", "Jessie Lynde Poralan"),
     ("Junward B. Megullas", "Junward Megullas"),
-    ("Fritzie T. Nuez", "Fritzie Nuez"),
+    ("Fritzie T. Nunez", "Fritzie Nunez"),
 ]
 MARKER = SITE / "unchecked-search.json"
 
@@ -130,12 +131,69 @@ ROSTER = [
     "Jessie Lynde M. Poralan",
     "Junward B. Megullas",
     "Mary Abigail D. Soliva",
-    "Fritzie T. Nuez",
+    "Fritzie T. Nunez",
 ]
+
+# Rank is the faculty profile on page 3. The seven names absent from that
+# profile are Lecturers. Unit is blank when the profile lists no department.
+# Each year requires at least ARTICLE_EACH_YEAR published articles.
+FACULTY = (
+    ("Cristopher C. Abalorio", "Asst. Prof I", ""),
+    ("Roland P. Abao", "Asst. Prof III", "Information Technology"),
+    ("Jayrhom R. Almonteros", "Instructor I", "Information Systems"),
+    ("Glaicel A. Araneta", "Instructor I", ""),
+    ("Jenelyn R. Asis", "Instructor I", "Information Technology"),
+    ("Mary Pilar J. Barber", "Instructor I", ""),
+    ("Robert Lee M. Bawiga", "Instructor I", ""),
+    ("Nathan Kit A. Berro", "Asst. Prof I", ""),
+    ("Ronnel O. Cacho", "Instructor I", "Computer Science"),
+    ("Rudolph Joshua U. Candare", "Asso. Prof IV", "Computer Science"),
+    ("Hannah Faye A. Capoy", "Instructor I", "Information Systems"),
+    ("John Mark B. Correa", "Instructor I", "Computer Science"),
+    ("James Earl D. Cubillas", "Instructor I", "Computer Science"),
+    ("John Michael F. Cutamora", "Instructor I", "Computer Science"),
+    ("Gleen A. Dalaorao", "Professor V", "Information Technology"),
+    ("Jayson C. Dollete", "Instructor I", "Information Systems"),
+    ("Paulo A. Duga", "Instructor I", "Information Systems"),
+    ("Riah E. Encarnacion", "Asst. Prof I", "Information Technology"),
+    ("John Binze B. Escol", "Instructor I", ""),
+    ("Giovanni T. Esma", "Instructor I", "Information Technology"),
+    ("Kent T. Espejon", "Instructor I", ""),
+    ("Clark Justine L. Gonzales", "Instructor I", "Computer Science"),
+    ("Edwin Manuel M. Jarlata", "Instructor I", "Information Technology"),
+    ("Jaymer M. Jayoma", "Professor VI", "Computer Science"),
+    ("Junrie B. Matias", "Professor VI", "Computer Science"),
+    ("Angel Lorraine M. Morales", "Instructor I", ""),
+    ("Edsel Matt O. Morales", "Instructor I", "Information Technology"),
+    ("Elbert S. Moyon", "Asst. Prof I", "Information Systems"),
+    ("Takeyasu V. Nakazato", "Asso. Prof III", "Computer Science"),
+    ("Maria Besa Joy M. Ortuyo", "Asso. Prof V", "Computer Science"),
+    ("Paolo L. Pacaldo", "Instructor I", ""),
+    ("Mark Phil B. Pacot", "Asso. Prof V", "Computer Science"),
+    ("Kimberly Ann B. Palaran", "Instructor I", "Information Systems"),
+    ("Joanna Victoria S. Pitao", "Instructor I", "Computer Science"),
+    ("Vicente A. Pitogo", "Professor VI", "Information Systems"),
+    ("James V. Presbitero", "Asso. Prof I", "Information Technology"),
+    ("Mary Rose O. Raz", "Instructor I", "Information Technology"),
+    ("Dexter A. Romaguera", "Instructor I", "Information Technology"),
+    ("Jordylene G. Sagusay", "Instructor I", ""),
+    ("Cherry I. Tabada", "Asst. Prof III", "Information Technology"),
+    ("Jesterlyn Q. Timosan", "Asso. Prof V", "Information Systems"),
+    ("Luisito I. Tabada", "Professor V", "Computer Science"),
+    ("Kier Patrick A. Empang", "Lecturer", ""),
+    ("Klinth Jerald L. Matugas", "Lecturer", ""),
+    ("Al Christian Plaza", "Lecturer", ""),
+    ("Jessie Lynde M. Poralan", "Lecturer", ""),
+    ("Junward B. Megullas", "Lecturer", ""),
+    ("Mary Abigail D. Soliva", "Lecturer", ""),
+    ("Fritzie T. Nunez", "Lecturer", ""),
+)
 
 
 def tokens(name):
-    cleaned = re.sub(r"[^A-Za-z\s]", " ", name or "")
+    folded = unicodedata.normalize("NFD", name or "")
+    folded = "".join(ch for ch in folded if unicodedata.category(ch) != "Mn")
+    cleaned = re.sub(r"[^A-Za-z\s]", " ", folded)
     return [part for part in cleaned.split() if part]
 
 
@@ -230,6 +288,8 @@ def search_unchecked():
 
 
 YEARS = (2023, 2024, 2025, 2026)
+YEAR_TARGET = 36
+ARTICLE_EACH_YEAR = 2
 
 
 def fetch_works(author_ids):
@@ -494,6 +554,153 @@ def sdg_options(rows):
     return "".join(options)
 
 
+def percent(part, whole):
+    if not whole:
+        return "0.0%"
+    return f"{part / whole * 100:.1f}%"
+
+
+def kpi_section(rows):
+    published = {year: 0 for year in YEARS}
+    indexes = {"scopus": 0, "wos": 0, "aci": 0}
+    for row in rows:
+        if row.get("year") in published:
+            published[row["year"]] += 1
+        for key in row.get("indexes") or []:
+            if key in indexes:
+                indexes[key] += 1
+    body = []
+    for year in YEARS:
+        count = published[year]
+        remaining = max(0, YEAR_TARGET - count)
+        status = "Achieved" if count >= YEAR_TARGET else "Below Target"
+        body.append(
+            "<tr>"
+            f"<td>{year}</td>"
+            f'<td class="num">{count}</td>'
+            f'<td class="num">{YEAR_TARGET}</td>'
+            f'<td class="num">{percent(count, YEAR_TARGET)}</td>'
+            f'<td class="num">{remaining}</td>'
+            f"<td>{status}</td>"
+            "</tr>"
+        )
+    labels = (
+        ("scopus", "Scopus"),
+        ("wos", "Web of Science (WoS)"),
+        ("aci", "Asian Citation Index (ACI)"),
+    )
+    total = sum(indexes.values())
+    index_rows = []
+    for key, label in labels:
+        index_rows.append(
+            "<tr>"
+            f"<td>{escape(label)}</td>"
+            f'<td class="num">{indexes[key]}</td>'
+            f'<td class="num">{percent(indexes[key], total)}</td>'
+            "</tr>"
+        )
+    index_rows.append(
+        '<tr class="total">'
+        "<td>Total Indexed Articles</td>"
+        f'<td class="num">{total}</td>'
+        f'<td class="num">{percent(total, total)}</td>'
+        "</tr>"
+    )
+    return f"""
+    <h1>KPI</h1>
+    <p class="legend">Annual target is {YEAR_TARGET} published works for each year. % Target Achieved is that year's published works divided by {YEAR_TARGET}.</p>
+    <div class="scroll">
+      <table class="summary">
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th class="num">Total Articles</th>
+            <th class="num">Annual Target</th>
+            <th class="num">% Target Achieved</th>
+            <th class="num">Remaining Target</th>
+            <th>Performance Status</th>
+          </tr>
+        </thead>
+        <tbody>{"".join(body)}</tbody>
+      </table>
+    </div>
+    <h2>Indexing breakdown</h2>
+    <p class="legend">% Share is the database count divided by the sum of the three counts. A work listed in two databases is counted in each.</p>
+    <div class="scroll">
+      <table class="summary">
+        <thead>
+          <tr>
+            <th>Indexing Database</th>
+            <th class="num">Total Count</th>
+            <th class="num">% Share</th>
+          </tr>
+        </thead>
+        <tbody>{"".join(index_rows)}</tbody>
+      </table>
+    </div>
+    """
+
+
+def faculty_year_counts(rows, name):
+    counts = {year: 0 for year in YEARS}
+    for row in rows:
+        year = row.get("year")
+        if year not in counts:
+            continue
+        if any(author_fits_roster(author["name"], name) for author in row["authors"]):
+            counts[year] += 1
+    return counts
+
+
+def faculty_section(rows):
+    if [item[0] for item in FACULTY] != ROSTER:
+        raise SystemExit("Faculty names and roster names differ")
+    body = []
+    for number, (name, rank, unit) in enumerate(FACULTY, start=1):
+        counts = faculty_year_counts(rows, name)
+        year_cells = "".join(
+            f'<td class="num" data-year="{year}">{counts[year]}</td>' for year in YEARS
+        )
+        body.append(
+            "<tr>"
+            f"<td>{number}</td>"
+            f"<td>{escape(name)}</td>"
+            f"<td>{escape(rank)}</td>"
+            f"<td>{cell(unit)}</td>"
+            f'<td class="num">{ARTICLE_EACH_YEAR}</td>'
+            f"{year_cells}"
+            "</tr>"
+        )
+    year_headers = "".join(
+        f'<th class="num" data-year="{year}">{year}</th>' for year in YEARS
+    )
+    year_options = ['<option value="">All</option>']
+    year_options.extend(f'<option value="{year}">{year}</option>' for year in YEARS)
+    return f"""
+    <h1>Faculty summary</h1>
+    <p class="legend">{len(FACULTY)} faculty. Each year requires at least {ARTICLE_EACH_YEAR} published articles. The year columns are Article - Accepted/Published for that year.</p>
+    <div class="filters">
+      <label for="faculty-year">Year</label>
+      <select id="faculty-year">{"".join(year_options)}</select>
+    </div>
+    <div class="scroll">
+      <table class="summary" id="faculty-table">
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>Name</th>
+            <th>Rank</th>
+            <th>Unit</th>
+            <th class="num">Req. Article</th>
+            {year_headers}
+          </tr>
+        </thead>
+        <tbody>{"".join(body)}</tbody>
+      </table>
+    </div>
+    """
+
+
 def page(rows, built_at):
     body_rows = []
     for index, row in enumerate(rows, start=1):
@@ -535,69 +742,113 @@ def page(rows, built_at):
   <meta name="twitter:image" content="ccis-logo.png" />
   <meta name="twitter:image:alt" content="CSU CCIS, College of Computing and Information Sciences" />
   <style>
-    :root {{ color-scheme: light; }}
+    :root {{
+      color-scheme: light;
+      --navy: #0b1c33;
+      --dusk: #1f4b7a;
+      --paper: #ffffff;
+      --wash: #e7eef6;
+      --line: #d0dced;
+      --muted: #5d738c;
+      --orange: #f08a2a;
+    }}
     * {{ box-sizing: border-box; }}
-    body {{ margin: 0; font: 16px/1.45 "Iowan Old Style", Palatino, Georgia, serif; color: #1c1915; background: #f4f0e6; }}
+    body {{ margin: 0; font: 16px/1.45 "Iowan Old Style", Palatino, Georgia, serif; color: var(--navy); background: white; }}
+    :focus-visible {{ outline: 2px solid var(--orange); outline-offset: 2px; }}
+    .site-nav {{ position: sticky; top: 0; z-index: 5; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; padding: 14px 20px; background: var(--dusk); font: 14px/1.3 ui-sans-serif, system-ui, sans-serif; }}
+    .brand {{ display: flex; align-items: center; gap: 10px; color: white; font-weight: 650; letter-spacing: .01em; }}
+    .brand img {{ width: 36px; height: 36px; border-radius: 50%; background: white; }}
+    .views {{ display: flex; flex-wrap: wrap; gap: 6px; }}
+    .site-nav button {{ font: inherit; color: white; background: transparent; border: 0; border-bottom: 3px solid transparent; padding: 8px 12px; cursor: pointer; }}
+    .site-nav button:hover {{ color: var(--orange); }}
+    .site-nav button[aria-current="page"] {{ color: white; border-bottom-color: var(--orange); }}
+    section[hidden] {{ display: none; }}
     main {{ padding: 28px 16px 48px; max-width: 1440px; margin: 0 auto; }}
-    h1 {{ font-size: 28px; font-weight: 600; margin: 0 0 4px; }}
-    .sub {{ margin: 0 0 8px; color: #5c564c; }}
-    .legend {{ margin: 0 0 12px; color: #5c564c; font-size: 14px; }}
+    h1 {{ font-size: 28px; font-weight: 600; margin: 0 0 4px; color: var(--dusk); }}
+    h2 {{ font-size: 22px; font-weight: 600; margin: 28px 0 8px; color: var(--dusk); }}
+    .summary th {{ padding: 8px 10px; }}
+    .summary .num {{ text-align: right; font-variant-numeric: tabular-nums; }}
+    .summary tr.total td {{ font-weight: 700; background: var(--wash); }}
+    .sub {{ margin: 0 0 8px; color: var(--navy); }}
+    .legend {{ margin: 0 0 12px; color: var(--navy); font-size: 14px; }}
     .filters {{ display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 16px; font: 14px/1.3 ui-sans-serif, system-ui, sans-serif; }}
-    .filters label {{ color: #5c564c; }}
-    .filters select {{ font: inherit; color: #1c1915; background: white; border: 1px solid #1c1915; padding: 6px 8px; max-width: min(100%, 520px); }}
-    .filters button {{ font: inherit; color: #1c1915; background: white; border: 1px solid #1c1915; padding: 6px 10px; cursor: pointer; }}
+    .filters label, .rows-label {{ color: var(--navy); }}
+    .filters select, .table-foot select {{ font: inherit; color: var(--navy); background: white; border: 1px solid var(--dusk); border-radius: 8px; padding: 6px 8px; }}
+    #year, #faculty-year {{ max-width: 140px; }}
+    #sdg {{ max-width: min(100%, 320px); }}
+    .filters button {{ font: inherit; color: var(--navy); background: var(--orange); border: 0; border-radius: 8px; padding: 8px 12px; font-weight: 650; cursor: pointer; }}
+    .filters button:hover {{ background: #ff9d45; }}
     .table-foot {{ display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; margin: 12px 0 0; font: 14px/1.3 ui-sans-serif, system-ui, sans-serif; }}
     .table-foot[hidden] {{ display: none; }}
-    .range {{ margin: 0; color: #5c564c; }}
+    .range {{ margin: 0; color: var(--navy); }}
     .table-foot-controls {{ display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-left: auto; }}
-    .rows-label {{ color: #1c1915; font-weight: 500; }}
-    .table-foot select {{ font: inherit; height: 32px; color: #1c1915; background: white; border: 1px solid #d9d2c5; border-radius: 6px; padding: 0 8px; }}
+    .table-foot select {{ height: 32px; }}
     .pager ul {{ display: flex; align-items: center; gap: 4px; list-style: none; margin: 0; padding: 0; }}
-    .pager button {{ font: inherit; display: inline-flex; align-items: center; justify-content: center; gap: 4px; height: 36px; min-width: 36px; padding: 0 8px; color: #1c1915; background: transparent; border: 1px solid transparent; border-radius: 6px; cursor: pointer; }}
-    .pager button:hover:not(:disabled) {{ background: #ebe4d6; }}
-    .pager button[aria-current="page"] {{ background: white; border-color: #1c1915; }}
+    .pager button {{ font: inherit; display: inline-flex; align-items: center; justify-content: center; gap: 4px; height: 36px; min-width: 36px; padding: 0 8px; color: var(--navy); background: transparent; border: 1px solid transparent; border-radius: 8px; cursor: pointer; }}
+    .pager button:hover:not(:disabled) {{ background: var(--wash); }}
+    .pager button[aria-current="page"] {{ color: var(--navy); background: var(--orange); border-color: var(--orange); }}
     .pager button.step {{ padding: 0 10px; }}
-    .pager button:disabled {{ color: #a39c90; cursor: default; }}
+    .pager button:disabled {{ color: #8aa0b8; cursor: default; }}
     .pager svg {{ width: 16px; height: 16px; }}
-    .pager .ellipsis {{ display: flex; width: 36px; height: 36px; align-items: center; justify-content: center; }}
+    .pager .ellipsis {{ display: flex; width: 36px; height: 36px; align-items: center; justify-content: center; color: var(--navy); }}
     .sr-only {{ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }}
     @media (max-width: 640px) {{
+      .site-nav {{ align-items: stretch; }}
+      .views {{ width: 100%; }}
+      .views button {{ flex: 1; }}
       .step-label {{ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }}
     }}
-    .empty {{ display: none; margin: 0 0 12px; }}
+    .empty {{ display: none; margin: 0 0 12px; color: var(--navy); }}
     tr[hidden] {{ display: none; }}
-    .scroll {{ overflow-x: auto; border: 1px solid #1c1915; background: white; }}
+    .scroll {{ overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; background: white; color: var(--navy); }}
     table {{ width: 100%; border-collapse: collapse; font: 13px/1.35 ui-sans-serif, system-ui, sans-serif; }}
-    th, td {{ border-bottom: 1px solid #d9d2c5; padding: 8px 10px; vertical-align: top; text-align: left; }}
-    th {{ background: #ebe4d6; font-weight: 650; white-space: nowrap; position: sticky; top: 0; padding: 0; }}
+    caption {{ caption-side: bottom; padding: 8px 10px; text-align: left; color: var(--muted); }}
+    th, td {{ border-bottom: 1px solid var(--line); padding: 8px 10px; vertical-align: top; text-align: left; }}
+    th {{ background: var(--dusk); color: white; font-weight: 650; white-space: nowrap; position: sticky; top: 0; padding: 0; }}
+    #faculty-table [hidden] {{ display: none; }}
     th button {{ font: inherit; font-weight: 650; display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; padding: 8px 10px; color: inherit; background: transparent; border: 0; cursor: pointer; text-align: left; white-space: nowrap; }}
-    th button:hover {{ background: #e3dccb; }}
+    th button:hover {{ background: rgba(255, 255, 255, .08); }}
     .sort-icon {{ display: inline-flex; width: 14px; height: 14px; flex: none; }}
     .sort-icon svg {{ width: 14px; height: 14px; }}
     tr[data-open] {{ cursor: pointer; }}
-    tr[data-open]:hover td {{ background: #f7f3ea; }}
-    .blank {{ color: #a39c90; }}
-    .roster {{ font-weight: 700; }}
-    a {{ color: #1d4e89; }}
-    .modal-back {{ position: fixed; inset: 0; background: rgba(28, 25, 21, .45); display: flex; align-items: flex-start; justify-content: center; padding: 48px 16px; }}
-    .modal {{ background: white; border: 1px solid #1c1915; max-width: 720px; width: 100%; padding: 22px; max-height: calc(100vh - 96px); overflow: auto; }}
-    .modal h2 {{ margin: 0 40px 16px 0; font-size: 22px; line-height: 1.3; }}
-    .modal-close {{ float: right; font: 13px/1 ui-sans-serif, system-ui, sans-serif; background: white; border: 1px solid #1c1915; padding: 6px 10px; cursor: pointer; }}
-    .ruled {{ border-bottom: 1px solid #d9d2c5; padding: 8px 0; display: grid; grid-template-columns: 180px 1fr; gap: 12px; font: 14px/1.4 ui-sans-serif, system-ui, sans-serif; }}
-    .ruled span {{ color: #5c564c; }}
-    .kpi-head {{ margin: 18px 0 0; font: 600 13px/1.4 ui-sans-serif, system-ui, sans-serif; color: #5c564c; }}
+    tr[data-open]:hover td {{ background: var(--wash); }}
+    .blank {{ color: #8aa0b8; }}
+    .roster {{ font-weight: 700; color: var(--navy); }}
+    a {{ color: var(--dusk); }}
+    a:hover {{ color: #9a3e08; }}
+    .modal-back {{ position: fixed; inset: 0; background: rgba(11, 28, 51, .55); display: flex; align-items: flex-start; justify-content: center; padding: 48px 16px; }}
+    .modal {{ background: white; color: var(--navy); border-radius: 12px; border-top: 4px solid var(--orange); max-width: 720px; width: 100%; padding: 22px; max-height: calc(100vh - 96px); overflow: auto; }}
+    .modal h2 {{ margin: 0 40px 16px 0; font-size: 22px; line-height: 1.3; color: var(--dusk); }}
+    .modal-close {{ float: right; font: 13px/1 ui-sans-serif, system-ui, sans-serif; color: var(--navy); background: white; border: 1px solid var(--dusk); border-radius: 8px; padding: 6px 10px; cursor: pointer; }}
+    .ruled {{ border-bottom: 1px solid var(--line); padding: 8px 0; display: grid; grid-template-columns: 180px 1fr; gap: 12px; font: 14px/1.4 ui-sans-serif, system-ui, sans-serif; }}
+    .ruled span {{ color: var(--muted); }}
+    .kpi-head {{ margin: 18px 0 0; font: 600 13px/1.4 ui-sans-serif, system-ui, sans-serif; color: var(--muted); }}
     #kpi[hidden] {{ display: none; }}
   </style>
 </head>
 <body>
+  <nav class="site-nav" aria-label="Catalog views">
+    <div class="brand">
+      <img src="ccis-logo.png" alt="" width="36" height="36" />
+      <span>CCIS catalog</span>
+    </div>
+    <div class="views">
+      <button type="button" data-view="kpi">KPI</button>
+      <button type="button" data-view="publication" aria-current="page">Publication</button>
+      <button type="button" data-view="faculty">Faculty summary</button>
+    </div>
+  </nav>
   <main>
+    <section id="view-kpi" hidden>
+      {kpi_section(rows)}
+    </section>
+    <section id="view-publication">
     <h1>Publication catalog</h1>
     <p class="sub" id="count">{count} {noun} · {YEARS[0]}–{YEARS[-1]} · snapshot {escape(built_at)}</p>
     <p class="legend">Bold names are researchers on the roster. Choose a row for the full record. A link opens the work and leaves the table in place.</p>
     <div class="filters">
       <label for="year">Year</label>
       <select id="year">{year_options(rows)}</select>
-      <button type="button" id="kpi" hidden>KPI</button>
       <label for="sdg">SDG</label>
       <select id="sdg">{sdg_options(rows)}</select>
       <button type="button" id="export-excel">Export Excel</button>
@@ -605,7 +856,7 @@ def page(rows, built_at):
     </div>
     <p class="empty" id="empty">No publications for that year and goal.</p>
     <div class="scroll">
-      <table>
+      <table id="publications">
         <caption class="sub">Published works recorded for {YEARS[0]}–{YEARS[-1]}.</caption>
         <thead>
           <tr>
@@ -644,6 +895,10 @@ def page(rows, built_at):
         </nav>
       </div>
     </div>
+    </section>
+    <section id="view-faculty" hidden>
+      {faculty_section(rows)}
+    </section>
   </main>
   <script id="rows" type="application/json">{data}</script>
   <script src="export.js"></script>
@@ -867,7 +1122,7 @@ def page(rows, built_at):
       const goal = document.getElementById("sdg").value;
       const counts = {{}};
       sdgNames.forEach((pair) => {{ counts[pair[0]] = 0; }});
-      const body = document.querySelector("tbody");
+      const body = document.querySelector("#publications tbody");
       const allRows = Array.from(document.querySelectorAll("tbody tr[data-open]"));
       allRows.sort((a, b) => {{
         const aIndex = Number(a.dataset.index);
@@ -916,7 +1171,6 @@ def page(rows, built_at):
       const to = Math.min(start + size, shown);
       pageStatusEl.textContent = shown ? "Showing " + from + "–" + to + " of " + shown : "";
       if (shown) renderPager(pages);
-      document.getElementById("kpi").hidden = selectedYear() === null;
     }}
     document.getElementById("sdg").addEventListener("change", () => {{
       closeModal();
@@ -928,16 +1182,12 @@ def page(rows, built_at):
       page = 1;
       applyFilters();
     }});
-    document.getElementById("kpi").addEventListener("click", () => {{
-      const year = selectedYear();
-      if (year !== null) openKpi(year);
-    }});
     document.getElementById("page-size").addEventListener("change", () => {{
       closeModal();
       page = 1;
       applyFilters();
     }});
-    document.querySelector("thead").addEventListener("click", (event) => {{
+    document.querySelector("#publications thead").addEventListener("click", (event) => {{
       const th = event.target.closest("th[data-sort]");
       if (!th) return;
       if (sortKey === th.dataset.sort) sortDir = sortDir === "asc" ? "desc" : "asc";
@@ -960,11 +1210,30 @@ def page(rows, built_at):
       applyFilters();
     }});
     applyFilters();
-    document.querySelector("tbody").addEventListener("click", (event) => {{
+    document.querySelector("#publications tbody").addEventListener("click", (event) => {{
       if (event.target.closest("a")) return;
       const row = event.target.closest("tr[data-open]");
       if (!row) return;
       openModal(Number(row.dataset.index));
+    }});
+    function applyFacultyYear() {{
+      const year = document.getElementById("faculty-year").value;
+      document.querySelectorAll("#faculty-table [data-year]").forEach((cell) => {{
+        cell.hidden = year !== "" && cell.dataset.year !== year;
+      }});
+    }}
+    document.getElementById("faculty-year").addEventListener("change", applyFacultyYear);
+    document.querySelector(".site-nav").addEventListener("click", (event) => {{
+      const button = event.target.closest("button[data-view]");
+      if (!button) return;
+      closeModal();
+      ["kpi", "publication", "faculty"].forEach((name) => {{
+        document.getElementById("view-" + name).hidden = name !== button.dataset.view;
+      }});
+      document.querySelectorAll(".site-nav button").forEach((item) => {{
+        if (item === button) item.setAttribute("aria-current", "page");
+        else item.removeAttribute("aria-current");
+      }});
     }});
     document.addEventListener("keydown", (event) => {{
       if (event.key === "Escape") closeModal();
