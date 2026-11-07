@@ -698,6 +698,21 @@ def faculty_section(rows):
         <tbody>{"".join(body)}</tbody>
       </table>
     </div>
+    <div class="table-foot" id="faculty-foot">
+      <p class="range" id="faculty-page-status"></p>
+      <div class="table-foot-controls">
+        <label class="rows-label" for="faculty-page-size">Rows per page</label>
+        <select id="faculty-page-size">
+          <option value="5" selected>5</option>
+          <option value="10">10</option>
+          <option value="25">25</option>
+          <option value="50">50</option>
+        </select>
+        <nav class="pager" id="faculty-pager" aria-label="Faculty pagination">
+          <ul id="faculty-pager-list"></ul>
+        </nav>
+      </div>
+    </div>
     """
 
 
@@ -1216,6 +1231,53 @@ def page(rows, built_at):
       if (!row) return;
       openModal(Number(row.dataset.index));
     }});
+    let facultyPage = 1;
+    function facultyPageSize() {{
+      return Number(document.getElementById("faculty-page-size").value);
+    }}
+    function renderFacultyPager(pages) {{
+      const list = document.getElementById("faculty-pager-list");
+      const focused = document.activeElement;
+      const focusStep = focused && focused.dataset ? focused.dataset.step : "";
+      const focusPage = focused && focused.dataset && focused.dataset.page;
+      const items = [
+        '<li><button type="button" class="step" data-step="prev"' + (facultyPage <= 1 ? " disabled" : "") + ' aria-label="Go to previous page">' + chevronLeft + '<span class="step-label">Previous</span></button></li>'
+      ];
+      pageItems(facultyPage, pages).forEach((item) => {{
+        if (item === "ellipsis") {{
+          items.push('<li><span class="ellipsis">' + ellipsisIcon + '<span class="sr-only">More pages</span></span></li>');
+          return;
+        }}
+        const current = item === facultyPage ? ' aria-current="page"' : "";
+        items.push('<li><button type="button" data-page="' + item + '"' + current + ' aria-label="Page ' + item + '">' + item + "</button></li>");
+      }});
+      items.push('<li><button type="button" class="step" data-step="next"' + (facultyPage >= pages ? " disabled" : "") + ' aria-label="Go to next page"><span class="step-label">Next</span>' + chevronRight + "</button></li>");
+      list.innerHTML = items.join("");
+      if (focusStep) {{
+        const next = list.querySelector('[data-step="' + focusStep + '"]');
+        if (next && !next.disabled) next.focus();
+      }} else if (focusPage) {{
+        const next = list.querySelector('[aria-current="page"]');
+        if (next) next.focus();
+      }}
+    }}
+    function applyFacultyPage() {{
+      const bodyRows = Array.from(document.querySelectorAll("#faculty-table tbody tr"));
+      const shown = bodyRows.length;
+      const size = facultyPageSize();
+      const pages = Math.max(1, Math.ceil(shown / size));
+      if (facultyPage > pages) facultyPage = pages;
+      if (facultyPage < 1) facultyPage = 1;
+      const start = (facultyPage - 1) * size;
+      bodyRows.forEach((tr, index) => {{
+        tr.hidden = index < start || index >= start + size;
+      }});
+      const from = shown ? start + 1 : 0;
+      const to = Math.min(start + size, shown);
+      document.getElementById("faculty-page-status").textContent = shown ? "Showing " + from + "–" + to + " of " + shown : "";
+      document.getElementById("faculty-foot").hidden = shown === 0;
+      if (shown) renderFacultyPager(pages);
+    }}
     function applyFacultyYear() {{
       const year = document.getElementById("faculty-year").value;
       document.querySelectorAll("#faculty-table [data-year]").forEach((cell) => {{
@@ -1223,6 +1285,19 @@ def page(rows, built_at):
       }});
     }}
     document.getElementById("faculty-year").addEventListener("change", applyFacultyYear);
+    document.getElementById("faculty-page-size").addEventListener("change", () => {{
+      facultyPage = 1;
+      applyFacultyPage();
+    }});
+    document.getElementById("faculty-pager").addEventListener("click", (event) => {{
+      const button = event.target.closest("button");
+      if (!button || button.disabled) return;
+      if (button.dataset.step === "prev") facultyPage -= 1;
+      else if (button.dataset.step === "next") facultyPage += 1;
+      else if (button.dataset.page) facultyPage = Number(button.dataset.page);
+      applyFacultyPage();
+    }});
+    applyFacultyPage();
     document.querySelector(".site-nav").addEventListener("click", (event) => {{
       const button = event.target.closest("button[data-view]");
       if (!button) return;
