@@ -1,0 +1,7023 @@
+{
+  "built_at": "2026-11-07 03:16 UTC",
+  "publication_year": "2023-2026",
+  "count": 202,
+  "rows": [
+    {
+      "id": "W7223650948",
+      "title": "A Class-Sensitive Feature Fusion of TF-MDFS and BERT for Text Classification under Class Imbalance",
+      "authors": [
+        {
+          "name": "Dinah Hester A. Carayo",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727995",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4405305782",
+      "title": "A Comparative Study of Machine Learning Algorithms for Predicting Project Outcomes",
+      "authors": [
+        {
+          "name": "Mark Phil B. Pacot",
+          "roster": true
+        },
+        {
+          "name": "Rolyn C. Daguil",
+          "roster": false
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        }
+      ],
+      "venue": "Proceeding of the Electrical Engineering Computer Science and Informatics",
+      "sponsor": "Institute of Advanced Engineering and Science (IAES)",
+      "issn": "2407-439X",
+      "date": "2024-09-26",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/eecsi63442.2024.10776243",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4385893275",
+      "title": "A Data Mining Approach to Construct Classification Model for Predicting Tourism Graduates Employability",
+      "authors": [
+        {
+          "name": "Anna Sheila Crisostomo",
+          "roster": false
+        },
+        {
+          "name": "Riah Encarnacion",
+          "roster": true
+        },
+        {
+          "name": "Shakir Al Balushi",
+          "roster": false
+        }
+      ],
+      "venue": "IEEE/ACIS International Conference on Software Engineering Research, Management and Applications (SERA)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2023-05-23",
+      "year": 2023,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/sera57763.2023.10197814",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        },
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183991",
+      "title": "A Deep Learning-Based Modular Framework for Robust License Plate Recognition in Diverse Visual Environments",
+      "authors": [
+        {
+          "name": "James Earl D. Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Liezyl Jane F. Claros",
+          "roster": false
+        },
+        {
+          "name": "Kaye O. Dacua",
+          "roster": false
+        },
+        {
+          "name": "Christine Jay A. Montilla",
+          "roster": false
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222230",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223649811",
+      "title": "A Dual-Modality Borrowing System for Cultural Artifacts Using YOLOv8 Nano Image Recognition",
+      "authors": [
+        {
+          "name": "Louis Rafael E. Quiñones",
+          "roster": false
+        },
+        {
+          "name": "Runard B. Ramos",
+          "roster": false
+        },
+        {
+          "name": "Edsel Matt O. Morales",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728128",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7129070624",
+      "title": "A Hybrid Deep Learning Approach for Banana Disease Detection Integrating Convolutional Neural Networks with Image Processing Based Domain Knowledge",
+      "authors": [
+        {
+          "name": "Joshua A. Caalim",
+          "roster": false
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Mark Phil B. Pacot",
+          "roster": true
+        }
+      ],
+      "venue": "IEEE Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON)",
+      "sponsor": "Commission on Higher Education",
+      "issn": "",
+      "date": "2025-10-29",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iemcon67450.2025.11381205",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223707606",
+      "title": "A Hybrid Time-Series Forecasting and Underperformance Risk Prediction System for Child Immunization Coverage in Surigao del Norte, Philippines: Evidence from FHSIS Quarterly Data",
+      "authors": [
+        {
+          "name": "Britt Kristoff B. Montalvo",
+          "roster": false
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727904",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399346536",
+      "title": "A Proposal for Integrated Information System of Municipal Welfare Development Office Using Data Mining Methods for Decision Making Support",
+      "authors": [
+        {
+          "name": "Loid Marxz Israel",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-04",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18752",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 10,
+          "name": "Reduced inequalities"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        },
+        {
+          "number": 16,
+          "name": "Peace, justice, and strong institutions"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117430006",
+      "title": "A Prototype Web-Based Water Quality Monitoring System for Improved Aquaculture Management using Arduino Nano",
+      "authors": [
+        {
+          "name": "Ronnel O. Cacho",
+          "roster": true
+        },
+        {
+          "name": "Carl Michael S. Quiambao",
+          "roster": false
+        },
+        {
+          "name": "Alma E. Tandoy",
+          "roster": false
+        },
+        {
+          "name": "Lanbert Ry V. Tecson",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395686",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 6,
+          "name": "Clean water and sanitation"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117414096",
+      "title": "A Real-Time Illegal Parking Detection System with Automatic License Plate Number Recognition",
+      "authors": [
+        {
+          "name": "Glaciel A. Araneta",
+          "roster": false
+        },
+        {
+          "name": "DIT Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "DIT Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395501",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        },
+        {
+          "number": 16,
+          "name": "Peace, justice, and strong institutions"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117414459",
+      "title": "A Web-Based Scheduling System for Resource Management in Secondary Education Leveraging Greedy Algorithm",
+      "authors": [
+        {
+          "name": "John Michael F. Cutamora",
+          "roster": true
+        },
+        {
+          "name": "Gwyneth Raine Niog",
+          "roster": false
+        },
+        {
+          "name": "Ava Luriel Pino",
+          "roster": false
+        },
+        {
+          "name": "Nimfa Amistoso",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395729",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399561421",
+      "title": "A Web-based Ticketing and Booking Application for Enhancing Maritime Travel Operations and Services in Siargao Island",
+      "authors": [
+        {
+          "name": "Jonah Grace S. Mejas",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-12",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18839",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4409814301",
+      "title": "Academic Performance Analysis of Diploma Students Using Predictive Analytics",
+      "authors": [
+        {
+          "name": "Mario B. Caday",
+          "roster": false
+        },
+        {
+          "name": "Gleen A. Dalaorao",
+          "roster": true
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "Procedia Computer Science",
+      "sponsor": "Elsevier BV",
+      "issn": "1877-0509",
+      "date": "2025-01-01",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1016/j.procs.2025.03.117",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4410782914",
+      "title": "Adaptive feature weighting-based image registration for natural image stitching",
+      "authors": [
+        {
+          "name": "Mark Phil Pacot",
+          "roster": true
+        },
+        {
+          "name": "Nelson Marcos",
+          "roster": false
+        }
+      ],
+      "venue": "Signal Image and Video Processing",
+      "sponsor": "Springer Science+Business Media",
+      "issn": "1863-1703",
+      "date": "2025-05-27",
+      "year": 2025,
+      "charge": "3390 USD",
+      "doi": "https://doi.org/10.1007/s11760-025-04247-9",
+      "sdgs": [],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
+    },
+    {
+      "id": "W7223665046",
+      "title": "Adaptive Multi-Object Tracking of Juvenile Litopenaeus vannamei: Modeling Bimodal Locomotion Using an Interacting Multiple Model Framework",
+      "authors": [
+        {
+          "name": "Rommel D. Buenavidez",
+          "roster": false
+        },
+        {
+          "name": "Claud Grant V. Gerona",
+          "roster": false
+        },
+        {
+          "name": "Ronnel O. Cacho",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727991",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7116644362",
+      "title": "Adaptive Robotic Arm Control: Leveraging Curriculum Learning and Deep Reinforcement Learning for Efficient Pick-and-Lift Operations Through Simulation",
+      "authors": [
+        {
+          "name": "John Mark B. Correa",
+          "roster": true
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395731",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117198710",
+      "title": "Advancing Sustainable Mining with Autonomous Robotic Systems: The Design and Development of Mine GEARS",
+      "authors": [
+        {
+          "name": "Rudolph Joshua Candare",
+          "roster": true
+        },
+        {
+          "name": "Adrian Pete Lagare",
+          "roster": false
+        },
+        {
+          "name": "Ronnel Cacho",
+          "roster": true
+        },
+        {
+          "name": "Ydron Paul Amarga",
+          "roster": false
+        },
+        {
+          "name": "James Earl Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Michelle Japitana",
+          "roster": false
+        },
+        {
+          "name": "Christopher Agosila",
+          "roster": false
+        },
+        {
+          "name": "Joshua Orillaneda",
+          "roster": false
+        },
+        {
+          "name": "Hayacinth Jimenez",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395737",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 12,
+          "name": "Responsible consumption and production"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4401809846",
+      "title": "Agile ICT Solutions for Responsible Mining: A Framework for Monitoring and Evaluating Sustainable Resource Management",
+      "authors": [
+        {
+          "name": "Vicente Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Alexander Demetillo",
+          "roster": false
+        },
+        {
+          "name": "Rolyn Daguil",
+          "roster": false
+        },
+        {
+          "name": "Marie Claire Virtudazo",
+          "roster": false
+        }
+      ],
+      "venue": "Studies in systems, decision and control",
+      "sponsor": "Springer International Publishing",
+      "issn": "2198-4182",
+      "date": "2024-01-01",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-031-65203-5_79",
+      "sdgs": [
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 12,
+          "name": "Responsible consumption and production"
+        },
+        {
+          "number": 17,
+          "name": "Partnerships for the goals"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4410738942",
+      "title": "AgriPlace: A Fair Pricing Regulated E-Marketplace for Agricultural Commodities",
+      "authors": [
+        {
+          "name": "Brix Jay A. Nucos",
+          "roster": false
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Julius Parado",
+          "roster": false
+        },
+        {
+          "name": "Joshua Brian A. Leyson",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-05-15",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iraset64571.2025.11008031",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223703937",
+      "title": "An AI-Driven Alumni Tracker, Engagement, and Networking System with Descriptive Analytics and Retrieval-Augmented Generation Chatbot",
+      "authors": [
+        {
+          "name": "Riah E. Encarnacion Dit",
+          "roster": true
+        },
+        {
+          "name": "Roman R. Osorio",
+          "roster": false
+        },
+        {
+          "name": "Prince Niño D. Antigo",
+          "roster": false
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728003",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183789",
+      "title": "Analysis of Correction Techniques for Perspective Distortion Using Image Processing Domain",
+      "authors": [
+        {
+          "name": "Dino Rey V. Barliso",
+          "roster": false
+        },
+        {
+          "name": "Gracylejohn B. De Jesus",
+          "roster": false
+        },
+        {
+          "name": "Alyssa Kyla F. Monton",
+          "roster": false
+        },
+        {
+          "name": "Mark Phil B. Pacot",
+          "roster": true
+        },
+        {
+          "name": "Regien B. Nakazato",
+          "roster": false
+        },
+        {
+          "name": "Takeyasu V. Nakazato",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222270",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4404980709",
+      "title": "Analyzing Entrepreneurial Intention Towards Knowledge Commercialization: Insights from a Philippine Public University",
+      "authors": [
+        {
+          "name": "Nathan Kit A. Berro",
+          "roster": true
+        },
+        {
+          "name": "Melbert R. Bonotan",
+          "roster": false
+        }
+      ],
+      "venue": "Contributions to management science",
+      "sponsor": "Springer Nature",
+      "issn": "1431-1941",
+      "date": "2024-01-01",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-031-67531-7_46",
+      "sdgs": [
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4403061438",
+      "title": "Application of BERT Model for Unsupervised Text Classification using Hierarchical Clustering for Automatic Classification of Thesis Manuscript",
+      "authors": [
+        {
+          "name": "Cristian D. Montes",
+          "roster": false
+        },
+        {
+          "name": "Junisare V. Silvosa",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "Regien Bacabis Nakazato",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Electronics and Sustainable Communication Systems (ICESC)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-08-07",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icesc60852.2024.10690039",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4409642669",
+      "title": "Applying Transfer Learning to Sentiment Analysis in Imbalanced Citation Sentiment Analysis 11 Dataset Using BERT",
+      "authors": [
+        {
+          "name": "Jename Tadlip",
+          "roster": false
+        },
+        {
+          "name": "Jolina Monisit",
+          "roster": false
+        },
+        {
+          "name": "Katherine Dequito",
+          "roster": false
+        },
+        {
+          "name": "Takeyasu Nakazato",
+          "roster": true
+        },
+        {
+          "name": "Regien Nakazato",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Emerging Technologies and Innovation for Sustainability (EmergIN)",
+      "sponsor": "Institute of Electrical and Electronics Engineers",
+      "issn": "",
+      "date": "2024-12-20",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/emergin63207.2024.10961757",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7202292973",
+      "title": "Artificial Intelligence in Sustainable Supply Chain Management for SMEs: An Exploratory Literature Review Using Natural Language Processing",
+      "authors": [
+        {
+          "name": "Victor James C. Escolano",
+          "roster": false
+        },
+        {
+          "name": "Yann-Mey Yee",
+          "roster": false
+        },
+        {
+          "name": "Hui-Ming Wee",
+          "roster": false
+        },
+        {
+          "name": "Alexander A. Hernandez",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Evelyn B. Ballenas",
+          "roster": false
+        },
+        {
+          "name": "Ronaldo A. Juanatas",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on e-Education, e-Business, e-Management and e-Learning",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-04-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/ic4e69618.2026.11631580",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 12,
+          "name": "Responsible consumption and production"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7154447776",
+      "title": "Artificial Intelligence-Driven Brain CT Scan Analysis Tool for Stroke Detection Using U-Net Architecture",
+      "authors": [
+        {
+          "name": "Francis John Saul M. Tin-ao",
+          "roster": false
+        },
+        {
+          "name": "Rhea M. Bete",
+          "roster": false
+        },
+        {
+          "name": "James Earl D. Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Jeffrey T. Dellosa",
+          "roster": false
+        }
+      ],
+      "venue": "IEEE Afro-Mediterranean Conference on Artificial Intelligence (AMCAI)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-10-14",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/amcai66110.2025.11474376",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4400052207",
+      "title": "Assessing the Travel Industry: Basis for a Centralized Travel and Tour Operation Management System",
+      "authors": [
+        {
+          "name": "Rizalyn T. Maderazo",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-26",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18964",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117408583",
+      "title": "AttendEase: Geolocation-based Mobile Application for Attendance Management",
+      "authors": [
+        {
+          "name": "Orlando Caesar M. Donesa",
+          "roster": false
+        },
+        {
+          "name": "Joanie Butron",
+          "roster": false
+        },
+        {
+          "name": "Czarina M. Aplan",
+          "roster": false
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395575",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4323341688",
+      "title": "Automated Categorization of Research Papers with MONO Supervised Term Weighting in RECApp",
+      "authors": [
+        {
+          "name": "Ivic Jan A. Biol",
+          "roster": false
+        },
+        {
+          "name": "Rhey Marc A. Depositario",
+          "roster": false
+        },
+        {
+          "name": "Glenn Geo T. Noangay",
+          "roster": false
+        },
+        {
+          "name": "Julian Michael F. Melchor",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "James Cloyd M. Bustillo",
+          "roster": false
+        }
+      ],
+      "venue": "International Journal of Advanced Computer Science and Applications",
+      "sponsor": "Science and Information Organization",
+      "issn": "2156-5570",
+      "date": "2023-01-01",
+      "year": 2023,
+      "charge": "",
+      "doi": "https://doi.org/10.14569/ijacsa.2023.0140240",
+      "sdgs": [],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
+    },
+    {
+      "id": "W4407215336",
+      "title": "Automated Extraction of Information from Speech Signals for Speaker Identification and Emotional State Analysis",
+      "authors": [
+        {
+          "name": "Joseph A. Vistal",
+          "roster": false
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        }
+      ],
+      "venue": "Global Conference on Communications and Information Technologies (GCCIT)",
+      "sponsor": "Institute of Electrical and Electronics Engineers",
+      "issn": "",
+      "date": "2024-10-25",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/gccit63234.2024.10861902",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7223690887",
+      "title": "Automated Vulnerability Assessment and Penetration Testing for Securing Sensitive-Data E-Government Web Applications in the Cloud",
+      "authors": [
+        {
+          "name": "Kier Patrick A. Empang",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Klinth L. Matugas",
+          "roster": true
+        },
+        {
+          "name": "Mary Abigail D. Soliva",
+          "roster": true
+        },
+        {
+          "name": "Fritzie Nunez",
+          "roster": true
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        },
+        {
+          "name": "Edsel Matt O. Morales",
+          "roster": true
+        },
+        {
+          "name": "Kent T. Espejon",
+          "roster": true
+        },
+        {
+          "name": "Clarielyn Y. Grado",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728205",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183502",
+      "title": "Benchmarking Automated Annotation Methods for Crisis Tweet Informativeness: A Gold Label Evaluation on the CrisisLex Dataset",
+      "authors": [
+        {
+          "name": "Gleen A. Dalaorao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222250",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7223679372",
+      "title": "Beyond Benchmark Accuracy: A Forensic Evaluation of Student Performance Prediction Models",
+      "authors": [
+        {
+          "name": "Kimberly Ann B. Palaran",
+          "roster": true
+        },
+        {
+          "name": "Gleen A. Dalaorao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728162",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7140531245",
+      "title": "Blood Resource Availability and Compatibility Locator for Real Time Management System",
+      "authors": [
+        {
+          "name": "Clark Raven S. Dalauta",
+          "roster": false
+        },
+        {
+          "name": "Ian Emmanuele Generalao",
+          "roster": false
+        },
+        {
+          "name": "Disimy P. Simenahan",
+          "roster": false
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Jenie L. Plender-Nabas",
+          "roster": false
+        },
+        {
+          "name": "Jesterlyn Q. Timosan",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-11-17",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/3ict68299.2025.11442164",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399741754",
+      "title": "Booking and Reservation System: A Unified Application Using Location-Based Services for Sustainable Tourism Networks",
+      "authors": [
+        {
+          "name": "Reginald Ryan U. Gosela",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-17",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18889",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223676871",
+      "title": "Bridging Carbon Efficiency and Carbon Awareness in Green AI: A Systematic Literature Review",
+      "authors": [
+        {
+          "name": "Daisa O. Gupit",
+          "roster": false
+        },
+        {
+          "name": "Glenn Lahayon",
+          "roster": false
+        },
+        {
+          "name": "Vicente Pitogo",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728099",
+      "sdgs": [
+        {
+          "number": 7,
+          "name": "Affordable and clean energy"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 13,
+          "name": "Climate action"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4404232722",
+      "title": "Circinus: An AI-Based Technical Description Plotting",
+      "authors": [
+        {
+          "name": "James Earl Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Rolyn Daguil",
+          "roster": false
+        }
+      ],
+      "venue": "ISPRS annals of the photogrammetry, remote sensing and spatial information sciences",
+      "sponsor": "Copernicus Publications",
+      "issn": "2194-9042",
+      "date": "2024-11-11",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.5194/isprs-annals-x-5-2024-25-2024",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4409814068",
+      "title": "Classification of Cacao Pods Ripeness Using Convolutional Neural Networks",
+      "authors": [
+        {
+          "name": "Karl O. Borromeo",
+          "roster": false
+        },
+        {
+          "name": "Melbert R. Bonotan",
+          "roster": false
+        },
+        {
+          "name": "Archie P. Llagas",
+          "roster": false
+        },
+        {
+          "name": "Joana Marie O. Juan",
+          "roster": false
+        },
+        {
+          "name": "Philip Donald C. Sanchez",
+          "roster": false
+        },
+        {
+          "name": "Nathan Kit A. Berro",
+          "roster": true
+        }
+      ],
+      "venue": "Procedia Computer Science",
+      "sponsor": "Elsevier BV",
+      "issn": "1877-0509",
+      "date": "2025-01-01",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1016/j.procs.2025.03.160",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183453",
+      "title": "Comparative Analysis of Deep-Reinforcement Learning-Based Autonomous Mobile Robot for Goal-Driven Mapless Indoor Navigation",
+      "authors": [
+        {
+          "name": "Rhea Lucy Mintuda",
+          "roster": false
+        },
+        {
+          "name": "Dhonald Frenz Layo",
+          "roster": false
+        },
+        {
+          "name": "Rudolph Joshua Candare",
+          "roster": true
+        },
+        {
+          "name": "Reynaldo Porras",
+          "roster": false
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222214",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7161113508",
+      "title": "Comparative Analysis of Machine Learning Algorithms for Detecting Suicidal Ideation in Social Media Content",
+      "authors": [
+        {
+          "name": "Jabez Peñalver",
+          "roster": false
+        },
+        {
+          "name": "Cristopher Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "Advances in Engineering and Information Sciences",
+      "sponsor": "Caraga State University",
+      "issn": "3116-4021",
+      "date": "2025-08-19",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.54610/aeis.v1i1.179",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7129064195",
+      "title": "Comparative Analysis of Transformer-Based Models for Automated Student Feedback Sentiment Analysis and Summarization",
+      "authors": [
+        {
+          "name": "Rhey Marc A. Depositario",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Robert Kerwin C. Billiones",
+          "roster": false
+        },
+        {
+          "name": "Jack Febrian Rusdi",
+          "roster": false
+        }
+      ],
+      "venue": "IEEE Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-10-29",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iemcon67450.2025.11381268",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117487135",
+      "title": "Comparative Benchmarking of Floating PV Governance: A Five-Pillar Evaluation of Cirata, Hapcheon, and O'MEGA1",
+      "authors": [
+        {
+          "name": "Jack Febrian Rusdi",
+          "roster": false
+        },
+        {
+          "name": "Vicente Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Danny Aidil Rismayadi",
+          "roster": false
+        },
+        {
+          "name": "Didin Kusdian",
+          "roster": false
+        },
+        {
+          "name": "Heri Sismoro",
+          "roster": false
+        },
+        {
+          "name": "Nurhaeni Sikki",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Telecommunication Systems, Services, and Applications",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/tssa68467.2025.11303778",
+      "sdgs": [
+        {
+          "number": 7,
+          "name": "Affordable and clean energy"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223663964",
+      "title": "Comparative Evaluation of Image Mosaicking Algorithms for VARI-Based Vegetation Cover Estimation Using Low-Cost RGB Drone Imagery",
+      "authors": [
+        {
+          "name": "Mark Phil B. Pacot",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727984",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223675037",
+      "title": "Comparative Evaluation of Transformer- Based Models for Sentiments Analysis of Multilingual E-Commerce Reviews",
+      "authors": [
+        {
+          "name": "Joana Flor Manginsay",
+          "roster": false
+        },
+        {
+          "name": "Milagros Orquiz",
+          "roster": false
+        },
+        {
+          "name": "Baron James Sayas",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Glaicel A. Araneta",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728154",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4415690936",
+      "title": "Comprehensive Analysis of Feature Detectors and Descriptors for Stitching UAV Images with Perspective Distortion",
+      "authors": [
+        {
+          "name": "Mark P. B. Pacot",
+          "roster": true
+        }
+      ],
+      "venue": "Journal of Image and Graphics",
+      "sponsor": "",
+      "issn": "2301-3699",
+      "date": "2025-01-01",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.18178/joig.13.5.528-539",
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4399802615",
+      "title": "Contributing Factors to the Challenges of Patient Health Monitoring in Rural Healthcare Units: Basis for a Proposed Integrated Patient Management Portal",
+      "authors": [
+        {
+          "name": "Francis Cuares",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-19",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18912",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        },
+        {
+          "number": 10,
+          "name": "Reduced inequalities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4414638189",
+      "title": "Corporate Social Responsibility in a Private Academic Institution: Impact on Achieving the UN Sustainable Development Goals",
+      "authors": [
+        {
+          "name": "Jane Francis P. Jaictin",
+          "roster": false
+        },
+        {
+          "name": "Princess Jane P. Ruedas",
+          "roster": false
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        }
+      ],
+      "venue": "Studies in big data",
+      "sponsor": "Springer International Publishing",
+      "issn": "2197-6503",
+      "date": "2025-09-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-031-97609-4_38",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        },
+        {
+          "number": 10,
+          "name": "Reduced inequalities"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4414604448",
+      "title": "CPD: A Lightweight Image Processing Framework for Cloud Presence Detection in UAV Imagery",
+      "authors": [
+        {
+          "name": "Mark Phil Pacot",
+          "roster": true
+        },
+        {
+          "name": "Nelson Marcos",
+          "roster": false
+        }
+      ],
+      "venue": "International Symposium on Multimedia and Communication Technology (ISMAC)",
+      "sponsor": "Institute of Electrical and Electronics Engineers",
+      "issn": "",
+      "date": "2025-08-20",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/ismac65024.2025.11175954",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7155527169",
+      "title": "Customers’ Acceptance and Attachment in Online Food Delivery Services Using Technology Acceptance and Emotional Attachment Model",
+      "authors": [
+        {
+          "name": "Fortunette Grace D. Daday",
+          "roster": false
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Laidel A. Litera",
+          "roster": false
+        },
+        {
+          "name": "Dexie A. Litera",
+          "roster": false
+        },
+        {
+          "name": "Marjorie N. Berro",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "Studies in systems, decision and control",
+      "sponsor": "Springer International Publishing",
+      "issn": "2198-4182",
+      "date": "2026-01-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-032-15820-8_44",
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W7164929680",
+      "title": "Data-Driven Analysis of Senior High Students’ Sentiments and Strand Selection Using Machine Learning",
+      "authors": [
+        {
+          "name": "James E. Rosales",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "Advances in Engineering and Information Sciences",
+      "sponsor": "Caraga State University",
+      "issn": "3116-4021",
+      "date": "2026-01-02",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.54610/aeis.v1i2.205",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4412036207",
+      "title": "Deep Reinforcement Learning Based Robotic Arm Control Simulation to Execute Object Reaching Task for Industrial Application",
+      "authors": [
+        {
+          "name": "John Mark Correa",
+          "roster": true
+        },
+        {
+          "name": "Rudolph Joshua Candare",
+          "roster": true
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Computer Science and Applications",
+      "sponsor": "Science and Information Organization; Science Education Institute, Department of Science and Technology, Republic of the Philippines",
+      "issn": "2156-5570",
+      "date": "2025-01-01",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.14569/ijacsa.2025.0160666",
+      "sdgs": [],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
+    },
+    {
+      "id": "W7117406033",
+      "title": "Design and Development of a Web-Based Campus Vehicle Gate Pass Management System with OCR Document Verification for Caraga State University",
+      "authors": [
+        {
+          "name": "Elizabeth B. Palasan",
+          "roster": false
+        },
+        {
+          "name": "Harrold T. Chavit",
+          "roster": false
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395576",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7126271071",
+      "title": "Design and Development of Tire Tread with BLDC Motor Speed Control and Monitoring System for Unmanned Ground Vehicle in Mining Sites",
+      "authors": [
+        {
+          "name": "Lord Adrian R. Dapo",
+          "roster": false
+        },
+        {
+          "name": "Josephen Fanuñal",
+          "roster": false
+        },
+        {
+          "name": "Ydron Paul C. Amarga",
+          "roster": false
+        },
+        {
+          "name": "Rudolph Joshua U. Candare Sustainable",
+          "roster": true
+        },
+        {
+          "name": "Re-Ann Cristine O. Calimpusan",
+          "roster": false
+        },
+        {
+          "name": "Jeffrey T. Dellosa",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference for Advancement in Technology (ICONAT)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-19",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iconat66879.2025.11362407",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7126199609",
+      "title": "Design and Development ROS - 2 Ready Soil Sampler and Storage Payload for Unmanned Ground Vehicle in Mining Application",
+      "authors": [
+        {
+          "name": "Renault S. Pineda",
+          "roster": false
+        },
+        {
+          "name": "Ydron Paul C. Amarga",
+          "roster": false
+        },
+        {
+          "name": "Rudolph Joshua U. Candare",
+          "roster": true
+        },
+        {
+          "name": "Re-Ann Cristine O. Calimpusan",
+          "roster": false
+        },
+        {
+          "name": "Jeffrey T. Dellosa",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference for Advancement in Technology (ICONAT)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-19",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iconat66879.2025.11362629",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 15,
+          "name": "Life on land"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117415465",
+      "title": "Design and Evaluation of an Online Payment Monitoring System for Student Boarding Houses Near a University Campus in the Philippines",
+      "authors": [
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        },
+        {
+          "name": "Francis Andrew G. Laulita",
+          "roster": false
+        },
+        {
+          "name": "Hazel Joyce B. Cruiz",
+          "roster": false
+        },
+        {
+          "name": "Joseph Lucilo E. Quinte",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395667",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7164895908",
+      "title": "Design of the CSU Alumni Information System Based on Jakob Nielsen’s Heuristic Evaluation Model: A User - Centric Approach",
+      "authors": [
+        {
+          "name": "Jordylene G. Sagusay",
+          "roster": true
+        },
+        {
+          "name": "Kimberly Ann B. Palaran",
+          "roster": true
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Jorie B. Añora",
+          "roster": false
+        },
+        {
+          "name": "Arcile D. Roble",
+          "roster": false
+        },
+        {
+          "name": "Christian Jay B. Laag",
+          "roster": false
+        }
+      ],
+      "venue": "Advances in Engineering and Information Sciences",
+      "sponsor": "Caraga State University",
+      "issn": "3116-4021",
+      "date": "2026-01-02",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.54610/aeis.v1i2.206",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7223675474",
+      "title": "Detecting Misinformation with Language Models: A Prisma-Scr Scoping Review Of NLP Techniques",
+      "authors": [
+        {
+          "name": "Jimvy P. Salise",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727992",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7164015910",
+      "title": "Determinants of E-lending App Usage: What Motivates Users, and Do Demographics Matter?",
+      "authors": [
+        {
+          "name": "Marycris D. Gagap",
+          "roster": false
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Jessa C. Simene",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Stanley Francis L. Rufila",
+          "roster": false
+        },
+        {
+          "name": "Roy B. Hinayan",
+          "roster": false
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Joanna Victoria S. Pitao",
+          "roster": true
+        },
+        {
+          "name": "Jack Febrian Rusdi",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Data Analytics for Business and Industry (ICDABI)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-10-29",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icdabi67967.2025.11547745",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4413289973",
+      "title": "Development and Evaluation of an Advanced Property Management System Using Unified OOAD for Optimizing Real Estate Operations",
+      "authors": [
+        {
+          "name": "Riah Elcullada ENCARANACION",
+          "roster": true
+        },
+        {
+          "name": "Mary Rose Osorio RAZ",
+          "roster": true
+        },
+        {
+          "name": "Glaicel Anania ARANETA",
+          "roster": true
+        }
+      ],
+      "venue": "The Eurasia Proceedings of Science Technology Engineering and Mathematics",
+      "sponsor": "",
+      "issn": "2602-3199",
+      "date": "2025-08-15",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.55549/epstem.1731135",
+      "sdgs": [
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223693491",
+      "title": "Development and Evaluation of Smart Lithium-ion Battery-pack for Unmanned Ground Vehicle",
+      "authors": [
+        {
+          "name": "Allan Jade A. De Castro",
+          "roster": false
+        },
+        {
+          "name": "Ramer Allen F. Montilla",
+          "roster": false
+        },
+        {
+          "name": "Ydron Paul C. Amarga",
+          "roster": false
+        },
+        {
+          "name": "Rudolph Joshua U. Candare",
+          "roster": true
+        },
+        {
+          "name": "Re-Ann Cristine O. Calimpusan",
+          "roster": false
+        },
+        {
+          "name": "Jeffrey T. Dellosa",
+          "roster": false
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727899",
+      "sdgs": [
+        {
+          "number": 7,
+          "name": "Affordable and clean energy"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223669893",
+      "title": "Development of a Blockchain-Based Student Credential Verification System in Philippine Higher Education",
+      "authors": [
+        {
+          "name": "Scott Lyndon V. Matulac",
+          "roster": false
+        },
+        {
+          "name": "Laurence Jay Perez",
+          "roster": false
+        },
+        {
+          "name": "Jenelyn R. Asis",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727918",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4408291372",
+      "title": "Development of a Dynamic Event Hand Tracking System in Mobile Augmented Reality Viewers",
+      "authors": [
+        {
+          "name": "Kent Tugade Espejon",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Networks, Communication and Computing (ICNCC)",
+      "sponsor": "Strong; Philippine Council for Industry, Energy, and Emerging Technology Research and Development",
+      "issn": "",
+      "date": "2024-12-20",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1145/3711650.3711658",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4396233551",
+      "title": "Development of a Web-based Course Timetabling System based on an Enhanced Genetic Algorithm",
+      "authors": [
+        {
+          "name": "Dexter Romaguera",
+          "roster": true
+        },
+        {
+          "name": "Jenie Plender-Nabas",
+          "roster": false
+        },
+        {
+          "name": "Junrie Matias",
+          "roster": true
+        },
+        {
+          "name": "Lea Austero",
+          "roster": false
+        }
+      ],
+      "venue": "Procedia Computer Science",
+      "sponsor": "Elsevier BV",
+      "issn": "1877-0509",
+      "date": "2024-01-01",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1016/j.procs.2024.03.177",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7223664344",
+      "title": "Development of an AI-Driven Platform for Rice Damage Assessment in Bayugan City Agriculture",
+      "authors": [
+        {
+          "name": "John Paul B. Pracullos",
+          "roster": false
+        },
+        {
+          "name": "Albert John A. Agbo",
+          "roster": false
+        },
+        {
+          "name": "Jenelyn R. Asis",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728168",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117411148",
+      "title": "Development of Complaint Management and Tracking System using React Native and Firebase.",
+      "authors": [
+        {
+          "name": "Aaron D. Alamo",
+          "roster": false
+        },
+        {
+          "name": "John Carlo M. Elustre",
+          "roster": false
+        },
+        {
+          "name": "Richard E. Cubillas",
+          "roster": false
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        },
+        {
+          "name": "Giovanni T. Esma",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395577",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117430098",
+      "title": "Development of Mobile Gamification App for Engaging English Vocabulary in Grade 9 Students at Ampayon National High School",
+      "authors": [
+        {
+          "name": "Myle Shasnie A. Basinang",
+          "roster": false
+        },
+        {
+          "name": "Christian Dave Tabaranza",
+          "roster": false
+        },
+        {
+          "name": "Roider Talingting",
+          "roster": false
+        },
+        {
+          "name": "Jenelyn R. Asis",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395728",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223651294",
+      "title": "Diagnosing and Redesigning a Government Higher-Education Portal: A Consolidated Usability Audit of the CHED Legacy Website",
+      "authors": [
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        },
+        {
+          "name": "Clarielyn Y. Grado",
+          "roster": true
+        },
+        {
+          "name": "Charles Jeremy Millan",
+          "roster": false
+        },
+        {
+          "name": "Breanna Concha",
+          "roster": false
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728087",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4414210124",
+      "title": "Digital Twinning Mechanism and Building Information Modeling for a Smart Parking Management System",
+      "authors": [
+        {
+          "name": "Jerahmeel K Coching",
+          "roster": false
+        },
+        {
+          "name": "Robert Kerwin C Billones",
+          "roster": false
+        },
+        {
+          "name": "Allysa Kate M Brillantes",
+          "roster": false
+        },
+        {
+          "name": "Sharina Yunus",
+          "roster": false
+        },
+        {
+          "name": "Vicente A Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Roman Senkerik",
+          "roster": false
+        }
+      ],
+      "venue": "Smart Cities",
+      "sponsor": "Multidisciplinary Digital Publishing Institute; De La Salle University; Science Education Institute, Department of Science and Technology, Republic of the Philippines",
+      "issn": "2624-6511",
+      "date": "2025-09-09",
+      "year": 2025,
+      "charge": "2000 CHF",
+      "doi": "https://doi.org/10.3390/smartcities8050146",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
+    },
+    {
+      "id": "W4399283437",
+      "title": "Digitalization of Local Business Information and Job Opportunities Platform: A Proposal for a Mobile-Based Business Directory Application",
+      "authors": [
+        {
+          "name": "Daryl Ralph Pedralba Besario",
+          "roster": false
+        },
+        {
+          "name": "Riah F. Elcullada-Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-03",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18735",
+      "sdgs": [
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 10,
+          "name": "Reduced inequalities"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4392942593",
+      "title": "Digitalization of the Sanitary Process through Information Management: An E-Governance Platform",
+      "authors": [
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Christine Grace A. Daray",
+          "roster": false
+        },
+        {
+          "name": "Maria Besa Joy M. Ortuyo",
+          "roster": true
+        },
+        {
+          "name": "Dioame Jade C. Rendon",
+          "roster": false
+        },
+        {
+          "name": "Rejeanfe G. Sanchez",
+          "roster": false
+        }
+      ],
+      "venue": "ASU International Conference in Emerging Technologies for Sustainability and Intelligent Systems (ICETSIS)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-01-28",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icetsis61505.2024.10459522",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        },
+        {
+          "number": 16,
+          "name": "Peace, justice, and strong institutions"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4404653512",
+      "title": "Dynamic Control Comparison: Tuned-PID vs Trained Reinforcement Learning of the Double Inverted Pendulum on a Two-Wheeled Platform",
+      "authors": [
+        {
+          "name": "Sean Audie I. Buscano II",
+          "roster": false
+        },
+        {
+          "name": "Re-Ann Cristine O. Calimpusan",
+          "roster": false
+        },
+        {
+          "name": "Rudolph Joshua U. Candare",
+          "roster": true
+        },
+        {
+          "name": "Ydron Paul C. Amarga",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2024-10-17",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7323283",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117405683",
+      "title": "Dynamic Time Allocation for Traffic Controller Using IoT, Deep Learning and Reinforcement Learning",
+      "authors": [
+        {
+          "name": "April Castro",
+          "roster": false
+        },
+        {
+          "name": "Mary Rose O. Raz",
+          "roster": true
+        },
+        {
+          "name": "Lyn M. Villacorta",
+          "roster": false
+        },
+        {
+          "name": "Paulo A. Duga",
+          "roster": true
+        },
+        {
+          "name": "Jundee Mark Molina",
+          "roster": false
+        },
+        {
+          "name": "James Earl Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Rudolph Joshua U. Candare",
+          "roster": true
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395599",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4412699591",
+      "title": "E-Government Initiative in the Philippines: Assessing the Adoption and Efficiency of the GSIS Touch App",
+      "authors": [
+        {
+          "name": "Aiza Mae P. Cordero",
+          "roster": false
+        },
+        {
+          "name": "Archibal P. Biongcog",
+          "roster": false
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        }
+      ],
+      "venue": "Lecture notes in networks and systems",
+      "sponsor": "Springer International Publishing",
+      "issn": "2367-3370",
+      "date": "2025-01-01",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-032-00450-5_56",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W7223678232",
+      "title": "Edge AI-Based Prototype for Chainsaw Sound Detection using MobileNetV3-Small with Interactive Web Dashboard",
+      "authors": [
+        {
+          "name": "Wendel Rey C. Salaum",
+          "roster": false
+        },
+        {
+          "name": "Cristina Repollo",
+          "roster": false
+        },
+        {
+          "name": "Ronnel O. Cacho",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727970",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117410200",
+      "title": "Effective Orthophoto Image Segmentation Using Modified Canny Edge Algorithm",
+      "authors": [
+        {
+          "name": "James Earl D. Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Jhon Vie R. Quiel",
+          "roster": false
+        },
+        {
+          "name": "Shane Angela Otugay",
+          "roster": false
+        },
+        {
+          "name": "Clark Justine L. Gonzales",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395711",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117423702",
+      "title": "Efficient Mesh Simplification Using Variational Shape Approximation via Quadric Error Metrics in Open3d for Embedded Systems",
+      "authors": [
+        {
+          "name": "James Earl Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Mike Andre Puspus",
+          "roster": false
+        },
+        {
+          "name": "Mike Leoford Goyo",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University; Philippine Council for Industry, Energy, and Emerging Technology Research and Development",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395564",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4400259371",
+      "title": "Employee Satisfaction on Compensation System: Basis for an Improved Payroll Management System with Face Recognition and Attendance Monitoring Technology",
+      "authors": [
+        {
+          "name": "John Ric C. Jalaman",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-30",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-19070",
+      "sdgs": [
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4400648830",
+      "title": "Enhanced Ramer-Douglas-Peucker Algorithm for Efficient 2D Line Simplification",
+      "authors": [
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Genevive P. Navales",
+          "roster": false
+        },
+        {
+          "name": "Flocer Angelo M. Bustamante",
+          "roster": false
+        },
+        {
+          "name": "Lavranz R. Tradio",
+          "roster": false
+        }
+      ],
+      "venue": "IEEE International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2023-11-19",
+      "year": 2023,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/hnicem60674.2023.10589058",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117416135",
+      "title": "Enhancing Attention Synergy Networks with Lightweight Encoders for Efficient Brain Tumor Segmentation",
+      "authors": [
+        {
+          "name": "Shaun Niel A. Ochavo",
+          "roster": false
+        },
+        {
+          "name": "Armiex Jay J. Roble",
+          "roster": false
+        },
+        {
+          "name": "Roland P. Abao",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395499",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4407044971",
+      "title": "Enhancing Audit Efficiency and Security Through Emerging Technologies: A Blockchain-Based Approach",
+      "authors": [
+        {
+          "name": "Franclloyd D. Dagdag",
+          "roster": false
+        },
+        {
+          "name": "Melbert R. Bonotan",
+          "roster": false
+        },
+        {
+          "name": "Aubrey Joyce S. Nepomuceno",
+          "roster": false
+        },
+        {
+          "name": "Fel John S. Bang-Asan",
+          "roster": false
+        },
+        {
+          "name": "Nathan Kit A. Berro",
+          "roster": true
+        }
+      ],
+      "venue": "Studies in systems, decision and control",
+      "sponsor": "Springer International Publishing",
+      "issn": "2198-4182",
+      "date": "2024-01-01",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-031-71649-2_83",
+      "sdgs": [
+        {
+          "number": 16,
+          "name": "Peace, justice, and strong institutions"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4416183244",
+      "title": "Enhancing Cebuano-English Neural Machine Translation Using Pseudo-Labeling and Transformer Architectures",
+      "authors": [
+        {
+          "name": "Paolo L. Pacaldo",
+          "roster": true
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Gleen A. Dalaorao",
+          "roster": true
+        },
+        {
+          "name": "Clark Justine Gonzales",
+          "roster": true
+        },
+        {
+          "name": "John Michael Cutamora",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222271",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4414604479",
+      "title": "Enhancing Cocoa Pod Disease Classification via Transfer Learning and Ensemble Methods: Toward Robust Predictive Modeling",
+      "authors": [
+        {
+          "name": "Devina Anduyan",
+          "roster": false
+        },
+        {
+          "name": "Navy Gultiano",
+          "roster": false
+        },
+        {
+          "name": "Nyza Cabillo",
+          "roster": false
+        },
+        {
+          "name": "Mark Phil Pacot",
+          "roster": true
+        }
+      ],
+      "venue": "International Symposium on Multimedia and Communication Technology (ISMAC)",
+      "sponsor": "Institute of Electrical and Electronics Engineers",
+      "issn": "",
+      "date": "2025-08-20",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/ismac65024.2025.11176000",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223701926",
+      "title": "Enhancing DnCNN with SimAM for Low-Dose CT Denoising",
+      "authors": [
+        {
+          "name": "Nicole P. Busa",
+          "roster": false
+        },
+        {
+          "name": "Regien B. Nakazato",
+          "roster": false
+        },
+        {
+          "name": "Takeyasu V. Nakazato",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728028",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117422851",
+      "title": "Enhancing Duplicate Question Detection with RoBERTa Cross-Encoders and Explicit Features: A Hybrid Approach",
+      "authors": [
+        {
+          "name": "Jhon Dave C. Bohol",
+          "roster": false
+        },
+        {
+          "name": "Diana J. Gonzales",
+          "roster": false
+        },
+        {
+          "name": "Roland P. Abao",
+          "roster": true
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395765",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117418055",
+      "title": "Enhancing Large Language Model Efficiency through Sequence-Level Knowledge Distillation with Sparse Transformers",
+      "authors": [
+        {
+          "name": "Ronald John C. Atanoso",
+          "roster": false
+        },
+        {
+          "name": "Dan Victor B. Lofranco",
+          "roster": false
+        },
+        {
+          "name": "Roland P. Abao",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395598",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7161275162",
+      "title": "Enhancing Student Record Searches at Caraga State University using Mistral 7B Model",
+      "authors": [
+        {
+          "name": "Jenelyn Asis",
+          "roster": true
+        },
+        {
+          "name": "Edwin Manuel Jarlata",
+          "roster": true
+        },
+        {
+          "name": "Hannah Faye Capoy",
+          "roster": true
+        }
+      ],
+      "venue": "Advances in Engineering and Information Sciences",
+      "sponsor": "Caraga State University",
+      "issn": "3116-4021",
+      "date": "2025-08-19",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.54610/aeis.v1i1.181",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223694553",
+      "title": "Enhancing Twitter Spam Account Detection Using Static Profile Features and Temporal Following Patterns: A Machine Learning Approach",
+      "authors": [
+        {
+          "name": "Kimberly Ann B. Palaran",
+          "roster": true
+        },
+        {
+          "name": "Gleen A. Dalaorao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727942",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117411382",
+      "title": "Enhancing VADER Sentiment Analysis Through Lexicon Expansion with BERT Word Embeddings",
+      "authors": [
+        {
+          "name": "Fritzie T. Nuñez",
+          "roster": true
+        },
+        {
+          "name": "Nerissa L. Baradillo",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395650",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4399167997",
+      "title": "Evaluating Health Services and Operations among Barangay Health Offices: Basis for Document Digitalization with Text Classification Algorithm and Machine Learning",
+      "authors": [
+        {
+          "name": "Jaspergen D. Dahilan",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-05-30",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18668",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4402353157",
+      "title": "Evaluating Healthcare Benefits of Senior Citizens through Opinion Mining",
+      "authors": [
+        {
+          "name": "Regine N. Silab",
+          "roster": false
+        },
+        {
+          "name": "Marsan Jay B. Saladaga",
+          "roster": false
+        },
+        {
+          "name": "Jhoniel P. Villacura",
+          "roster": false
+        },
+        {
+          "name": "James Cloyd M. Bustillo",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "Joel C. Trillo",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Image Processing and Capsule Networks (ICIPCN)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-07-03",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icipcn63822.2024.00050",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7143487757",
+      "title": "Evaluating Huffman Coding Efficiency Across Varying Symbol Distributions",
+      "authors": [
+        {
+          "name": "Takeyasu Nakazato",
+          "roster": true
+        },
+        {
+          "name": "Melvin Ballera",
+          "roster": false
+        },
+        {
+          "name": "Regien Nakazato",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Emerging Technologies and Innovation for Sustainability (EmergIN)",
+      "sponsor": "Institute of Electrical and Electronics Engineers",
+      "issn": "",
+      "date": "2025-11-28",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/emergin67762.2025.11450603",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7223686872",
+      "title": "Evaluating Human-Machine Interaction Across Role-Differentiated Actors In a Signatory-Chain Regulatory Compliance Workflow: A Triangulated, Multi-Role Usability Study",
+      "authors": [
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        },
+        {
+          "name": "Edsel Matt O. Morales",
+          "roster": true
+        },
+        {
+          "name": "Mary Abigail D. Soliva",
+          "roster": true
+        },
+        {
+          "name": "Kier Patrick A. Empang",
+          "roster": true
+        },
+        {
+          "name": "Fritzie T. Nunez",
+          "roster": true
+        },
+        {
+          "name": "Klinth Jerald L. Matugas",
+          "roster": true
+        },
+        {
+          "name": "Clarielyn Y. Grado",
+          "roster": true
+        },
+        {
+          "name": "Jayson C. Dollete",
+          "roster": true
+        },
+        {
+          "name": "Kent T. Espejon",
+          "roster": true
+        },
+        {
+          "name": "Gleen A. Dalaorao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727983",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4409814014",
+      "title": "Evaluating Satisfaction and Intention of Online Enrollment: A Case of a University in the Philippines",
+      "authors": [
+        {
+          "name": "Nathan Kit A. Berro",
+          "roster": true
+        },
+        {
+          "name": "Saimon L. Mag-aso",
+          "roster": false
+        },
+        {
+          "name": "Rhymes Polinar",
+          "roster": false
+        },
+        {
+          "name": "Jocelyn D. Rodrigo",
+          "roster": false
+        },
+        {
+          "name": "Melbert R. Bonotan",
+          "roster": false
+        }
+      ],
+      "venue": "Procedia Computer Science",
+      "sponsor": "Elsevier BV",
+      "issn": "1877-0509",
+      "date": "2025-01-01",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1016/j.procs.2025.03.159",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223707453",
+      "title": "Evaluating Self-Attention Placement in R3GAN for Fixed-Scale Single-Image Super-Resolution: Ablation and Comparative Analysis in Virtualized Single-GPU Environment",
+      "authors": [
+        {
+          "name": "Kyr Djan R. Marimon",
+          "roster": false
+        },
+        {
+          "name": "Lyndon King L. Obenza",
+          "roster": false
+        },
+        {
+          "name": "Regien B. Nakazato",
+          "roster": false
+        },
+        {
+          "name": "Takeyasu V. Nakazato",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728137",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7223672057",
+      "title": "Evaluating the Effectiveness of Zero Trust Security Practices among Cloud-Based Organizations in Butuan City",
+      "authors": [
+        {
+          "name": "Al Christian Plaza",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728163",
+      "sdgs": [
+        {
+          "number": 16,
+          "name": "Peace, justice, and strong institutions"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399766751",
+      "title": "Evaluating the Event Industry for a Web-Based Event Supplier Management System",
+      "authors": [
+        {
+          "name": "Jean L. Galay",
+          "roster": false
+        },
+        {
+          "name": "Riah Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-18",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18906",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4405853754",
+      "title": "Evaluating the Impact of AquaR on Fisheries Regulation: A Case Study of the Fishpond Lease Agreement Program in the Philippines",
+      "authors": [
+        {
+          "name": "Jane Francis P. Jaictin",
+          "roster": false
+        },
+        {
+          "name": "Nathan Kit A. Berro",
+          "roster": true
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        }
+      ],
+      "venue": "Studies in systems, decision and control",
+      "sponsor": "Springer International Publishing",
+      "issn": "2198-4182",
+      "date": "2024-01-01",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-031-70399-7_22",
+      "sdgs": [
+        {
+          "number": 6,
+          "name": "Clean water and sanitation"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W7117408048",
+      "title": "Evaluating the Proposed Hybrid Whale Optimization Algorithm – Genetics Algorithm (WOA-GA) Approach for Software Fault Prediction",
+      "authors": [
+        {
+          "name": "Joanna Victoria S. Pitao",
+          "roster": true
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395573",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4399561321",
+      "title": "Evaluating the Transportation Sector of Siargao Island: Basis for a Proposed Online Payment System with QR Code Technology",
+      "authors": [
+        {
+          "name": "Argie E. Libay",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-12",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18840",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117412380",
+      "title": "Evaluation of Virtual Reality for Experiential Learning in Mining Education in the Philippines: A Case Study in Caraga State University",
+      "authors": [
+        {
+          "name": "Gerome L. Amper",
+          "roster": false
+        },
+        {
+          "name": "Eunessa Mae T. Alob",
+          "roster": false
+        },
+        {
+          "name": "Jayson C. Dollete",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395689",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399671479",
+      "title": "Examining the Fishing Industry for a Web-Based Profit-Sharing Information System",
+      "authors": [
+        {
+          "name": "Darilyn O. Peñaranda",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-14",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18871",
+      "sdgs": [
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4409730774",
+      "title": "Exploring Real-time Action Recognition for Collapse Detection in Low-Density Areas: A YOLOv8-Pose and Multi-LiSAAL",
+      "authors": [
+        {
+          "name": "Tseiammetse Angelo C. Rendon",
+          "roster": false
+        },
+        {
+          "name": "Angel Lorraine M. Morales",
+          "roster": true
+        },
+        {
+          "name": "Rudolph Joshua U. Candare",
+          "roster": true
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "Journal of Physics Conference Series",
+      "sponsor": "IOP Publishing",
+      "issn": "1742-6588",
+      "date": "2025-04-01",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1088/1742-6596/2998/1/012020",
+      "sdgs": [
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4403447684",
+      "title": "Exploring the Intention to Adopt Mining-Stages VR Application Using Modified UTAUT Model: A Perspective of the Philippine Mining Sector",
+      "authors": [
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Edsel Matt O. Morales",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-09-21",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap64064.2024.10711159",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223708690",
+      "title": "Extended Unified Model of Electronic Government Adoption (UMEGA) to Explain E-Government Adoption Behavior: Evidence from Land Transportation Management System (LTMS) Motorists in Butuan City, Philippines",
+      "authors": [
+        {
+          "name": "Jayson C. Dollete",
+          "roster": true
+        },
+        {
+          "name": "Josh Lyle B. Evangelista",
+          "roster": false
+        },
+        {
+          "name": "Edrian S. Fronteras",
+          "roster": false
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "College of Computing",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728218",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7154890200",
+      "title": "Factors Influencing Cybersecurity Intention: The Case of Caraga State University",
+      "authors": [
+        {
+          "name": "Raffy O. Lerona",
+          "roster": false
+        },
+        {
+          "name": "Nathan Kit A. Berro",
+          "roster": true
+        },
+        {
+          "name": "Marian Anthonette Lutrago",
+          "roster": false
+        },
+        {
+          "name": "Rosvin M. Mangadlao",
+          "roster": false
+        },
+        {
+          "name": "Melbert R. Bonotan",
+          "roster": false
+        }
+      ],
+      "venue": "Studies in big data",
+      "sponsor": "Springer International Publishing",
+      "issn": "2197-6503",
+      "date": "2026-01-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-032-08765-2_3",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        },
+        {
+          "number": 16,
+          "name": "Peace, justice, and strong institutions"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4407638798",
+      "title": "Factors Influencing Travelers and Motorists Acceptance of Intelligent Transportation Applications: A SEM-ANN Approach",
+      "authors": [
+        {
+          "name": "Paulo A. Duga",
+          "roster": true
+        },
+        {
+          "name": "Joan B. Loja",
+          "roster": false
+        },
+        {
+          "name": "Lovely Vann Jewel L. Buna",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Mary Rose O. Raz",
+          "roster": true
+        },
+        {
+          "name": "Alexander A. Hernandez",
+          "roster": false
+        },
+        {
+          "name": "Jenie L. Plender-Nabas",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Business and Industrial Research (ICBIR)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-05-23",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icbir61386.2024.10875741",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117408229",
+      "title": "Fake News Detection Using Textual Features: A Performance Comparison of Feature Selection Approaches and Machine Learning Models",
+      "authors": [
+        {
+          "name": "Jhune Eleazar P. Camatura",
+          "roster": false
+        },
+        {
+          "name": "Shane D. Cale",
+          "roster": false
+        },
+        {
+          "name": "Takeyasu V. Nakazato",
+          "roster": true
+        },
+        {
+          "name": "Regien B. Nakazato",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395551",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7130690801",
+      "title": "Forecasting Road Traffic Accidents in the Caraga Region Using Comparative Clustering Techniques: Basis for a Data-Driven Road Safety Intervention Program",
+      "authors": [
+        {
+          "name": "Imee U. Anton",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "International Seminar on Research of Information Technology and Intelligent Systems (ISRITI)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-12-11",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/isriti68345.2025.11393243",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4392391440",
+      "title": "Forecasting Students’ Success To Graduate Using Predictive Analytics",
+      "authors": [
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Joanna Victoria S. Pitao",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Computing and Digital Systems",
+      "sponsor": "",
+      "issn": "2210-142X",
+      "date": "2024-02-01",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.12785/ijcds/150151",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W7164522933",
+      "title": "Game-Based Learning in Programming: An Instructional Strategy for Beginners",
+      "authors": [
+        {
+          "name": "Jenie L. Plender-Nabas",
+          "roster": false
+        },
+        {
+          "name": "Janley Jude U. Acha",
+          "roster": false
+        },
+        {
+          "name": "Jesterlyn Q. Timosan",
+          "roster": true
+        },
+        {
+          "name": "Russel M. Zamora",
+          "roster": false
+        },
+        {
+          "name": "Clarence A. Cuenca",
+          "roster": false
+        }
+      ],
+      "venue": "ASU International Conference in Emerging Technologies for Sustainability and Intelligent Systems (ICETSIS)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-05-06",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icetsis68266.2026.11548968",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183258",
+      "title": "GAN-Based Hybrid Image Generation: ARF-GAN and MobileGAN Synthesis",
+      "authors": [
+        {
+          "name": "Elijah N. Banguis",
+          "roster": false
+        },
+        {
+          "name": "James Jasper C. Dela Cruz",
+          "roster": false
+        },
+        {
+          "name": "Rosalyn M. Mollida",
+          "roster": false
+        },
+        {
+          "name": "Regien B. Nakazato",
+          "roster": false
+        },
+        {
+          "name": "Takeyasu V. Nakazato",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222340",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7202251209",
+      "title": "Generative AI Tool Use in Higher Education: A Mixed-Methods Analysis of Student Experiences and Educational Impacts",
+      "authors": [
+        {
+          "name": "Evelyn B. Ballenas",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on e-Education, e-Business, e-Management and e-Learning",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-04-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/ic4e69618.2026.11631629",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4388333467",
+      "title": "Geometric Distortion Correction for Extreme Scene Distortion of UAV-Acquired Images",
+      "authors": [
+        {
+          "name": "Mark Phil B. Pacot",
+          "roster": true
+        },
+        {
+          "name": "Nelson Marcos",
+          "roster": false
+        }
+      ],
+      "venue": "Lecture notes in computer science",
+      "sponsor": "Springer Science+Business Media",
+      "issn": "0302-9743",
+      "date": "2023-01-01",
+      "year": 2023,
+      "charge": "5000 EUR",
+      "doi": "https://doi.org/10.1007/978-3-031-47665-5_24",
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W7223686571",
+      "title": "GeoRent: Designing a Geotagged, Human-Centered Mobile Application for Car Rental Booking and Fleet Management",
+      "authors": [
+        {
+          "name": "Kimberly Ann B. Palaran",
+          "roster": true
+        },
+        {
+          "name": "Dimple M. Buladaco",
+          "roster": false
+        },
+        {
+          "name": "Raymond E. Busa",
+          "roster": false
+        },
+        {
+          "name": "Juvelyn M. Abarico",
+          "roster": false
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727903",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117414915",
+      "title": "GPUMusket: A Parallelized GPU-Accelerated Pre-Processing Algorithm on Substitution-Based Errors for Short-Read Sequences in De Novo Genome Assembly",
+      "authors": [
+        {
+          "name": "Gio Gonzales",
+          "roster": false
+        },
+        {
+          "name": "Mary Abigail Soliva",
+          "roster": true
+        },
+        {
+          "name": "Rudolph Joshua Candare",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395506",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7160917647",
+      "title": "Guava Disease Classification Using a Multi-Featured Multi-Staged Transfer Learning Algorithm with Progressive Fine-Tuning",
+      "authors": [
+        {
+          "name": "Isaac Angelo M. Dioses",
+          "roster": false
+        },
+        {
+          "name": "Jennilyn C. Mina",
+          "roster": false
+        },
+        {
+          "name": "Jeffrey T. Dellosa",
+          "roster": false
+        },
+        {
+          "name": "Arri Steven P. Dulnuan",
+          "roster": false
+        },
+        {
+          "name": "Jesusimo L. Dioses",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "IEEE International Conference on Robotics and Technologies for Industrial Automation (ROBOTHIA)",
+      "sponsor": "Institute of Electrical and Electronics Engineers",
+      "issn": "",
+      "date": "2026-04-11",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/robothia68364.2026.11507068",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416964640",
+      "title": "Hybrid A and Inverse Ant Algorithm for Adaptive Pathfinding in Constrained Node Networks",
+      "authors": [
+        {
+          "name": "Kent T. Espejon",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Kier Patrick A. Empang",
+          "roster": true
+        }
+      ],
+      "venue": "IEEE International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-11-26",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/hnicem64917.2024.11258860",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183895",
+      "title": "Hybrid DeepFake Detection Using Xception and XGBoost with Bayesian Optimization",
+      "authors": [
+        {
+          "name": "Paolo L. Pacaldo",
+          "roster": true
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "Clark Justine Gonzales",
+          "roster": true
+        },
+        {
+          "name": "Gleen A. Dalaorao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222293",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4416183305",
+      "title": "Hybrid Multi-Stage Learning Framework for Edge Detection: A Survey",
+      "authors": [
+        {
+          "name": "Mark Phil Pacot",
+          "roster": true
+        },
+        {
+          "name": "Jayno Juventud",
+          "roster": false
+        },
+        {
+          "name": "Gleen Dalaorao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222152",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117419360",
+      "title": "Image Processing and Structural Similarity-Based Evaluation of Hand-Drawn Engineering Sketches",
+      "authors": [
+        {
+          "name": "Jenie L. Plender-Nabas",
+          "roster": false
+        },
+        {
+          "name": "Bryan Papel",
+          "roster": false
+        },
+        {
+          "name": "Julius A. Azarcon III",
+          "roster": false
+        },
+        {
+          "name": "Keen Christopher D. Villones",
+          "roster": false
+        },
+        {
+          "name": "Jesterlyn Q. Timosan",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395504",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223673222",
+      "title": "Image-Based Classification of Black Sigatoka Severity in Cardava Banana Using MobileNetV3 with Attention Mechanisms",
+      "authors": [
+        {
+          "name": "Assel Florence Duncano",
+          "roster": false
+        },
+        {
+          "name": "John Dave C. Palomar",
+          "roster": false
+        },
+        {
+          "name": "Maria Besa Joy M. Ortuyo",
+          "roster": true
+        },
+        {
+          "name": "John Binze B. Escol",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728198",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117412555",
+      "title": "IMPACT ASSESSMENT OF RURAL DEVELOPMENT AND AGRICULTURAL INFRASTRUCTURE SUSTAINABILITY THROUGH FARM-TO-MARKET ROADS IN AGUSAN DEL SUR",
+      "authors": [
+        {
+          "name": "Kathleen Joy A. Edradan",
+          "roster": false
+        },
+        {
+          "name": "Laurenz A. Languay",
+          "roster": false
+        },
+        {
+          "name": "Aljon E. Bocobo",
+          "roster": false
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395703",
+      "sdgs": [
+        {
+          "number": 1,
+          "name": "No poverty"
+        },
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7143280608",
+      "title": "Implementation and Comparison of Semi-Non-Prefix Huffman Coding in Text Compression",
+      "authors": [
+        {
+          "name": "Takeyasu V. Nakazato",
+          "roster": true
+        },
+        {
+          "name": "Melvin A. Ballera",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Emerging Technologies and Innovation for Sustainability (EmergIN)",
+      "sponsor": "Institute of Electrical and Electronics Engineers",
+      "issn": "",
+      "date": "2025-11-28",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/emergin67762.2025.11450593",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4407639441",
+      "title": "Implementation of Longest Common Subsequence Algorithm Using Thread Parallelization in Java",
+      "authors": [
+        {
+          "name": "Mark Phil B. Pacot",
+          "roster": true
+        },
+        {
+          "name": "Gleen A. Dalaorao",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Business and Industrial Research (ICBIR)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-05-23",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icbir61386.2024.10875050",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7126179960",
+      "title": "Integration of Data Visualization and Critical Stock Monitoring for Equipment Inventory and Management System",
+      "authors": [
+        {
+          "name": "Claire P. Nakila",
+          "roster": false
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Shane Naicen C. Nardo",
+          "roster": false
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        },
+        {
+          "name": "Trixie E. Maylid",
+          "roster": false
+        },
+        {
+          "name": "Giovanni T. Esma",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference for Advancement in Technology (ICONAT)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-19",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iconat66879.2025.11362733",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4405633325",
+      "title": "Integration of Stratified KFold Cross Validation to Enhance Prediction Accuracy: A Comparison Study",
+      "authors": [
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Data Analytics for Business and Industry (ICDABI)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-10-23",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icdabi63787.2024.10800425",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7204690283",
+      "title": "Intelligent Booking Systems for Natural Resources and Urban Development: A Geospatial SLR",
+      "authors": [
+        {
+          "name": "Stephanie Anak Nanta",
+          "roster": false
+        },
+        {
+          "name": "Jack Febrian Rusdi",
+          "roster": false
+        },
+        {
+          "name": "Louisa Suly Anak Nanta",
+          "roster": false
+        },
+        {
+          "name": "Imtiaz Ali Brohi",
+          "roster": false
+        },
+        {
+          "name": "Vicente Aquino Pitogo",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Computer Science and Applications",
+      "sponsor": "Science and Information Organization",
+      "issn": "2156-5570",
+      "date": "2026-01-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.14569/ijacsa.2026.0170816",
+      "sdgs": [
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
+    },
+    {
+      "id": "W4399602440",
+      "title": "Investigating Customer Perception, E-satisfaction, and Continuance Intention to Use of the Food Panda Delivery Application",
+      "authors": [
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Marchie A. Cirera",
+          "roster": false
+        },
+        {
+          "name": "Julia O. Coddy",
+          "roster": false
+        },
+        {
+          "name": "Desirre B. Mendoza",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-05-16",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iraset60544.2024.10548301",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7223657489",
+      "title": "Investigating Reward Sharing Strategies in a 3D Multi-Agent Deep Q-Network for Cooperative Resource Gathering",
+      "authors": [
+        {
+          "name": "David Franz D. Cinco",
+          "roster": false
+        },
+        {
+          "name": "Roy Ian S. Escabas",
+          "roster": false
+        },
+        {
+          "name": "Maria Besa Joy M. Ortuyo",
+          "roster": true
+        },
+        {
+          "name": "John Binze B. Escol",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728212",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4399256525",
+      "title": "Investigating the Small-Scale Service Providers: Basis for a Proposed Online Geolocation-Based Service Provider System",
+      "authors": [
+        {
+          "name": "Maria Percyla Piquero Mutas",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-05-31",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18695",
+      "sdgs": [
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7171688828",
+      "title": "IoT-Based Real-Time Water Consumption Monitoring and Forecasting Using Machine Learning",
+      "authors": [
+        {
+          "name": "Robert Jhun V. Lagang",
+          "roster": false
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Networks, Communication and Computing (ICNCC)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-12-01",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icncc68912.2025.00037",
+      "sdgs": [
+        {
+          "number": 6,
+          "name": "Clean water and sanitation"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7214486419",
+      "title": "IoT-Enabled Smart Soil Monitoring System via Campus Wi-Fi and MySQL Server with Interactive Geospatial Analytics for Agricultural Automation",
+      "authors": [
+        {
+          "name": "Abdul Azim bin Abdul Rashid",
+          "roster": false
+        },
+        {
+          "name": "Muhammad Asri bin Muhamad Khidzi",
+          "roster": false
+        },
+        {
+          "name": "Jack Febrian Rusdi",
+          "roster": false
+        },
+        {
+          "name": "Vicente Aquino Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Muhammad Faiz bin Supian",
+          "roster": false
+        },
+        {
+          "name": "Triyanna Widiyaningtyas",
+          "roster": false
+        }
+      ],
+      "venue": "International Journal of Research and Innovation in Social Science",
+      "sponsor": "",
+      "issn": "2454-6186",
+      "date": "2026-01-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.47772/ijriss.2026.100800937",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117416931",
+      "title": "iSafeButuan: A GPS-Enabled Android Mobile Application Enhancing Citizen-Police Collaboration for Incident Reporting and Emergency Response",
+      "authors": [
+        {
+          "name": "Debby B. Verzosa",
+          "roster": false
+        },
+        {
+          "name": "Mary Rose O. Raz",
+          "roster": true
+        },
+        {
+          "name": "Maria Besa Joy M. Ortuyo",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395697",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        },
+        {
+          "number": 16,
+          "name": "Peace, justice, and strong institutions"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183846",
+      "title": "iTOUR: AR-Based Guest Assistance System for Caraga State University-Main Campus",
+      "authors": [
+        {
+          "name": "James Earl D. Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Angelo A. Galope",
+          "roster": false
+        },
+        {
+          "name": "Aubriel A. Bolotaolo",
+          "roster": false
+        },
+        {
+          "name": "Le Anne L. Durango",
+          "roster": false
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222243",
+      "sdgs": [
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7163928198",
+      "title": "KINDSHARE: A Smart Financial Budgeting and Resources Monitoring System",
+      "authors": [
+        {
+          "name": "Merriam Mae A. Salas",
+          "roster": false
+        },
+        {
+          "name": "Drusila G. Otaza",
+          "roster": false
+        },
+        {
+          "name": "Frietzzylyn Mhay T. Salarda",
+          "roster": false
+        },
+        {
+          "name": "Jenelyn R. Asis",
+          "roster": true
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Jenie L. Plender-Nabas",
+          "roster": false
+        },
+        {
+          "name": "Jane Francis P. Jaictin",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-05-14",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iraset68627.2026.11538658",
+      "sdgs": [
+        {
+          "number": 12,
+          "name": "Responsible consumption and production"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4404232644",
+      "title": "Land Classification Plugin for QGIS Using Pix2Pix",
+      "authors": [
+        {
+          "name": "James Earl Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Reynard Torculas",
+          "roster": false
+        },
+        {
+          "name": "Jessie Mayol",
+          "roster": false
+        },
+        {
+          "name": "Paul Justine Bajao",
+          "roster": false
+        }
+      ],
+      "venue": "ISPRS annals of the photogrammetry, remote sensing and spatial information sciences",
+      "sponsor": "Copernicus Publications",
+      "issn": "2194-9042",
+      "date": "2024-11-11",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.5194/isprs-annals-x-5-2024-33-2024",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117422678",
+      "title": "Learning Robotic Arm Control From Demonstration: An Exploration and Comparative Study of Imitation-Based Learning Approaches For Robotic Manipulation Task in a Webots Environment",
+      "authors": [
+        {
+          "name": "Jelbert C. Zamora",
+          "roster": false
+        },
+        {
+          "name": "Rodrigo M. Raga Jr.",
+          "roster": false
+        },
+        {
+          "name": "Rudolph Joshua U. Candare",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395601",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117420300",
+      "title": "Leveraging Large Language Model in the Web-Based Student Performance Monitoring System for Los Angeles National High School",
+      "authors": [
+        {
+          "name": "John Voltaire S. Baslot",
+          "roster": false
+        },
+        {
+          "name": "MJ C. Miral",
+          "roster": false
+        },
+        {
+          "name": "Jacqueline P. Omlang",
+          "roster": false
+        },
+        {
+          "name": "Jenelyn R. Asis",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395727",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117408388",
+      "title": "Leveraging LDA and TF-MONO to Enhance Spam Email Categorization",
+      "authors": [
+        {
+          "name": "Janice Jane C. Floreta",
+          "roster": false
+        },
+        {
+          "name": "Frances Ruth M. Magayon",
+          "roster": false
+        },
+        {
+          "name": "Leo C. Magallanes",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "Regien B. Bakazato",
+          "roster": false
+        },
+        {
+          "name": "Roland P. Abao",
+          "roster": true
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395503",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7161141339",
+      "title": "Leveraging Machine Learning Models in Developing a Web-Based Multilingual Hate Speech Detection System for Cebuano, Tagalog, and English on Social Media",
+      "authors": [
+        {
+          "name": "Paolo Pacaldo",
+          "roster": true
+        },
+        {
+          "name": "Junrie Matias",
+          "roster": true
+        }
+      ],
+      "venue": "Advances in Engineering and Information Sciences",
+      "sponsor": "Caraga State University",
+      "issn": "3116-4021",
+      "date": "2025-06-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.54610/aeis.v1i1.177",
+      "sdgs": [
+        {
+          "number": 10,
+          "name": "Reduced inequalities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223699137",
+      "title": "Lightweight and Explainable XGBoost-Based Phishing Detection for Real-Time Engineering Cybersecurity",
+      "authors": [
+        {
+          "name": "Paolo L. Pacaldo",
+          "roster": true
+        },
+        {
+          "name": "John Michael Cutamora",
+          "roster": true
+        },
+        {
+          "name": "Clark Justine Gonzales",
+          "roster": true
+        },
+        {
+          "name": "Ronnel O. Cacho",
+          "roster": true
+        },
+        {
+          "name": "Paulo A. Duga",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "College of Computing",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728146",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4411996183",
+      "title": "Livestock Management Platform: An Agile Web-based Agricultural Solution",
+      "authors": [
+        {
+          "name": "Regina Ramos",
+          "roster": false
+        },
+        {
+          "name": "Lordelie Darog",
+          "roster": false
+        },
+        {
+          "name": "Salfer Ian Openiano",
+          "roster": false
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "Jack Febrian Rusdi",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Information and Computer Technologies (ICICT)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-03-14",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icict64582.2025.00059",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4392551991",
+      "title": "Low-Cost Mobile-Based Augmented Reality Viewer: Bridging the Gap Between Affordable AR Glasses and Smartphones",
+      "authors": [
+        {
+          "name": "Kent T. Espejon",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Networks, Communication and Computing (ICNCC)",
+      "sponsor": "Philippine Council for Industry, Energy, and Emerging Technology Research and Development",
+      "issn": "",
+      "date": "2023-12-15",
+      "year": 2023,
+      "charge": "",
+      "doi": "https://doi.org/10.1145/3638837.3638877",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223650496",
+      "title": "Machine Learning Framework for Predicting SocioEconomic Impact and Prioritizing Rural Road Investment: Evidence from the Philippines",
+      "authors": [
+        {
+          "name": "Jayson C. Dollete",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11727952",
+      "sdgs": [
+        {
+          "number": 1,
+          "name": "No poverty"
+        },
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183668",
+      "title": "Machine Learning-Based Classification of Crisis-Related Tweets: A Comparative Study Using Logistic Regression, Random Forest, and BERT",
+      "authors": [
+        {
+          "name": "Gleen A. Dalaorao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222241",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7171523367",
+      "title": "Mapping the Evolution of Artificial Intelligence in Agriculture: A Large-Scale BERTopic Analysis of Smart Farming, Automation, and Precision Systems (2020–2025)",
+      "authors": [
+        {
+          "name": "Jobelle J. Capilitan",
+          "roster": false
+        },
+        {
+          "name": "Abigael L. Balbin",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "AgriEngineering",
+      "sponsor": "Multidisciplinary Digital Publishing Institute",
+      "issn": "2624-7402",
+      "date": "2026-07-28",
+      "year": 2026,
+      "charge": "1600 CHF",
+      "doi": "https://doi.org/10.3390/agriengineering8080312",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        }
+      ],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
+    },
+    {
+      "id": "W7117416038",
+      "title": "Mitigating Accuracy Loss in Plant Disease Detection: A Comparative Study of Multi-Stage Hybrid Classification Frameworks for Field Conditions",
+      "authors": [
+        {
+          "name": "Ivan Chad T. Quilondrino",
+          "roster": false
+        },
+        {
+          "name": "George V. Patan",
+          "roster": false
+        },
+        {
+          "name": "Joanna Victoria S. Pitao",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395548",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117408912",
+      "title": "Mobile Community App: Developing Barangay Management Systems",
+      "authors": [
+        {
+          "name": "Jane Francis Jaictin",
+          "roster": false
+        },
+        {
+          "name": "Jayson Dollete",
+          "roster": true
+        },
+        {
+          "name": "Melvy Jane Orillaneda",
+          "roster": false
+        },
+        {
+          "name": "Carl Joseph Gascon",
+          "roster": false
+        },
+        {
+          "name": "Merrey Joy Ocon",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395681",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7163739855",
+      "title": "Modeling spontaneous social contagion in informal environments: An explicit agent-based model on mask and distancing behavior",
+      "authors": [
+        {
+          "name": "Roland P. Abao",
+          "roster": true
+        },
+        {
+          "name": "Maria Regina Justina E. Estuar",
+          "roster": false
+        }
+      ],
+      "venue": "Computational and Mathematical Organization Theory",
+      "sponsor": "Springer Science+Business Media",
+      "issn": "1381-298X",
+      "date": "2026-06-01",
+      "year": 2026,
+      "charge": "2990 USD",
+      "doi": "https://doi.org/10.1007/s10588-026-09437-5",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        }
+      ],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
+    },
+    {
+      "id": "W7131624874",
+      "title": "Modified Physics-Informed Neural Network for Predicting Earthquake-Induced Landslide Susceptibility",
+      "authors": [
+        {
+          "name": "Loreniel E. Anonuevo",
+          "roster": false
+        },
+        {
+          "name": "Vince Jebryl G. Montero",
+          "roster": false
+        },
+        {
+          "name": "Paolo L. Pacaldo",
+          "roster": true
+        },
+        {
+          "name": "Jay Melvin B. Segales",
+          "roster": false
+        },
+        {
+          "name": "Ken Adrian C. Villarias",
+          "roster": false
+        },
+        {
+          "name": "Jayrold P. Arcede",
+          "roster": false
+        }
+      ],
+      "venue": "IEEE Region Humanitarian Technology Conference",
+      "sponsor": "Philippine Council for Industry, Energy, and Emerging Technology Research and Development",
+      "issn": "",
+      "date": "2025-09-29",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/r10-htc63995.2025.11394155",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416964446",
+      "title": "Multi-Armed Bandit Algorithm as Reinforcement Learning Approach in Online Recommendation System of Learning Materials",
+      "authors": [
+        {
+          "name": "Jona B. Libot",
+          "roster": false
+        },
+        {
+          "name": "Kristine C. Alcober",
+          "roster": false
+        },
+        {
+          "name": "Edsel Matt O. Morales",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        }
+      ],
+      "venue": "IEEE International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)",
+      "sponsor": "College of Computing",
+      "issn": "",
+      "date": "2024-11-26",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/hnicem64917.2024.11258738",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7223657697",
+      "title": "Multiclass Prediction of Student Academic Success Using Deep Learning Models: A Comparative Study",
+      "authors": [
+        {
+          "name": "Jimvy P. Salise",
+          "roster": false
+        },
+        {
+          "name": "Roland P. Abao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728033",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223670475",
+      "title": "Multilingual Crisis Tweet Classification in the Philippine Context using XLM-RoBERTa",
+      "authors": [
+        {
+          "name": "Angel Lorraine M. Morales",
+          "roster": true
+        },
+        {
+          "name": "Gleen A. DalaoRao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728014",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4416183304",
+      "title": "MyIntern: A Centralized Role-Based Web Platform for Internship Coordination and Job Matching in Higher Education",
+      "authors": [
+        {
+          "name": "Paolo L. Pacaldo",
+          "roster": true
+        },
+        {
+          "name": "Emmanuel Patatag",
+          "roster": false
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Almarie Maestrado",
+          "roster": false
+        },
+        {
+          "name": "Aljean Cadaves",
+          "roster": false
+        },
+        {
+          "name": "Roland P. Abao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "Ministry of Science and ICT, South Korea",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222302",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        },
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4412959099",
+      "title": "Navigating teaching performance in the new normal: insights from student ratings",
+      "authors": [
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Gladys L. Lagura",
+          "roster": false
+        },
+        {
+          "name": "Grace T. Flores",
+          "roster": false
+        },
+        {
+          "name": "Trixie E. Cubillas",
+          "roster": false
+        },
+        {
+          "name": "Laurence B. Calagui",
+          "roster": false
+        },
+        {
+          "name": "Myron T. Cubillan",
+          "roster": false
+        },
+        {
+          "name": "Ritchfildjay L. Mariscal",
+          "roster": false
+        },
+        {
+          "name": "Erlin S. Rodas",
+          "roster": false
+        },
+        {
+          "name": "Miraluna L. Herrera",
+          "roster": false
+        },
+        {
+          "name": "Renante P. Tabudlong",
+          "roster": false
+        }
+      ],
+      "venue": "Journal of Education and Learning (EduLearn)",
+      "sponsor": "Ahmad Dahlan University",
+      "issn": "2089-9823",
+      "date": "2025-07-19",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.11591/edulearn.v19i4.22755",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W7117407674",
+      "title": "Near Real-Time Room Monitoring System for Occupancy Detection in the College of Computing and Information Sciences at Caraga State University-Main",
+      "authors": [
+        {
+          "name": "Bryan Ian C. Ramos",
+          "roster": false
+        },
+        {
+          "name": "Patrick James D. Dionen",
+          "roster": false
+        },
+        {
+          "name": "R.Z A. Tabaranza",
+          "roster": false
+        },
+        {
+          "name": "Giovanni T. Esma",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395692",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4416183292",
+      "title": "Normalized Hybrid A* and IAA for Pathfinding in Weighted Grid Environments",
+      "authors": [
+        {
+          "name": "Kent T. Espejon",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Rolando C. Becerro",
+          "roster": false
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222308",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4319166351",
+      "title": "OCR-based Hybrid Image Text Summarizer using Luhn Algorithm with FinetuneTransformer Modelsfor Long Document",
+      "authors": [
+        {
+          "name": "Van Zachary V. Singco",
+          "roster": false
+        },
+        {
+          "name": "Joel C. Trillo",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "James Cloyd M. Bustillo",
+          "roster": false
+        },
+        {
+          "name": "Junell T. Bojocan",
+          "roster": false
+        },
+        {
+          "name": "Michelle C. Elape",
+          "roster": false
+        }
+      ],
+      "venue": "International Journal of Emerging Technology and Advanced Engineering",
+      "sponsor": "",
+      "issn": "2250-2459",
+      "date": "2023-02-04",
+      "year": 2023,
+      "charge": "",
+      "doi": "https://doi.org/10.46338/ijetae0223_07",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4399354841",
+      "title": "Online Student Monitoring and Evaluation System using Apriori Algorithm for Predicting Student Academic Performance",
+      "authors": [
+        {
+          "name": "Jessie S. Mahinay",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-05",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18756",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4386814757",
+      "title": "Optimizing Local Repository Search with Bidirectional Encoder Representations from Transformer Models",
+      "authors": [
+        {
+          "name": "John Binze B. Escol",
+          "roster": true
+        },
+        {
+          "name": "Johanes L. Guibone",
+          "roster": false
+        },
+        {
+          "name": "Wayan Klein E. Duenas",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "James Cloyd M. Bustillo",
+          "roster": false
+        },
+        {
+          "name": "Junell T. Bojocan",
+          "roster": false
+        }
+      ],
+      "venue": "International Journal of Emerging Technology and Advanced Engineering",
+      "sponsor": "",
+      "issn": "2250-2459",
+      "date": "2023-09-17",
+      "year": 2023,
+      "charge": "",
+      "doi": "https://doi.org/10.46338/ijetae0923_03",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7161294593",
+      "title": "Optimizing Real Estate Operations Post-COVID19 Pandemic: Sustaining Stakeholders’ Needs with a Unified Web-Based Property Management System",
+      "authors": [
+        {
+          "name": "Riah Encarnacion",
+          "roster": true
+        },
+        {
+          "name": "Jean Villasin",
+          "roster": false
+        },
+        {
+          "name": "Jesse Emmanuel Encarnacion",
+          "roster": false
+        }
+      ],
+      "venue": "Advances in Engineering and Information Sciences",
+      "sponsor": "Caraga State University",
+      "issn": "3116-4021",
+      "date": "2025-09-11",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.54610/aeis.v1i1.188",
+      "sdgs": [
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183440",
+      "title": "PAMANA: Digital Preservation and Virtual Experience of Cultural Dances of Caraga",
+      "authors": [
+        {
+          "name": "James Earl D. Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Francis John Saul M. Tin-ao",
+          "roster": false
+        },
+        {
+          "name": "John Michael F. Cutamora",
+          "roster": true
+        },
+        {
+          "name": "Kimberly Ann B. Palaran",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222333",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223662422",
+      "title": "Parish E-Connect: A Web-Based Information System for Digital Service Transformation in Faith-Based Communities",
+      "authors": [
+        {
+          "name": "Normei F. Babida",
+          "roster": false
+        },
+        {
+          "name": "Rian Ralph L. Bandola",
+          "roster": false
+        },
+        {
+          "name": "Marry Joy G. Baqueran",
+          "roster": false
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728012",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4394713132",
+      "title": "PBIM: A Patch-Based Image Mosaicking for UAV Images with Natural Scene Distortions",
+      "authors": [
+        {
+          "name": "Mark Phil B. Pacot",
+          "roster": true
+        },
+        {
+          "name": "Nelson Marcos",
+          "roster": false
+        }
+      ],
+      "venue": "IEEE Asia-Pacific Conference on Geoscience, Electronics and Remote Sensing Technology (AGERS)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2023-12-19",
+      "year": 2023,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/agers61027.2023.10490849",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399802656",
+      "title": "Perceptions of Realtors on Property Information Processing: Basis for a Web-Based Real Estate Property Management System",
+      "authors": [
+        {
+          "name": "Jean Y. Villasin",
+          "roster": false
+        },
+        {
+          "name": "Riah Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-19",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18910",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4404371232",
+      "title": "Performance Analysis of Caraga State University’s Network Infrastructure: A Software-defined Networking Approach",
+      "authors": [
+        {
+          "name": "Clark Justine L Gonzales",
+          "roster": true
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference of Science and Information Technology in Smart Administration (ICSINTESA)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-07-12",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icsintesa62455.2024.10747881",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416963900",
+      "title": "Performance Analysis of HAN, HLSTM, and BERT in Classifying Accreditation Documents",
+      "authors": [
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Clark Justine L. Gonzales",
+          "roster": true
+        }
+      ],
+      "venue": "IEEE International Conference on Humanoid, Nanotechnology, Information Technology, Communication and Control, Environment, and Management (HNICEM)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-11-26",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/hnicem64917.2024.11258642",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117416795",
+      "title": "PhilCurrency Aid: A Mobile Application for Real-Time Detection of Philippine Banknotes and Coins for the Partially Blind Individuals",
+      "authors": [
+        {
+          "name": "Dexter A. Romaguera",
+          "roster": true
+        },
+        {
+          "name": "Giovanni T. Esma",
+          "roster": true
+        },
+        {
+          "name": "Fredrick France E. Bernal",
+          "roster": false
+        },
+        {
+          "name": "Gerry P. Montilde",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395712",
+      "sdgs": [
+        {
+          "number": 10,
+          "name": "Reduced inequalities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4386790118",
+      "title": "Physical Distancing and Mask Wearing Behavior Dataset Generator from CCTV Footages Using YOLOv8",
+      "authors": [
+        {
+          "name": "Roland P. Abao",
+          "roster": true
+        },
+        {
+          "name": "Maria Regina Justina E. Estuar",
+          "roster": false
+        },
+        {
+          "name": "Patricia Angela R. Abu",
+          "roster": false
+        }
+      ],
+      "venue": "Lecture notes in computer science",
+      "sponsor": "Springer Science+Business Media",
+      "issn": "0302-9743",
+      "date": "2023-01-01",
+      "year": 2023,
+      "charge": "5000 EUR",
+      "doi": "https://doi.org/10.1007/978-3-031-43129-6_29",
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4403060724",
+      "title": "Predicting Employee Turnover Through Genetic Algorithm",
+      "authors": [
+        {
+          "name": "Vincent Jake Recilla",
+          "roster": false
+        },
+        {
+          "name": "Mohn Romy A. Enonaria",
+          "roster": false
+        },
+        {
+          "name": "Reyper John Florida",
+          "roster": false
+        },
+        {
+          "name": "James Cloyd M. Bustillo",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        },
+        {
+          "name": "Joel C. Trillo",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Electronics and Sustainable Communication Systems (ICESC)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2024-08-07",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icesc60852.2024.10689796",
+      "sdgs": [
+        {
+          "number": 8,
+          "name": "Decent work and economic growth"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7161132407",
+      "title": "Predictive Modeling for Loan Eligibility Assessment: A Comparative Study of Logistic Regression, Random Forest, and Support Vector Machine with Detailed Oversampling",
+      "authors": [
+        {
+          "name": "Jamel Pandiin",
+          "roster": false
+        },
+        {
+          "name": "Junrie Matias",
+          "roster": true
+        }
+      ],
+      "venue": "Advances in Engineering and Information Sciences",
+      "sponsor": "Caraga State University",
+      "issn": "3116-4021",
+      "date": "2025-08-19",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.54610/aeis.v1i1.178",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        },
+        {
+          "number": 10,
+          "name": "Reduced inequalities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7161067829",
+      "title": "Psychological and Functional Barriers of Using E-Government Applications: A Study in Caraga Region Using Innovation Resistance Theory",
+      "authors": [
+        {
+          "name": "Mary Joy A. Niepes",
+          "roster": false
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Dexter M. Montederamos",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Rikka Vanya B. De Guzman",
+          "roster": false
+        },
+        {
+          "name": "Jhofunny T. Peña",
+          "roster": false
+        }
+      ],
+      "venue": "Studies in systems, decision and control",
+      "sponsor": "Springer International Publishing",
+      "issn": "2198-4182",
+      "date": "2026-01-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-032-13119-5_78",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 16,
+          "name": "Peace, justice, and strong institutions"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4416183346",
+      "title": "Q-Learning-Based Parameter Tuning of Alpha and Beta in Ant Colonization Algorithm and Inverse Ant Algorithm for Optimized Pathfinding",
+      "authors": [
+        {
+          "name": "Kent T. Espejon",
+          "roster": true
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        },
+        {
+          "name": "Elber S. Moyon",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222335",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W4416183282",
+      "title": "Redesigning MyAneco Using Human-Computer Interaction Guidelines: A User-Centered Approach to Improving Usability and Accessibility",
+      "authors": [
+        {
+          "name": "Bernie Cherry D. Rante",
+          "roster": false
+        },
+        {
+          "name": "Kurt P. Reserva",
+          "roster": false
+        },
+        {
+          "name": "Kylene Angela M. Rocales",
+          "roster": false
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222324",
+      "sdgs": [
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4416183214",
+      "title": "Redesigning the CSU-Rent-A-Bike Platform for Enhanced HCI Compliance: A User-Centered Evaluation and Iterative Design Approach",
+      "authors": [
+        {
+          "name": "Arian Jay E. Prisco",
+          "roster": false
+        },
+        {
+          "name": "Drandreb B. Reyes",
+          "roster": false
+        },
+        {
+          "name": "Cristina Repollo",
+          "roster": false
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-09-06",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap68205.2025.11222162",
+      "sdgs": [
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223663268",
+      "title": "RegGNSL: Residual-Guided Neuro-Symbolic Learning for Explainable Multidimensional Poverty Prediction",
+      "authors": [
+        {
+          "name": "Jason Sigfred S. Seril",
+          "roster": false
+        },
+        {
+          "name": "Roland P. Abao",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728029",
+      "sdgs": [
+        {
+          "number": 1,
+          "name": "No poverty"
+        },
+        {
+          "number": 10,
+          "name": "Reduced inequalities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399260156",
+      "title": "Revolutionizing Accreditation System: Basis for Proposing a Databank System Using Two-Factor Authentication and String Searching Algorithm",
+      "authors": [
+        {
+          "name": "John Mark B. Clemen",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-05-31",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18688",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399491043",
+      "title": "Revolutionizing Land-Based Vehicle Parts Management: Basis for a Unified Digital Platform for Auto Parts Information Systems",
+      "authors": [
+        {
+          "name": "Michael N. Aliguay",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-10",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18813",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399325217",
+      "title": "Revolutionizing the Rental Services in Siargao Island: Basis for Developing an Online Vehicle Rental Management System",
+      "authors": [
+        {
+          "name": "Mark Anthony T. Golo",
+          "roster": false
+        },
+        {
+          "name": "Riah Elcullada Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-04",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18754",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223673226",
+      "title": "Root TF-IGM and Weighted Word2Vec: A Class-Aware and Semantic-Aware Hybrid Embedding for Text Classification",
+      "authors": [
+        {
+          "name": "Philip Aga S. Corpin",
+          "roster": false
+        },
+        {
+          "name": "Friensan Q. Pablo",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728126",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7223936356",
+      "title": "Self-Supervised Temporal Representation Learning for Infectious Disease Outbreak Prediction Using Philippine DOH Surveillance Data",
+      "authors": [
+        {
+          "name": "Markdy Y. Orong",
+          "roster": false
+        },
+        {
+          "name": "Junrie Matias",
+          "roster": true
+        },
+        {
+          "name": "Elsie S. Ybanez",
+          "roster": false
+        },
+        {
+          "name": "Carin Z. Cabatingan",
+          "roster": false
+        }
+      ],
+      "venue": "",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-08-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icsl-dsga70378.2026.11736797",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223677118",
+      "title": "Semantic Document Classification for Automated Archival in Integrated Quality Assurance Management System (iQuAMS) using Natural Language Processing and Machine Learning",
+      "authors": [
+        {
+          "name": "Mary Rose O. Raz",
+          "roster": true
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728017",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7161028100",
+      "title": "Semi-non-prefix Huffman Coding",
+      "authors": [
+        {
+          "name": "Takeyasu V. Nakazato",
+          "roster": true
+        },
+        {
+          "name": "Melvin A. Ballera",
+          "roster": false
+        }
+      ],
+      "venue": "Studies in systems, decision and control",
+      "sponsor": "Springer International Publishing",
+      "issn": "2198-4182",
+      "date": "2026-01-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1007/978-3-032-13119-5_33",
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4399705918",
+      "title": "Siargao Fresh Picks: Optimizing Sustainable Food Product Orders and Delivery System",
+      "authors": [
+        {
+          "name": "Niedes D. Clerigo",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-15",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18879",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 12,
+          "name": "Responsible consumption and production"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4413095945",
+      "title": "Smart Home Security Through Real-Time Audio Event Detection Systems Using Convolutional Neural Network (CNN)",
+      "authors": [
+        {
+          "name": "Mark Daniel G. Dacer",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Electronics Representation and Algorithm (ICERA)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-06-12",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icera66156.2025.11087280",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7140706621",
+      "title": "SmartTransit PH: An Android App for Public Vehicle Navigation",
+      "authors": [
+        {
+          "name": "Jenie L. Plender-Nabas",
+          "roster": false
+        },
+        {
+          "name": "Neil Anthony B. Dayday",
+          "roster": false
+        },
+        {
+          "name": "Jennierose C. Pascual",
+          "roster": false
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Jesterlyn Q. Timosan",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Innovation and Intelligence for Informatics, Computing, and Technologies (3ICT)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-11-17",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/3ict68299.2025.11442203",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        },
+        {
+          "number": 11,
+          "name": "Sustainable cities and communities"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399274105",
+      "title": "Stakeholders’ Satisfaction on Institutional Assessment: A Proposal for Unified Feedback Management System with Text Analytics and Sentiment Analysis",
+      "authors": [
+        {
+          "name": "Rea Mie A. Omas-as",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-02",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18716",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117413719",
+      "title": "Storage Media Selection for Raspberry Pi-Based Office Application Server: A Review",
+      "authors": [
+        {
+          "name": "Paul Michael Z. Labis",
+          "roster": false
+        },
+        {
+          "name": "Jaymer M. Jayoma",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395654",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7117413702",
+      "title": "Streamlining Cross-Departmental IT Service Management Support with KUDOS (Keystream, User Centric, Delivery Optimization and Support)",
+      "authors": [
+        {
+          "name": "Jesterlyn Q. Timosan",
+          "roster": true
+        },
+        {
+          "name": "John Michael Cutamora",
+          "roster": true
+        },
+        {
+          "name": "Nicole Mae A. Rosco",
+          "roster": false
+        },
+        {
+          "name": "Jhenny P. Sulicar",
+          "roster": false
+        },
+        {
+          "name": "Collin Claudette M. Tepan",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395665",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4399324892",
+      "title": "Streamlining Document Processing: Basis foran Online Document Management System",
+      "authors": [
+        {
+          "name": "Ronnel A. Falo",
+          "roster": false
+        },
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Advanced Research in Science Communication and Technology",
+      "sponsor": "Shivkrupa Publication's",
+      "issn": "2581-9429",
+      "date": "2024-06-04",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.48175/ijarsct-18750",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117417340",
+      "title": "Stroke Tomography for Enhanced Lesion Learning Analysis (STELLA.ai) Using Computer Vision",
+      "authors": [
+        {
+          "name": "James Earl D. Cubillas",
+          "roster": true
+        },
+        {
+          "name": "Rhea M. Bete",
+          "roster": false
+        },
+        {
+          "name": "Francis John Saul M. Tin-ao",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395677",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7163901591",
+      "title": "System-Assisted Solution: An OCR-Based Pre-Screening Process of Government Job Application",
+      "authors": [
+        {
+          "name": "Antonio A. Granza",
+          "roster": false
+        },
+        {
+          "name": "Shieme Jay G. Balatero",
+          "roster": false
+        },
+        {
+          "name": "Zyeke Aira C. Gador",
+          "roster": false
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Jesterlyn Q. Timosan",
+          "roster": true
+        },
+        {
+          "name": "Hannah Faye A. Capoy",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-05-14",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iraset68627.2026.11538472",
+      "sdgs": [],
+      "indexes": []
+    },
+    {
+      "id": "W7164324276",
+      "title": "Teachers’ competencies and attitudes toward the Philippine professional standards for teachers as predictors of their performance",
+      "authors": [
+        {
+          "name": "Bonifacio Rudela Jr.",
+          "roster": false
+        },
+        {
+          "name": "Grace Flores",
+          "roster": false
+        },
+        {
+          "name": "Junrie Matias",
+          "roster": true
+        }
+      ],
+      "venue": "Multidisciplinary Science Journal",
+      "sponsor": "",
+      "issn": "2675-1240",
+      "date": "2026-05-30",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.31893/multiscience.2026755",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W4411996889",
+      "title": "The Digital Shift: Review and Landscape of e-Participation",
+      "authors": [
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Rolyn C. Daguil",
+          "roster": false
+        },
+        {
+          "name": "Mark Phil B. Pacot",
+          "roster": true
+        },
+        {
+          "name": "Rozanne Tuesday G. Flores",
+          "roster": false
+        },
+        {
+          "name": "Riski Zulkarnain",
+          "roster": false
+        },
+        {
+          "name": "Richki Hardi",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Information and Computer Technologies (ICICT)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2025-03-14",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/icict64582.2025.00054",
+      "sdgs": [
+        {
+          "number": 16,
+          "name": "Peace, justice, and strong institutions"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7163885807",
+      "title": "The Use of Learning Management Systems in the Post-Pandemic Period: An Investigation on Students’ Perception Using the Task Technology Fit Model",
+      "authors": [
+        {
+          "name": "Jeremie D. Dagani",
+          "roster": false
+        },
+        {
+          "name": "Jayrhom R. Almonteros",
+          "roster": true
+        },
+        {
+          "name": "Daisy Tanginan",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        },
+        {
+          "name": "Gwendolyn Chan",
+          "roster": false
+        },
+        {
+          "name": "Krisha Justalero",
+          "roster": false
+        },
+        {
+          "name": "Vicente A. Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Jenie L. Plender-Nabas",
+          "roster": false
+        },
+        {
+          "name": "Renata Bacarova",
+          "roster": false
+        }
+      ],
+      "venue": "International Conference on Innovative Research in Applied Science, Engineering and Technology (IRASET)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-05-14",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/iraset68627.2026.11538611",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7161346479",
+      "title": "Tomato Maturity Assessment: Using Convolutional Neural Networks and Image Processing-Based Domain Knowledge",
+      "authors": [
+        {
+          "name": "Marjorie Centino",
+          "roster": false
+        },
+        {
+          "name": "Vicente Pitogo",
+          "roster": true
+        },
+        {
+          "name": "Mark Phil Pacot",
+          "roster": true
+        }
+      ],
+      "venue": "Advances in Engineering and Information Sciences",
+      "sponsor": "Caraga State University",
+      "issn": "3116-4021",
+      "date": "2025-08-19",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.54610/aeis.v1i1.180",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4386522438",
+      "title": "Towards Objects Detection Using Convolutional Neural Network from Unmanned Aerial Vehicle Imagery",
+      "authors": [
+        {
+          "name": "Mark Phil Banaybanay Pacot",
+          "roster": true
+        },
+        {
+          "name": "Vicente Aquino Pitogo",
+          "roster": true
+        }
+      ],
+      "venue": "International Conference on Machine Learning and Computing (ICMLC)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2023-02-17",
+      "year": 2023,
+      "charge": "",
+      "doi": "https://doi.org/10.1145/3587716.3587769",
+      "sdgs": [
+        {
+          "number": 2,
+          "name": "Zero hunger"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117412400",
+      "title": "Utilizing Machine Learning Approaches in Predicting the Impact of Climate Change Factors to Common Seasonal Disease Outbreak",
+      "authors": [
+        {
+          "name": "Riah E. Encarnacion",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395640",
+      "sdgs": [
+        {
+          "number": 3,
+          "name": "Good health and well-being"
+        },
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W4401462927",
+      "title": "Utilizing Named Entity Recognition for Web-Based Resume Scoring",
+      "authors": [
+        {
+          "name": "Ivic Jan A. Biol",
+          "roster": false
+        },
+        {
+          "name": "Cristopher C. Abalorio",
+          "roster": true
+        }
+      ],
+      "venue": "International Journal of Engineering Trends and Technology",
+      "sponsor": "",
+      "issn": "2231-5381",
+      "date": "2024-07-31",
+      "year": 2024,
+      "charge": "",
+      "doi": "https://doi.org/10.14445/22315381/ijett-v72i7p142",
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
+    },
+    {
+      "id": "W7117419884",
+      "title": "Web-based Portfolio Management System for Technology Transfer and Licensing Offices",
+      "authors": [
+        {
+          "name": "Edsel Matt O. Morales",
+          "roster": true
+        },
+        {
+          "name": "Kurt Ryam Abadinas",
+          "roster": false
+        },
+        {
+          "name": "Meo Angelo Alcantara",
+          "roster": false
+        },
+        {
+          "name": "Shienae Cedro",
+          "roster": false
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395544",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7117413100",
+      "title": "Web-based Record Management System with Data Visualization using Google Data Studio and Zapier Automation for Sangguniang Kabataan (SK)",
+      "authors": [
+        {
+          "name": "Aljon C. Fernando",
+          "roster": false
+        },
+        {
+          "name": "Joko J. Saco",
+          "roster": false
+        },
+        {
+          "name": "Kent Lawrence Almar G. Samson",
+          "roster": false
+        },
+        {
+          "name": "Elbert S. Moyon",
+          "roster": true
+        },
+        {
+          "name": "Jayson C. Dollete",
+          "roster": true
+        }
+      ],
+      "venue": "Proceedings of International Exchange and Innovation Conference on Engineering & Sciences (IEICES)",
+      "sponsor": "Kyushu University",
+      "issn": "2434-1436",
+      "date": "2025-10-30",
+      "year": 2025,
+      "charge": "",
+      "doi": "https://doi.org/10.5109/7395691",
+      "sdgs": [
+        {
+          "number": 9,
+          "name": "Industry, innovation and infrastructure"
+        }
+      ],
+      "indexes": []
+    },
+    {
+      "id": "W7223672956",
+      "title": "Zero Trust Maturity and Cybersecurity Incident Response Readiness in Higher Education: An Organizational Resilience-Based Analysis",
+      "authors": [
+        {
+          "name": "Daisa O. Gupit",
+          "roster": false
+        },
+        {
+          "name": "Junrie B. Matias",
+          "roster": true
+        }
+      ],
+      "venue": "International Artificial Intelligence and Data Processing Symposium (IDAP)",
+      "sponsor": "",
+      "issn": "",
+      "date": "2026-09-01",
+      "year": 2026,
+      "charge": "",
+      "doi": "https://doi.org/10.1109/idap71869.2026.11728022",
+      "sdgs": [
+        {
+          "number": 4,
+          "name": "Quality education"
+        }
+      ],
+      "indexes": []
+    }
+  ],
+  "index_sources": {
+    "scopus": "Elsevier Scopus source list, July 2026; counted when the publication year is inside the source coverage",
+    "wos": "Clarivate Web of Science Core Collection SCIE, SSCI, AHCI, and ESCI, August 2026",
+    "aci": "ASEAN Citation Index annex of journal titles, matched to the venue title"
+  }
+}

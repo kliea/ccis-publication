@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+:root {
+  --radius: 0.625rem;
+  --background: #ffffff;
+  --foreground: #0b1c33;
+  --card: #ffffff;
+  --card-foreground: #0b1c33;
+  --popover: #ffffff;
+  --popover-foreground: #0b1c33;
+  --primary: #1f4b7a;
+  --primary-foreground: #ffffff;
+  --secondary: #e7eef6;
+  --secondary-foreground: #0b1c33;
+  --muted: #e7eef6;
+  --muted-foreground: #5d738c;
+  --accent: #e7eef6;
+  --accent-foreground: #0b1c33;
+  --destructive: #b42318;
+  --border: #d0dced;
+  --input: #d0dced;
+  --ring: #f08a2a;
+  --navy: #0b1c33;
+  --dusk: #1f4b7a;
+  --orange: #f08a2a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-navy: var(--navy);
+  --color-dusk: var(--dusk);
+  --color-orange: var(--orange);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Iowan Old Style", Palatino, Georgia, serif;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background font-serif text-foreground;
+  }
+}
