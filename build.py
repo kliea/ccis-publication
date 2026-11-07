@@ -498,6 +498,17 @@ def page(rows, built_at):
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Publication catalog</title>
+  <link rel="icon" href="ccis-logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="ccis-logo.png" />
+  <meta property="og:title" content="Publication catalog" />
+  <meta property="og:image" content="ccis-logo.png" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="600" />
+  <meta property="og:image:height" content="600" />
+  <meta property="og:image:alt" content="CSU CCIS, College of Computing and Information Sciences" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:image" content="ccis-logo.png" />
+  <meta name="twitter:image:alt" content="CSU CCIS, College of Computing and Information Sciences" />
   <style>
     :root {{ color-scheme: light; }}
     * {{ box-sizing: border-box; }}
@@ -510,6 +521,11 @@ def page(rows, built_at):
     .filters label {{ color: #5c564c; }}
     .filters select {{ font: inherit; color: #1c1915; background: white; border: 1px solid #1c1915; padding: 6px 8px; max-width: min(100%, 520px); }}
     .filters button {{ font: inherit; color: #1c1915; background: white; border: 1px solid #1c1915; padding: 6px 10px; cursor: pointer; }}
+    .pager {{ display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 12px; font: 14px/1.3 ui-sans-serif, system-ui, sans-serif; }}
+    .pager button, .pager select {{ font: inherit; color: #1c1915; background: white; border: 1px solid #1c1915; padding: 6px 10px; cursor: pointer; }}
+    .pager button:disabled {{ color: #a39c90; border-color: #d9d2c5; cursor: default; }}
+    .pager[hidden] {{ display: none; }}
+    .pager .status {{ color: #5c564c; }}
     .empty {{ display: none; margin: 0 0 12px; }}
     tr[hidden] {{ display: none; }}
     .scroll {{ overflow-x: auto; border: 1px solid #1c1915; background: white; }}
@@ -542,6 +558,18 @@ def page(rows, built_at):
       <button type="button" id="export-excel">Export Excel</button>
       <button type="button" id="export-pdf">Export PDF</button>
     </div>
+    <nav class="pager" id="pager" aria-label="Pages">
+      <button type="button" id="page-prev">Previous</button>
+      <span class="status" id="page-status"></span>
+      <button type="button" id="page-next">Next</button>
+      <label for="page-size">Rows</label>
+      <select id="page-size">
+        <option value="10">10</option>
+        <option value="25" selected>25</option>
+        <option value="50">50</option>
+        <option value="100">100</option>
+      </select>
+    </nav>
     <p class="empty" id="empty">No publications for that year and goal.</p>
     <div class="scroll">
       <table>
@@ -637,17 +665,25 @@ def page(rows, built_at):
     const total = rows.length;
     const countEl = document.getElementById("count");
     const emptyEl = document.getElementById("empty");
+    const pagerEl = document.getElementById("pager");
+    const pageStatusEl = document.getElementById("page-status");
+    const pagePrevEl = document.getElementById("page-prev");
+    const pageNextEl = document.getElementById("page-next");
     const sdgNames = {json.dumps(SDGS)};
+    let page = 1;
     function selectedYear() {{
       const value = document.getElementById("year").value;
       return value ? Number(value) : null;
+    }}
+    function pageSize() {{
+      return Number(document.getElementById("page-size").value);
     }}
     function applyFilters() {{
       const year = selectedYear();
       const goal = document.getElementById("sdg").value;
       const counts = {{}};
       sdgNames.forEach((pair) => {{ counts[pair[0]] = 0; }});
-      let shown = 0;
+      const matched = [];
       document.querySelectorAll("tbody tr[data-open]").forEach((tr, index) => {{
         const row = rows[index];
         const yearOk = year === null || row.year === year;
@@ -657,9 +693,17 @@ def page(rows, built_at):
           }});
         }}
         const goalOk = !goal || (row.sdgs || []).some((item) => String(item.number) === goal);
-        const match = yearOk && goalOk;
-        tr.hidden = !match;
-        if (match) shown += 1;
+        if (yearOk && goalOk) matched.push(tr);
+      }});
+      const shown = matched.length;
+      const size = pageSize();
+      const pages = Math.max(1, Math.ceil(shown / size));
+      if (page > pages) page = pages;
+      if (page < 1) page = 1;
+      const start = (page - 1) * size;
+      const visible = new Set(matched.slice(start, start + size));
+      document.querySelectorAll("tbody tr[data-open]").forEach((tr) => {{
+        tr.hidden = !visible.has(tr);
       }});
       document.querySelectorAll("#sdg option").forEach((option) => {{
         if (!option.value) return;
@@ -674,15 +718,39 @@ def page(rows, built_at):
         ? total + " " + (total === 1 ? "publication" : "publications") + " · " + yearLabel + " · snapshot {escape(built_at)}"
         : shown + " of " + total + " " + noun + " · " + yearLabel + (goalLabel ? " · " + goalLabel : "") + " · snapshot {escape(built_at)}";
       emptyEl.style.display = shown ? "none" : "block";
+      pagerEl.hidden = shown === 0;
+      const from = shown ? start + 1 : 0;
+      const to = Math.min(start + size, shown);
+      pageStatusEl.textContent = shown ? from + "–" + to + " of " + shown : "";
+      pagePrevEl.disabled = page <= 1;
+      pageNextEl.disabled = page >= pages;
     }}
     document.getElementById("sdg").addEventListener("change", () => {{
       closeModal();
+      page = 1;
       applyFilters();
     }});
     document.getElementById("year").addEventListener("change", () => {{
       closeModal();
+      page = 1;
       applyFilters();
     }});
+    document.getElementById("page-size").addEventListener("change", () => {{
+      closeModal();
+      page = 1;
+      applyFilters();
+    }});
+    pagePrevEl.addEventListener("click", () => {{
+      closeModal();
+      page -= 1;
+      applyFilters();
+    }});
+    pageNextEl.addEventListener("click", () => {{
+      closeModal();
+      page += 1;
+      applyFilters();
+    }});
+    applyFilters();
     document.querySelector("tbody").addEventListener("click", (event) => {{
       if (event.target.closest("a")) return;
       const row = event.target.closest("tr[data-open]");
