@@ -521,11 +521,24 @@ def page(rows, built_at):
     .filters label {{ color: #5c564c; }}
     .filters select {{ font: inherit; color: #1c1915; background: white; border: 1px solid #1c1915; padding: 6px 8px; max-width: min(100%, 520px); }}
     .filters button {{ font: inherit; color: #1c1915; background: white; border: 1px solid #1c1915; padding: 6px 10px; cursor: pointer; }}
-    .pager {{ display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 12px; font: 14px/1.3 ui-sans-serif, system-ui, sans-serif; }}
-    .pager button, .pager select {{ font: inherit; color: #1c1915; background: white; border: 1px solid #1c1915; padding: 6px 10px; cursor: pointer; }}
-    .pager button:disabled {{ color: #a39c90; border-color: #d9d2c5; cursor: default; }}
-    .pager[hidden] {{ display: none; }}
-    .pager .status {{ color: #5c564c; }}
+    .table-foot {{ display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 24px; margin: 12px 0 0; font: 14px/1.3 ui-sans-serif, system-ui, sans-serif; }}
+    .table-foot[hidden] {{ display: none; }}
+    .range {{ margin: 0; color: #5c564c; }}
+    .table-foot-controls {{ display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin-left: auto; }}
+    .rows-label {{ color: #1c1915; font-weight: 500; }}
+    .table-foot select {{ font: inherit; height: 32px; color: #1c1915; background: white; border: 1px solid #d9d2c5; border-radius: 6px; padding: 0 8px; }}
+    .pager ul {{ display: flex; align-items: center; gap: 4px; list-style: none; margin: 0; padding: 0; }}
+    .pager button {{ font: inherit; display: inline-flex; align-items: center; justify-content: center; gap: 4px; height: 36px; min-width: 36px; padding: 0 8px; color: #1c1915; background: transparent; border: 1px solid transparent; border-radius: 6px; cursor: pointer; }}
+    .pager button:hover:not(:disabled) {{ background: #ebe4d6; }}
+    .pager button[aria-current="page"] {{ background: white; border-color: #1c1915; }}
+    .pager button.step {{ padding: 0 10px; }}
+    .pager button:disabled {{ color: #a39c90; cursor: default; }}
+    .pager svg {{ width: 16px; height: 16px; }}
+    .pager .ellipsis {{ display: flex; width: 36px; height: 36px; align-items: center; justify-content: center; }}
+    .sr-only {{ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }}
+    @media (max-width: 640px) {{
+      .step-label {{ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }}
+    }}
     .empty {{ display: none; margin: 0 0 12px; }}
     tr[hidden] {{ display: none; }}
     .scroll {{ overflow-x: auto; border: 1px solid #1c1915; background: white; }}
@@ -558,18 +571,6 @@ def page(rows, built_at):
       <button type="button" id="export-excel">Export Excel</button>
       <button type="button" id="export-pdf">Export PDF</button>
     </div>
-    <nav class="pager" id="pager" aria-label="Pages">
-      <button type="button" id="page-prev">Previous</button>
-      <span class="status" id="page-status"></span>
-      <button type="button" id="page-next">Next</button>
-      <label for="page-size">Rows</label>
-      <select id="page-size">
-        <option value="10">10</option>
-        <option value="25" selected>25</option>
-        <option value="50">50</option>
-        <option value="100">100</option>
-      </select>
-    </nav>
     <p class="empty" id="empty">No publications for that year and goal.</p>
     <div class="scroll">
       <table>
@@ -595,6 +596,21 @@ def page(rows, built_at):
           {"".join(body_rows)}
         </tbody>
       </table>
+    </div>
+    <div class="table-foot" id="table-foot">
+      <p class="range" id="page-status"></p>
+      <div class="table-foot-controls">
+        <label class="rows-label" for="page-size">Rows per page</label>
+        <select id="page-size">
+          <option value="5">5</option>
+          <option value="10">10</option>
+          <option value="25" selected>25</option>
+          <option value="50">50</option>
+        </select>
+        <nav class="pager" id="pager" aria-label="pagination">
+          <ul id="pager-list"></ul>
+        </nav>
+      </div>
     </div>
   </main>
   <script id="rows" type="application/json">{data}</script>
@@ -665,11 +681,14 @@ def page(rows, built_at):
     const total = rows.length;
     const countEl = document.getElementById("count");
     const emptyEl = document.getElementById("empty");
+    const footEl = document.getElementById("table-foot");
     const pagerEl = document.getElementById("pager");
+    const pagerListEl = document.getElementById("pager-list");
     const pageStatusEl = document.getElementById("page-status");
-    const pagePrevEl = document.getElementById("page-prev");
-    const pageNextEl = document.getElementById("page-next");
     const sdgNames = {json.dumps(SDGS)};
+    const chevronLeft = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>';
+    const chevronRight = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>';
+    const ellipsisIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>';
     let page = 1;
     function selectedYear() {{
       const value = document.getElementById("year").value;
@@ -677,6 +696,37 @@ def page(rows, built_at):
     }}
     function pageSize() {{
       return Number(document.getElementById("page-size").value);
+    }}
+    function pageItems(current, total) {{
+      if (total <= 7) return Array.from({{ length: total }}, (_, index) => index + 1);
+      if (current <= 3) return [1, 2, 3, 4, "ellipsis", total];
+      if (current >= total - 2) return [1, "ellipsis", total - 3, total - 2, total - 1, total];
+      return [1, "ellipsis", current - 1, current, current + 1, "ellipsis", total];
+    }}
+    function renderPager(pages) {{
+      const focused = document.activeElement;
+      const focusStep = focused && focused.dataset ? focused.dataset.step : "";
+      const focusPage = focused && focused.dataset && focused.dataset.page;
+      const items = [
+        '<li><button type="button" class="step" data-step="prev"' + (page <= 1 ? " disabled" : "") + ' aria-label="Go to previous page">' + chevronLeft + '<span class="step-label">Previous</span></button></li>'
+      ];
+      pageItems(page, pages).forEach((item) => {{
+        if (item === "ellipsis") {{
+          items.push('<li><span class="ellipsis">' + ellipsisIcon + '<span class="sr-only">More pages</span></span></li>');
+          return;
+        }}
+        const current = item === page ? ' aria-current="page"' : "";
+        items.push('<li><button type="button" data-page="' + item + '"' + current + ' aria-label="Page ' + item + '">' + item + "</button></li>");
+      }});
+      items.push('<li><button type="button" class="step" data-step="next"' + (page >= pages ? " disabled" : "") + ' aria-label="Go to next page"><span class="step-label">Next</span>' + chevronRight + "</button></li>");
+      pagerListEl.innerHTML = items.join("");
+      if (focusStep) {{
+        const next = pagerListEl.querySelector('[data-step="' + focusStep + '"]');
+        if (next && !next.disabled) next.focus();
+      }} else if (focusPage) {{
+        const next = pagerListEl.querySelector('[aria-current="page"]');
+        if (next) next.focus();
+      }}
     }}
     function applyFilters() {{
       const year = selectedYear();
@@ -718,12 +768,11 @@ def page(rows, built_at):
         ? total + " " + (total === 1 ? "publication" : "publications") + " · " + yearLabel + " · snapshot {escape(built_at)}"
         : shown + " of " + total + " " + noun + " · " + yearLabel + (goalLabel ? " · " + goalLabel : "") + " · snapshot {escape(built_at)}";
       emptyEl.style.display = shown ? "none" : "block";
-      pagerEl.hidden = shown === 0;
+      footEl.hidden = shown === 0;
       const from = shown ? start + 1 : 0;
       const to = Math.min(start + size, shown);
-      pageStatusEl.textContent = shown ? from + "–" + to + " of " + shown : "";
-      pagePrevEl.disabled = page <= 1;
-      pageNextEl.disabled = page >= pages;
+      pageStatusEl.textContent = shown ? "Showing " + from + "–" + to + " of " + shown : "";
+      if (shown) renderPager(pages);
     }}
     document.getElementById("sdg").addEventListener("change", () => {{
       closeModal();
@@ -740,14 +789,13 @@ def page(rows, built_at):
       page = 1;
       applyFilters();
     }});
-    pagePrevEl.addEventListener("click", () => {{
+    pagerEl.addEventListener("click", (event) => {{
+      const button = event.target.closest("button");
+      if (!button || button.disabled) return;
       closeModal();
-      page -= 1;
-      applyFilters();
-    }});
-    pageNextEl.addEventListener("click", () => {{
-      closeModal();
-      page += 1;
+      if (button.dataset.step === "prev") page -= 1;
+      else if (button.dataset.step === "next") page += 1;
+      else if (button.dataset.page) page = Number(button.dataset.page);
       applyFilters();
     }});
     applyFilters();
