@@ -7,7 +7,11 @@
     ["Journal / Conference", (row) => row.venue || ""],
     ["Sponsor / Publisher", (row) => row.sponsor || ""],
     ["Database", () => ""],
-    ["Indexing", () => ""],
+    ["Indexing", (row) => (row.indexes || []).map((id) => ({
+      scopus: "Scopus",
+      wos: "Web of Science",
+      aci: "Asian Citation Index"
+    }[id] || "")).filter(Boolean).join("; ")],
     ["Ranking / JIF", () => ""],
     ["ISSN / ISBN", (row) => row.issn || ""],
     ["Status", () => "Published"],

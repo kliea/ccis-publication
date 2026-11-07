@@ -23,7 +23,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11727995",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4405305782",
@@ -54,7 +55,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4385893275",
@@ -89,7 +91,8 @@
           "number": 8,
           "name": "Decent work and economic growth"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183991",
@@ -124,7 +127,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223649811",
@@ -150,7 +154,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11728128",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7129070624",
@@ -185,7 +190,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223707606",
@@ -216,7 +222,8 @@
           "number": 3,
           "name": "Good health and well-being"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399346536",
@@ -255,7 +262,8 @@
           "number": 16,
           "name": "Peace, justice, and strong institutions"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117430006",
@@ -294,7 +302,8 @@
           "number": 6,
           "name": "Clean water and sanitation"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117414096",
@@ -333,7 +342,8 @@
           "number": 16,
           "name": "Peace, justice, and strong institutions"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117414459",
@@ -368,7 +378,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399561421",
@@ -395,7 +406,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4409814301",
@@ -426,7 +438,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4410782914",
@@ -448,7 +461,11 @@
       "year": 2025,
       "charge": "3390 USD",
       "doi": "https://doi.org/10.1007/s11760-025-04247-9",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
     },
     {
       "id": "W7223665046",
@@ -474,7 +491,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11727991",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7116644362",
@@ -496,7 +514,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395731",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117198710",
@@ -555,7 +574,8 @@
           "number": 12,
           "name": "Responsible consumption and production"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4401809846",
@@ -602,6 +622,9 @@
           "number": 17,
           "name": "Partnerships for the goals"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -637,7 +660,8 @@
           "number": 2,
           "name": "Zero hunger"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223703937",
@@ -668,7 +692,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183789",
@@ -706,7 +731,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222270",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4404980709",
@@ -733,6 +759,9 @@
           "number": 8,
           "name": "Decent work and economic growth"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -763,7 +792,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1109/icesc60852.2024.10690039",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4409642669",
@@ -797,7 +827,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1109/emergin63207.2024.10961757",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7202292973",
@@ -848,7 +879,8 @@
           "number": 12,
           "name": "Responsible consumption and production"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7154447776",
@@ -887,7 +919,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4400052207",
@@ -914,7 +947,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117408583",
@@ -944,7 +978,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395575",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4323341688",
@@ -982,7 +1017,11 @@
       "year": 2023,
       "charge": "",
       "doi": "https://doi.org/10.14569/ijacsa.2023.0140240",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
     },
     {
       "id": "W4407215336",
@@ -1004,7 +1043,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1109/gccit63234.2024.10861902",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7223690887",
@@ -1059,7 +1099,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183502",
@@ -1077,7 +1118,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222250",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7223679372",
@@ -1099,7 +1141,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11728162",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7140531245",
@@ -1142,7 +1185,8 @@
           "number": 3,
           "name": "Good health and well-being"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399741754",
@@ -1173,7 +1217,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223676871",
@@ -1212,7 +1257,8 @@
           "number": 13,
           "name": "Climate action"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4404232722",
@@ -1239,7 +1285,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4409814068",
@@ -1286,7 +1333,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183453",
@@ -1316,7 +1364,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222214",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7161113508",
@@ -1343,7 +1392,8 @@
           "number": 3,
           "name": "Good health and well-being"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7129064195",
@@ -1382,7 +1432,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117487135",
@@ -1429,7 +1480,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223663964",
@@ -1452,7 +1504,8 @@
           "number": 2,
           "name": "Zero hunger"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223675037",
@@ -1486,7 +1539,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11728154",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4415690936",
@@ -1504,7 +1558,10 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.18178/joig.13.5.528-539",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
     },
     {
       "id": "W4399802615",
@@ -1535,7 +1592,8 @@
           "number": 10,
           "name": "Reduced inequalities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4414638189",
@@ -1574,6 +1632,9 @@
           "number": 10,
           "name": "Reduced inequalities"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -1601,7 +1662,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7155527169",
@@ -1639,7 +1701,10 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1007/978-3-032-15820-8_44",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
     },
     {
       "id": "W7164929680",
@@ -1666,7 +1731,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4412036207",
@@ -1692,7 +1758,11 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.14569/ijacsa.2025.0160666",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": [
+        "scopus",
+        "wos"
+      ]
     },
     {
       "id": "W7117406033",
@@ -1723,7 +1793,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7126271071",
@@ -1766,7 +1837,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7126199609",
@@ -1809,7 +1881,8 @@
           "number": 15,
           "name": "Life on land"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117415465",
@@ -1839,7 +1912,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395667",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7164895908",
@@ -1877,7 +1951,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.54610/aeis.v1i2.206",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7223675474",
@@ -1899,7 +1974,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11727992",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7164015910",
@@ -1949,7 +2025,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/icdabi67967.2025.11547745",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4413289973",
@@ -1980,7 +2057,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223693491",
@@ -2027,7 +2105,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223669893",
@@ -2058,7 +2137,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4408291372",
@@ -2080,7 +2160,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1145/3711650.3711658",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4396233551",
@@ -2110,7 +2191,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1016/j.procs.2024.03.177",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7223664344",
@@ -2145,7 +2227,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117411148",
@@ -2188,7 +2271,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117430098",
@@ -2223,7 +2307,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223651294",
@@ -2253,7 +2338,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11728087",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4414210124",
@@ -2300,6 +2386,10 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
+      ],
+      "indexes": [
+        "scopus",
+        "wos"
       ]
     },
     {
@@ -2339,7 +2429,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4392942593",
@@ -2386,7 +2477,8 @@
           "number": 16,
           "name": "Peace, justice, and strong institutions"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4404653512",
@@ -2416,7 +2508,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.5109/7323283",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117405683",
@@ -2471,7 +2564,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4412699591",
@@ -2502,6 +2596,9 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -2528,7 +2625,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11727970",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117410200",
@@ -2558,7 +2656,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395711",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117423702",
@@ -2584,7 +2683,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395564",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4400259371",
@@ -2611,7 +2711,8 @@
           "number": 8,
           "name": "Decent work and economic growth"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4400648830",
@@ -2641,7 +2742,8 @@
       "year": 2023,
       "charge": "",
       "doi": "https://doi.org/10.1109/hnicem60674.2023.10589058",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117416135",
@@ -2672,7 +2774,8 @@
           "number": 3,
           "name": "Good health and well-being"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4407044971",
@@ -2711,6 +2814,9 @@
           "number": 16,
           "name": "Peace, justice, and strong institutions"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -2749,7 +2855,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222271",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4414604479",
@@ -2784,7 +2891,8 @@
           "number": 2,
           "name": "Zero hunger"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223701926",
@@ -2815,7 +2923,8 @@
           "number": 3,
           "name": "Good health and well-being"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117422851",
@@ -2845,7 +2954,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395765",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117418055",
@@ -2871,7 +2981,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395598",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7161275162",
@@ -2902,7 +3013,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223694553",
@@ -2924,7 +3036,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11727942",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117411382",
@@ -2950,7 +3063,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395650",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4399167997",
@@ -2981,7 +3095,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4402353157",
@@ -3024,7 +3139,8 @@
           "number": 3,
           "name": "Good health and well-being"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7143487757",
@@ -3050,7 +3166,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/emergin67762.2025.11450603",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7223686872",
@@ -3108,7 +3225,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11727983",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4409814014",
@@ -3147,7 +3265,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223707453",
@@ -3177,7 +3296,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11728137",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7223672057",
@@ -3204,7 +3324,8 @@
           "number": 16,
           "name": "Peace, justice, and strong institutions"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399766751",
@@ -3226,7 +3347,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.48175/ijarsct-18906",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4405853754",
@@ -3257,6 +3379,9 @@
           "number": 6,
           "name": "Clean water and sanitation"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -3283,7 +3408,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395573",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4399561321",
@@ -3314,7 +3440,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117412380",
@@ -3353,7 +3480,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399671479",
@@ -3380,7 +3508,8 @@
           "number": 8,
           "name": "Decent work and economic growth"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4409730774",
@@ -3415,7 +3544,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4403447684",
@@ -3446,7 +3576,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223708690",
@@ -3481,7 +3612,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7154890200",
@@ -3524,6 +3656,9 @@
           "number": 16,
           "name": "Peace, justice, and strong institutions"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -3575,7 +3710,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117408229",
@@ -3605,7 +3741,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395551",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7130690801",
@@ -3640,7 +3777,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4392391440",
@@ -3671,6 +3809,9 @@
           "number": 4,
           "name": "Quality education"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -3710,7 +3851,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183258",
@@ -3744,7 +3886,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222340",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7202251209",
@@ -3771,7 +3914,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4388333467",
@@ -3793,7 +3937,10 @@
       "year": 2023,
       "charge": "5000 EUR",
       "doi": "https://doi.org/10.1007/978-3-031-47665-5_24",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
     },
     {
       "id": "W7223686571",
@@ -3832,7 +3979,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117414915",
@@ -3858,7 +4006,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395506",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7160917647",
@@ -3905,7 +4054,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416964640",
@@ -3936,7 +4086,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183895",
@@ -3974,7 +4125,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222293",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4416183305",
@@ -4000,7 +4152,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222152",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117419360",
@@ -4039,7 +4192,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223673222",
@@ -4074,7 +4228,8 @@
           "number": 2,
           "name": "Zero hunger"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117412555",
@@ -4125,7 +4280,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7143280608",
@@ -4147,7 +4303,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/emergin67762.2025.11450593",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4407639441",
@@ -4169,7 +4326,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1109/icbir61386.2024.10875050",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7126179960",
@@ -4207,7 +4365,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/iconat66879.2025.11362733",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4405633325",
@@ -4229,7 +4388,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1109/icdabi63787.2024.10800425",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7204690283",
@@ -4268,6 +4428,10 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
+      ],
+      "indexes": [
+        "scopus",
+        "wos"
       ]
     },
     {
@@ -4298,7 +4462,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1109/iraset60544.2024.10548301",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7223657489",
@@ -4328,7 +4493,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11728212",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4399256525",
@@ -4363,7 +4529,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7171688828",
@@ -4390,7 +4557,8 @@
           "number": 6,
           "name": "Clean water and sanitation"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7214486419",
@@ -4437,7 +4605,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117416931",
@@ -4476,7 +4645,8 @@
           "number": 16,
           "name": "Peace, justice, and strong institutions"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183846",
@@ -4511,7 +4681,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7163928198",
@@ -4558,7 +4729,8 @@
           "number": 12,
           "name": "Responsible consumption and production"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4404232644",
@@ -4593,7 +4765,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117422678",
@@ -4619,7 +4792,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395601",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117420300",
@@ -4654,7 +4828,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117408388",
@@ -4696,7 +4871,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395503",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7161141339",
@@ -4723,7 +4899,8 @@
           "number": 10,
           "name": "Reduced inequalities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223699137",
@@ -4762,7 +4939,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4411996183",
@@ -4809,7 +4987,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4392551991",
@@ -4840,7 +5019,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223650496",
@@ -4883,7 +5063,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183668",
@@ -4901,7 +5082,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222241",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7171523367",
@@ -4932,6 +5114,10 @@
           "number": 2,
           "name": "Zero hunger"
         }
+      ],
+      "indexes": [
+        "scopus",
+        "wos"
       ]
     },
     {
@@ -4963,7 +5149,8 @@
           "number": 2,
           "name": "Zero hunger"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117408912",
@@ -5006,7 +5193,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7163739855",
@@ -5033,6 +5221,10 @@
           "number": 3,
           "name": "Good health and well-being"
         }
+      ],
+      "indexes": [
+        "scopus",
+        "wos"
       ]
     },
     {
@@ -5076,7 +5268,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416964446",
@@ -5106,7 +5299,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1109/hnicem64917.2024.11258738",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7223657697",
@@ -5133,7 +5327,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223670475",
@@ -5155,7 +5350,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11728014",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4416183304",
@@ -5202,7 +5398,8 @@
           "number": 8,
           "name": "Decent work and economic growth"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4412959099",
@@ -5261,6 +5458,9 @@
           "number": 4,
           "name": "Quality education"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -5291,7 +5491,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395692",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4416183292",
@@ -5317,7 +5518,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222308",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4319166351",
@@ -5355,7 +5557,8 @@
       "year": 2023,
       "charge": "",
       "doi": "https://doi.org/10.46338/ijetae0223_07",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4399354841",
@@ -5382,7 +5585,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4386814757",
@@ -5420,7 +5624,8 @@
       "year": 2023,
       "charge": "",
       "doi": "https://doi.org/10.46338/ijetae0923_03",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7161294593",
@@ -5451,7 +5656,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183440",
@@ -5486,7 +5692,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223662422",
@@ -5525,7 +5732,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4394713132",
@@ -5552,7 +5760,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399802656",
@@ -5574,7 +5783,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.48175/ijarsct-18910",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4404371232",
@@ -5601,7 +5811,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416963900",
@@ -5627,7 +5838,8 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.1109/hnicem64917.2024.11258642",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117416795",
@@ -5662,7 +5874,8 @@
           "number": 10,
           "name": "Reduced inequalities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4386790118",
@@ -5688,7 +5901,10 @@
       "year": 2023,
       "charge": "5000 EUR",
       "doi": "https://doi.org/10.1007/978-3-031-43129-6_29",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
     },
     {
       "id": "W4403060724",
@@ -5731,7 +5947,8 @@
           "number": 8,
           "name": "Decent work and economic growth"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7161132407",
@@ -5762,7 +5979,8 @@
           "number": 10,
           "name": "Reduced inequalities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7161067829",
@@ -5809,6 +6027,9 @@
           "number": 16,
           "name": "Peace, justice, and strong institutions"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -5835,7 +6056,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap68205.2025.11222335",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W4416183282",
@@ -5870,7 +6092,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4416183214",
@@ -5905,7 +6128,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223663268",
@@ -5936,7 +6160,8 @@
           "number": 10,
           "name": "Reduced inequalities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399260156",
@@ -5963,7 +6188,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399491043",
@@ -5990,7 +6216,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399325217",
@@ -6021,7 +6248,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223673226",
@@ -6047,7 +6275,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11728126",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7223936356",
@@ -6082,7 +6311,8 @@
           "number": 3,
           "name": "Good health and well-being"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223677118",
@@ -6104,7 +6334,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/idap71869.2026.11728017",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7161028100",
@@ -6126,7 +6357,10 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1007/978-3-032-13119-5_33",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
     },
     {
       "id": "W4399705918",
@@ -6161,7 +6395,8 @@
           "number": 12,
           "name": "Responsible consumption and production"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4413095945",
@@ -6183,7 +6418,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.1109/icera66156.2025.11087280",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7140706621",
@@ -6226,7 +6462,8 @@
           "number": 11,
           "name": "Sustainable cities and communities"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399274105",
@@ -6253,7 +6490,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117413719",
@@ -6275,7 +6513,8 @@
       "year": 2025,
       "charge": "",
       "doi": "https://doi.org/10.5109/7395654",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7117413702",
@@ -6314,7 +6553,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4399324892",
@@ -6341,7 +6581,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117417340",
@@ -6376,7 +6617,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7163901591",
@@ -6414,7 +6656,8 @@
       "year": 2026,
       "charge": "",
       "doi": "https://doi.org/10.1109/iraset68627.2026.11538472",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": []
     },
     {
       "id": "W7164324276",
@@ -6445,6 +6688,9 @@
           "number": 4,
           "name": "Quality education"
         }
+      ],
+      "indexes": [
+        "scopus"
       ]
     },
     {
@@ -6488,7 +6734,8 @@
           "number": 16,
           "name": "Peace, justice, and strong institutions"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7163885807",
@@ -6543,7 +6790,8 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7161346479",
@@ -6574,7 +6822,8 @@
           "number": 2,
           "name": "Zero hunger"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4386522438",
@@ -6605,7 +6854,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117412400",
@@ -6632,7 +6882,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W4401462927",
@@ -6654,7 +6905,10 @@
       "year": 2024,
       "charge": "",
       "doi": "https://doi.org/10.14445/22315381/ijett-v72i7p142",
-      "sdgs": []
+      "sdgs": [],
+      "indexes": [
+        "scopus"
+      ]
     },
     {
       "id": "W7117419884",
@@ -6689,7 +6943,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7117413100",
@@ -6728,7 +6983,8 @@
           "number": 9,
           "name": "Industry, innovation and infrastructure"
         }
-      ]
+      ],
+      "indexes": []
     },
     {
       "id": "W7223672956",
@@ -6755,7 +7011,13 @@
           "number": 4,
           "name": "Quality education"
         }
-      ]
+      ],
+      "indexes": []
     }
-  ]
+  ],
+  "index_sources": {
+    "scopus": "Elsevier Scopus source list, July 2026; counted when the publication year is inside the source coverage",
+    "wos": "Clarivate Web of Science Core Collection SCIE, SSCI, AHCI, and ESCI, August 2026",
+    "aci": "ASEAN Citation Index annex of journal titles, matched to the venue title"
+  }
 }

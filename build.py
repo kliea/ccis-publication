@@ -383,6 +383,7 @@ def row_from(work):
         "charge": charge(work),
         "doi": link_of(work),
         "sdgs": sdgs_of(work),
+        "indexes": [],
     }
 
 
@@ -438,6 +439,30 @@ def cell(value):
     return escape(value)
 
 
+INDEX_LABELS = (
+    ("scopus", "Scopus"),
+    ("wos", "Web of Science"),
+    ("aci", "Asian Citation Index"),
+)
+
+
+def index_text(row):
+    found = set(row.get("indexes") or [])
+    return "; ".join(name for key, name in INDEX_LABELS if key in found)
+
+
+def carry_indexes(rows):
+    path = SITE / "snapshot.json"
+    if not path.exists():
+        return rows
+    previous = json.loads(path.read_text()).get("rows") or []
+    saved = {row.get("id"): row.get("indexes") or [] for row in previous}
+    for row in rows:
+        if not row.get("indexes"):
+            row["indexes"] = list(saved.get(row.get("id")) or [])
+    return rows
+
+
 def link_cell(doi):
     if not doi:
         return '<span class="blank">—</span>'
@@ -480,7 +505,7 @@ def page(rows, built_at):
             f"<td>{cell(row['venue'])}</td>"
             f"<td>{cell(row['sponsor'])}</td>"
             '<td><span class="blank">—</span></td>'
-            '<td><span class="blank">—</span></td>'
+            f"<td>{cell(index_text(row))}</td>"
             '<td><span class="blank">—</span></td>'
             f"<td>{cell(row['issn'])}</td>"
             "<td>Published</td>"
@@ -560,6 +585,8 @@ def page(rows, built_at):
     .modal-close {{ float: right; font: 13px/1 ui-sans-serif, system-ui, sans-serif; background: white; border: 1px solid #1c1915; padding: 6px 10px; cursor: pointer; }}
     .ruled {{ border-bottom: 1px solid #d9d2c5; padding: 8px 0; display: grid; grid-template-columns: 180px 1fr; gap: 12px; font: 14px/1.4 ui-sans-serif, system-ui, sans-serif; }}
     .ruled span {{ color: #5c564c; }}
+    .kpi-head {{ margin: 18px 0 0; font: 600 13px/1.4 ui-sans-serif, system-ui, sans-serif; color: #5c564c; }}
+    #kpi[hidden] {{ display: none; }}
   </style>
 </head>
 <body>
@@ -570,6 +597,7 @@ def page(rows, built_at):
     <div class="filters">
       <label for="year">Year</label>
       <select id="year">{year_options(rows)}</select>
+      <button type="button" id="kpi" hidden>KPI</button>
       <label for="sdg">SDG</label>
       <select id="sdg">{sdg_options(rows)}</select>
       <button type="button" id="export-excel">Export Excel</button>
@@ -627,6 +655,10 @@ def page(rows, built_at):
         "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
       }}[ch]));
     }}
+    const indexNames = {{ scopus: "Scopus", wos: "Web of Science", aci: "Asian Citation Index" }};
+    function indexText(row) {{
+      return (row.indexes || []).map((id) => indexNames[id]).filter(Boolean).join("; ");
+    }}
     function authors(list) {{
       return list.map((author) => {{
         const name = escapeHtml(author.name);
@@ -644,7 +676,7 @@ def page(rows, built_at):
         ["Journal / Conference", blank(row.venue)],
         ["Sponsor / Publisher", blank(row.sponsor)],
         ["Database", blank("")],
-        ["Indexing", blank("")],
+        ["Indexing", indexText(row) ? escapeHtml(indexText(row)) : blank("")],
         ["Ranking / JIF", blank("")],
         ["ISSN / ISBN", blank(row.issn)],
         ["Status", "Published"],
@@ -659,6 +691,50 @@ def page(rows, built_at):
       return lines.map(([label, value]) =>
         '<div class="ruled"><span>' + label + '</span><div>' + value + '</div></div>'
       ).join("");
+    }}
+    const YEAR_TARGET = 36;
+    const INDEXES = [
+      ["scopus", "Scopus"],
+      ["wos", "Web of Science"],
+      ["aci", "Asian Citation Index"]
+    ];
+    function openKpi(year) {{
+      closeModal();
+      const yearRows = rows.filter((row) => row.year === year);
+      const counts = {{ scopus: 0, wos: 0, aci: 0 }};
+      yearRows.forEach((row) => {{
+        (row.indexes || []).forEach((id) => {{
+          if (Object.prototype.hasOwnProperty.call(counts, id)) counts[id] += 1;
+        }});
+      }});
+      const published = yearRows.length;
+      const remaining = Math.max(0, YEAR_TARGET - published);
+      const performance = (published / YEAR_TARGET * 100).toFixed(2) + "%";
+      const lines = [
+        ["Published", String(published)],
+        ["Target", String(YEAR_TARGET)],
+        ["Remaining Target", String(remaining)],
+        ["Performance Status", performance]
+      ];
+      const indexLines = INDEXES.map(([id, name]) => [name, String(counts[id])]);
+      const body = lines.concat(indexLines).map(([label, value], index) => {{
+        const head = index === lines.length ? '<h3 class="kpi-head">Indexing</h3>' : "";
+        return head + '<div class="ruled"><span>' + label + '</span><div>' + value + '</div></div>';
+      }}).join("");
+      const back = document.createElement("div");
+      back.className = "modal-back";
+      back.innerHTML = '<div class="modal" role="dialog" aria-modal="true" aria-labelledby="kpi-title">'
+        + '<button type="button" class="modal-close">Close</button>'
+        + '<h2 id="kpi-title">' + year + ' KPI</h2>'
+        + body
+        + '</div>';
+      document.body.appendChild(back);
+      const close = back.querySelector(".modal-close");
+      close.addEventListener("click", closeModal);
+      close.focus();
+      back.addEventListener("click", (event) => {{
+        if (event.target === back) closeModal();
+      }});
     }}
     function closeModal() {{
       const back = document.querySelector(".modal-back");
@@ -708,6 +784,7 @@ def page(rows, built_at):
       if (key === "venue") return row.venue || "";
       if (key === "sponsor") return row.sponsor || "";
       if (key === "issn") return row.issn || "";
+      if (key === "indexing") return indexText(row);
       if (key === "status") return "Published";
       if (key === "date") return row.date || "";
       if (key === "charge") return row.charge || "";
@@ -839,6 +916,7 @@ def page(rows, built_at):
       const to = Math.min(start + size, shown);
       pageStatusEl.textContent = shown ? "Showing " + from + "–" + to + " of " + shown : "";
       if (shown) renderPager(pages);
+      document.getElementById("kpi").hidden = selectedYear() === null;
     }}
     document.getElementById("sdg").addEventListener("change", () => {{
       closeModal();
@@ -849,6 +927,10 @@ def page(rows, built_at):
       closeModal();
       page = 1;
       applyFilters();
+    }});
+    document.getElementById("kpi").addEventListener("click", () => {{
+      const year = selectedYear();
+      if (year !== null) openKpi(year);
     }});
     document.getElementById("page-size").addEventListener("change", () => {{
       closeModal();
@@ -897,7 +979,7 @@ def page(rows, built_at):
 
 def main():
     works = fetch_works(BOUND_IDS | search_unchecked())
-    rows = build_rows(works)
+    rows = carry_indexes(build_rows(works))
     built_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     SITE.mkdir(exist_ok=True)
     snapshot = {
