@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!--
+PROTOTYPE — throwaway. Not the site.
+Three variants of the publication table, switchable via ?variant=, on this file.
+A — Ledger with a detail modal. B — Record sheets. C — List and detail.
+The chosen screen is A: the ledger, and a row opens its detail in a modal.
+Row order is not decided. This screen uses date, then title, so the columns can be seen.
+Row 2 is a shape sample so an unmarked outside author is visible. It is not an OpenAlex record.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Prototype — publication table</title>
+  <style>
+    :root { color-scheme: light; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font: 15px/1.4 "Iowan Old Style", Palatino, Georgia, serif; color: #1c1915; background: #f4f0e6; }
+    .banner { background: #1c1915; color: #f4f0e6; padding: 8px 16px; font: 12px/1.3 ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.04em; }
+    main { padding: 24px 16px 96px; max-width: 1200px; margin: 0 auto; }
+    h1 { font-size: 22px; font-weight: 600; margin: 0 0 4px; }
+    .sub { margin: 0 0 20px; color: #5c564c; font-size: 14px; }
+    table { width: 100%; border-collapse: collapse; font: 12px/1.35 ui-sans-serif, system-ui, sans-serif; background: white; }
+    th, td { border: 1px solid #d9d2c5; padding: 6px 8px; vertical-align: top; text-align: left; }
+    th { background: #ebe4d6; font-weight: 650; white-space: nowrap; }
+    .scroll { overflow-x: auto; border: 1px solid #1c1915; }
+    .blank { color: #a39c90; }
+    mark, .roster { font-weight: 700; background: transparent; color: inherit; }
+    a { color: #1d4e89; }
+    .sheet { background: white; border: 1px solid #1c1915; padding: 20px 22px; margin: 0 0 16px; }
+    .sheet h2 { font-size: 20px; margin: 0 0 8px; font-weight: 600; }
+    .byline { margin: 0 0 14px; }
+    .tag { font: 11px/1 ui-sans-serif, system-ui, sans-serif; border: 1px solid #1c1915; padding: 1px 5px; margin-left: 4px; vertical-align: 1px; }
+    dl { display: grid; grid-template-columns: 160px 1fr; gap: 6px 12px; margin: 0; font: 14px/1.35 ui-sans-serif, system-ui, sans-serif; }
+    dt { color: #5c564c; }
+    dd { margin: 0; }
+    .split { display: grid; grid-template-columns: 280px 1fr; gap: 16px; min-height: 420px; }
+    .index { background: white; border: 1px solid #1c1915; }
+    .index button { display: block; width: 100%; text-align: left; background: white; border: 0; border-bottom: 1px solid #d9d2c5; padding: 12px 14px; font: 14px/1.3 ui-sans-serif, system-ui, sans-serif; color: inherit; cursor: pointer; }
+    .index button[aria-current="true"] { background: #1c1915; color: #f4f0e6; }
+    .detail { background: white; border: 1px solid #1c1915; padding: 22px; }
+    .detail h2 { margin: 0 0 16px; font-size: 26px; }
+    .ruled { border-bottom: 1px solid #d9d2c5; padding: 8px 0; display: grid; grid-template-columns: 180px 1fr; gap: 12px; font: 14px/1.35 ui-sans-serif, system-ui, sans-serif; }
+    tr[data-open] { cursor: pointer; }
+    tr[data-open]:hover td { background: #f7f3ea; }
+    .modal-back { position: fixed; inset: 0; background: rgba(28, 25, 21, .45); z-index: 20; display: flex; align-items: flex-start; justify-content: center; padding: 48px 16px; }
+    .modal { background: white; border: 1px solid #1c1915; max-width: 720px; width: 100%; padding: 22px; max-height: calc(100vh - 96px); overflow: auto; }
+    .modal h2 { margin: 0 0 16px; font-size: 26px; }
+    .modal-close { float: right; font: 13px/1 ui-sans-serif, system-ui, sans-serif; background: white; border: 1px solid #1c1915; padding: 6px 10px; cursor: pointer; }
+    .switcher { position: fixed; left: 50%; bottom: 16px; transform: translateX(-50%); display: flex; align-items: center; gap: 8px; background: #111; color: white; border-radius: 999px; padding: 8px 10px; font: 13px/1 ui-sans-serif, system-ui, sans-serif; box-shadow: 0 8px 24px rgba(0,0,0,.25); z-index: 30; }
+    .switcher button { background: transparent; color: white; border: 1px solid #444; border-radius: 999px; width: 32px; height: 32px; cursor: pointer; }
+    .state { position: fixed; right: 12px; bottom: 16px; max-width: 280px; background: white; border: 1px solid #1c1915; padding: 8px 10px; font: 11px/1.35 ui-sans-serif, system-ui, sans-serif; }
+    @media (max-width: 800px) { .split { grid-template-columns: 1fr; } .state { display: none; } }
+  </style>
+</head>
+<body>
+  <div class="banner">PROTOTYPE — throwaway. Flip variants with the bar. This is not the site.</div>
+  <main id="app"></main>
+  <div class="switcher" id="switcher">
+    <button type="button" id="prev" aria-label="Previous variant">←</button>
+    <span id="label"></span>
+    <button type="button" id="next" aria-label="Next variant">→</button>
+  </div>
+  <aside class="state" id="state"></aside>
+  <script>
+    const variants = [
+      { key: "A", name: "Ledger with detail" },
+      { key: "B", name: "Record sheets" },
+      { key: "C", name: "List and detail" }
+    ];
+    const rows = [
+      {
+        sample: false,
+        authors: [
+          { name: "John Mark Correa", roster: true },
+          { name: "Rudolph Joshua Candare", roster: true },
+          { name: "Junrie B. Matias", roster: true }
+        ],
+        title: "Deep Reinforcement Learning Based Robotic Arm Control Simulation to Execute Object Reaching Task for Industrial Application",
+        venue: "International Journal of Advanced Computer Science and Applications",
+        sponsor: "Science and Information Organization; Science Education Institute, Department of Science and Technology, Republic of the Philippines",
+        issn: "2156-5570",
+        date: "2025-01-01",
+        charge: "",
+        doi: "https://doi.org/10.14569/ijacsa.2025.0160666"
+      },
+      {
+        sample: true,
+        authors: [
+          { name: "Junrie B. Matias", roster: true },
+          { name: "Outside Coauthor", roster: false }
+        ],
+        title: "Shape sample, not a catalog record — shows an unmarked author beside a marked roster name",
+        venue: "Sample Conference Proceedings",
+        sponsor: "",
+        issn: "",
+        date: "2025-06-15",
+        charge: "",
+        doi: ""
+      }
+    ];
+    const blank = ["Database", "Indexing", "Ranking / JIF", "ISBN"];
+    const cells = (row) => [
+      ["Author/s", null],
+      ["Title", row.title],
+      ["Journal / Conference", row.venue],
+      ["Sponsor / Publisher", row.sponsor],
+      ["Database", ""],
+      ["Indexing", ""],
+      ["Ranking / JIF", ""],
+      ["ISSN / ISBN", row.issn],
+      ["Status", "Published"],
+      ["Date", row.date],
+      ["Publication Charge", row.charge],
+      ["Link / DOI", row.doi]
+    ];
+    const show = (value) => value ? escapeHtml(value) : '<span class="blank">—</span>';
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+    }
+    function byline(authors, mode) {
+      return authors.map((a) => {
+        if (!a.roster) return escapeHtml(a.name);
+        if (mode === "tag") return `<strong>${escapeHtml(a.name)}</strong><span class="tag">roster</span>`;
+        if (mode === "plain") return `<strong class="roster">${escapeHtml(a.name)}</strong>`;
+        return `<mark>${escapeHtml(a.name)}</mark>`;
+      }).join(", ");
+    }
+    function detailLines(row) {
+      return cells(row).map(([k, v]) => `<div class="ruled"><div>${k}</div><div>${k === "Author/s" ? byline(row.authors, "plain") : (k === "Link / DOI" && v ? `<a href="${escapeHtml(v)}">${escapeHtml(v)}</a>` : show(v))}</div></div>`).join("");
+    }
+    function modal(row) {
+      if (!row) return "";
+      return `<div class="modal-back" id="modal-back"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button type="button" class="modal-close" id="modal-close">Close</button><h2 id="modal-title">${escapeHtml(row.title)}</h2>${detailLines(row)}</div></div>`;
+    }
+    function ledger() {
+      const heads = ["No.", ...cells(rows[0]).map(([k]) => k)];
+      const body = rows.map((row, i) => {
+        const vals = cells(row).map(([k, v]) => k === "Author/s" ? byline(row.authors, "bold") : (k === "Link / DOI" && v ? `<a href="${escapeHtml(v)}">${escapeHtml(v)}</a>` : show(v)));
+        return `<tr data-open="${i}"><td>${i + 1}</td>${vals.map((v) => `<td>${v}</td>`).join("")}</tr>`;
+      }).join("");
+      const open = modalRow === null ? "" : modal(rows[modalRow]);
+      return `<h1>2025 publications</h1><p class="sub">One row is one publication. Click a row to open its detail.</p><div class="scroll"><table><thead><tr>${heads.map((h) => `<th>${h}</th>`).join("")}</tr></thead><tbody>${body}</tbody></table></div>${open}`;
+    }
+    function sheets() {
+      return `<h1>2025 publications</h1><p class="sub">Each publication is its own sheet. The title leads.</p>` + rows.map((row, i) => {
+        const meta = cells(row).filter(([k]) => k !== "Title" && k !== "Author/s");
+        return `<article class="sheet"><p class="sub">${row.sample ? "Shape sample" : "Catalog record"} · ${i + 1}</p><h2>${escapeHtml(row.title)}</h2><p class="byline">${byline(row.authors, "tag")}</p><dl>${meta.map(([k, v]) => `<dt>${k}</dt><dd>${k === "Link / DOI" && v ? `<a href="${escapeHtml(v)}">${escapeHtml(v)}</a>` : show(v)}</dd>`).join("")}</dl></article>`;
+      }).join("");
+    }
+    function listDetail(selected) {
+      const row = rows[selected];
+      const buttons = rows.map((r, i) => `<button type="button" data-row="${i}" ${i === selected ? 'aria-current="true"' : ""}>${escapeHtml(r.date)}<br>${escapeHtml(r.title)}</button>`).join("");
+      return `<h1>2025 publications</h1><p class="sub">Pick a title. The full row opens beside it.</p><div class="split"><div class="index">${buttons}</div><article class="detail"><h2>${escapeHtml(row.title)}</h2>${detailLines(row)}</article></div>`;
+    }
+    let selected = 0;
+    let modalRow = null;
+    function currentKey() {
+      const q = new URLSearchParams(location.search).get("variant");
+      return variants.some((v) => v.key === q) ? q : "A";
+    }
+    function render() {
+      const key = currentKey();
+      const variant = variants.find((v) => v.key === key);
+      const app = document.getElementById("app");
+      app.innerHTML = key === "A" ? ledger() : key === "B" ? sheets() : listDetail(selected);
+      document.getElementById("label").textContent = `${key} — ${variant.name}`;
+      document.getElementById("state").innerHTML = `<strong>State</strong><br>variant ${key} — ${variant.name}<br>rows ${rows.length}<br>selected ${selected + 1}<br>modal ${modalRow === null ? "closed" : "open on row " + (modalRow + 1)}<br>order provisional: date, then title<br>blank: ${blank.join(", ")}<br>marked: roster names`;
+      app.querySelectorAll("[data-row]").forEach((btn) => {
+        btn.addEventListener("click", () => { selected = Number(btn.dataset.row); render(); });
+      });
+      app.querySelectorAll("[data-open]").forEach((tr) => {
+        tr.addEventListener("click", (e) => {
+          if (e.target.closest("a")) return;
+          modalRow = Number(tr.dataset.open);
+          render();
+        });
+      });
+      const close = document.getElementById("modal-close");
+      const back = document.getElementById("modal-back");
+      if (close) close.addEventListener("click", () => { modalRow = null; render(); });
+      if (back) back.addEventListener("click", (e) => { if (e.target === back) { modalRow = null; render(); } });
+    }
+    function go(delta) {
+      const i = variants.findIndex((v) => v.key === currentKey());
+      const next = variants[(i + delta + variants.length) % variants.length];
+      const url = new URL(location.href);
+      url.searchParams.set("variant", next.key);
+      history.replaceState(null, "", url);
+      modalRow = null;
+      render();
+    }
+    document.getElementById("prev").addEventListener("click", () => go(-1));
+    document.getElementById("next").addEventListener("click", () => go(1));
+    document.addEventListener("keydown", (e) => {
+      const t = e.target;
+      if (t && (t.matches("input, textarea") || t.isContentEditable)) return;
+      if (e.key === "Escape" && modalRow !== null) { modalRow = null; render(); return; }
+      if (e.key === "ArrowLeft") go(-1);
+      if (e.key === "ArrowRight") go(1);
+    });
+    render();
+  </script>
+</body>
+</html>

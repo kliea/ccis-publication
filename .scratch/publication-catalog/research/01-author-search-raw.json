@@ -1,0 +1,1411 @@
+[
+  {
+    "query": "Cristopher C. Abalorio",
+    "count": 2,
+    "request": "https://api.openalex.org/authors?search=Cristopher+C.+Abalorio&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5010125303",
+        "display_name": "Cristopher C. Abalorio",
+        "orcid": null,
+        "works_count": 23,
+        "cited_by_count": 46,
+        "relevance_score": 1885.693,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2023,
+              2022
+            ]
+          },
+          {
+            "institution": "Emilio Aguinaldo College",
+            "years": [
+              2022
+            ]
+          },
+          {
+            "institution": "Technological Institute of the Philippines-Quezon City",
+            "years": [
+              2023,
+              2022
+            ]
+          },
+          {
+            "institution": "ACLC College of Butuan City",
+            "years": [
+              2018
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A5154439464",
+        "display_name": "Cristopher C. Abalorio, Ariel M. Sison, Ruji P. Medina, Gleen A. Dalaorao",
+        "orcid": null,
+        "works_count": 1,
+        "cited_by_count": 0,
+        "relevance_score": 92.184105,
+        "last_known_institutions": [],
+        "affiliations": []
+      }
+    ]
+  },
+  {
+    "query": "Roland P. Abao",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Roland+P.+Abao&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5047149755",
+        "display_name": "Roland P. Abao",
+        "orcid": "https://orcid.org/0000-0001-6281-3822",
+        "works_count": 17,
+        "cited_by_count": 59,
+        "relevance_score": 1822.8417,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Ateneo de Manila University",
+            "years": [
+              2023,
+              2022,
+              2021
+            ]
+          },
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2021,
+              2019
+            ]
+          },
+          {
+            "institution": "Mindanao State University \u2013 Iligan Institute of Technology",
+            "years": [
+              2018
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Jayrhom R. Almonteros",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Jayrhom+R.+Almonteros&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5069971657",
+        "display_name": "Jayrhom R. Almonteros",
+        "orcid": "https://orcid.org/0000-0002-6077-2710",
+        "works_count": 18,
+        "cited_by_count": 27,
+        "relevance_score": 1614.2828,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2022
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Glaicel A. Araneta",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Glaicel+A.+Araneta&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5119335978",
+        "display_name": "Glaicel Anania ARANETA",
+        "orcid": null,
+        "works_count": 2,
+        "cited_by_count": 0,
+        "relevance_score": 96.67739,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Jenelyn R. Asis",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Jenelyn+R.+Asis&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5120905689",
+        "display_name": "Jenelyn R. Asis",
+        "orcid": null,
+        "works_count": 6,
+        "cited_by_count": 1,
+        "relevance_score": 469.16113,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Mary Pilar J. Barber",
+    "count": 0,
+    "request": "https://api.openalex.org/authors?search=Mary+Pilar+J.+Barber&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": []
+  },
+  {
+    "query": "Robert Lee M. Bawiga",
+    "count": 0,
+    "request": "https://api.openalex.org/authors?search=Robert+Lee+M.+Bawiga&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": []
+  },
+  {
+    "query": "Nathan Kit A. Berro",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Nathan+Kit+A.+Berro&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5114984484",
+        "display_name": "Nathan Kit A. Berro",
+        "orcid": "https://orcid.org/0009-0008-8755-3199",
+        "works_count": 6,
+        "cited_by_count": 13,
+        "relevance_score": 1118.6876,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Ronnel O. Cacho",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Ronnel+O.+Cacho&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5083660397",
+        "display_name": "Ronnel O. Cacho",
+        "orcid": null,
+        "works_count": 6,
+        "cited_by_count": 1,
+        "relevance_score": 473.04938,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Rudolph Joshua U. Candare",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Rudolph+Joshua+U.+Candare&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5084287731",
+        "display_name": "Rudolph Joshua Candare",
+        "orcid": null,
+        "works_count": 16,
+        "cited_by_count": 16,
+        "relevance_score": 1312.4175,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2022,
+              2020,
+              2016
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Hannah Faye A. Capoy",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Hannah+Faye+A.+Capoy&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5017749693",
+        "display_name": "Hannah Faye Capoy",
+        "orcid": null,
+        "works_count": 3,
+        "cited_by_count": 3,
+        "relevance_score": 580.59406,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026
+            ]
+          },
+          {
+            "institution": "UM Digos College",
+            "years": [
+              2019
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "John Mark B. Correa",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=John+Mark+B.+Correa&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5120889243",
+        "display_name": "John Mark B. Correa",
+        "orcid": null,
+        "works_count": 1,
+        "cited_by_count": 0,
+        "relevance_score": 90.38168,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "James Earl D. Cubillas",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=James+Earl+D.+Cubillas&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5058737285",
+        "display_name": "James Earl Cubillas",
+        "orcid": "https://orcid.org/0000-0002-1767-9094",
+        "works_count": 17,
+        "cited_by_count": 24,
+        "relevance_score": 1119.3529,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2025,
+              2024,
+              2022,
+              2016
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "John Michael F. Cutamora",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=John+Michael+F.+Cutamora&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5120398403",
+        "display_name": "John Michael F. Cutamora",
+        "orcid": null,
+        "works_count": 5,
+        "cited_by_count": 2,
+        "relevance_score": 572.8833,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Gleen A. Dalaorao",
+    "count": 2,
+    "request": "https://api.openalex.org/authors?search=Gleen+A.+Dalaorao&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5079210661",
+        "display_name": "Gleen A. Dalaorao",
+        "orcid": null,
+        "works_count": 14,
+        "cited_by_count": 54,
+        "relevance_score": 2346.2375,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2022
+            ]
+          },
+          {
+            "institution": "Emilio Aguinaldo College",
+            "years": [
+              2022
+            ]
+          },
+          {
+            "institution": "Technological Institute of the Philippines-Quezon City",
+            "years": [
+              2022,
+              2019
+            ]
+          },
+          {
+            "institution": "Technological Institute of the Philippines",
+            "years": [
+              2020
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A5154439464",
+        "display_name": "Cristopher C. Abalorio, Ariel M. Sison, Ruji P. Medina, Gleen A. Dalaorao",
+        "orcid": null,
+        "works_count": 1,
+        "cited_by_count": 0,
+        "relevance_score": 96.20932,
+        "last_known_institutions": [],
+        "affiliations": []
+      }
+    ]
+  },
+  {
+    "query": "Jayson C. Dollete",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Jayson+C.+Dollete&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5121232067",
+        "display_name": "Jayson C. Dollete",
+        "orcid": null,
+        "works_count": 6,
+        "cited_by_count": 0,
+        "relevance_score": 120.85054,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Paulo A. Duga",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Paulo+A.+Duga&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5116295811",
+        "display_name": "Paulo A. Duga",
+        "orcid": null,
+        "works_count": 3,
+        "cited_by_count": 3,
+        "relevance_score": 516.71014,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Riah E. Encarnacion",
+    "count": 3,
+    "request": "https://api.openalex.org/authors?search=Riah+E.+Encarnacion&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5011650373",
+        "display_name": "Riah Elcullada Encarnacion",
+        "orcid": null,
+        "works_count": 28,
+        "cited_by_count": 173,
+        "relevance_score": 2532.9307,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "University of Nizwa",
+            "years": [
+              2021
+            ]
+          },
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2025
+            ]
+          },
+          {
+            "institution": "Surigao del Norte State University",
+            "years": [
+              2024
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A5120888696",
+        "display_name": "Riah E. Encarnacion",
+        "orcid": null,
+        "works_count": 5,
+        "cited_by_count": 1,
+        "relevance_score": 489.38388,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025
+            ]
+          }
+        ]
+      },
+      {
+        "id": "A5159661622",
+        "display_name": "Riah E. Encarnacion Dit",
+        "orcid": null,
+        "works_count": 1,
+        "cited_by_count": 0,
+        "relevance_score": 103.699936,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "John Binze B. Escol",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=John+Binze+B.+Escol&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5092891555",
+        "display_name": "John Binze B. Escol",
+        "orcid": null,
+        "works_count": 3,
+        "cited_by_count": 2,
+        "relevance_score": 689.34033,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Giovanni T. Esma",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Giovanni+T.+Esma&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5121194004",
+        "display_name": "Giovanni T. Esma",
+        "orcid": null,
+        "works_count": 4,
+        "cited_by_count": 1,
+        "relevance_score": 357.1361,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Kent T. Espejon",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Kent+T.+Espejon&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5094089741",
+        "display_name": "Kent T. Espejon",
+        "orcid": "https://orcid.org/0009-0001-4536-6247",
+        "works_count": 7,
+        "cited_by_count": 4,
+        "relevance_score": 682.81995,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2023
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Clark Justine L. Gonzales",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Clark+Justine+L.+Gonzales&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5121242116",
+        "display_name": "Clark Justine L. Gonzales",
+        "orcid": null,
+        "works_count": 2,
+        "cited_by_count": 0,
+        "relevance_score": 114.70118,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Edwin Manuel M. Jarlata",
+    "count": 0,
+    "request": "https://api.openalex.org/authors?search=Edwin+Manuel+M.+Jarlata&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": []
+  },
+  {
+    "query": "Jaymer M. Jayoma",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Jaymer+M.+Jayoma&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5067578352",
+        "display_name": "Jaymer M. Jayoma",
+        "orcid": "https://orcid.org/0000-0001-7063-2693",
+        "works_count": 34,
+        "cited_by_count": 77,
+        "relevance_score": 2682.7495,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2023,
+              2022,
+              2021,
+              2020,
+              2019,
+              2018
+            ]
+          },
+          {
+            "institution": "Technological Institute of the Philippines-Quezon City",
+            "years": [
+              2018
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Junrie B. Matias",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Junrie+B.+Matias&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5075735598",
+        "display_name": "Junrie B. Matias",
+        "orcid": "https://orcid.org/0000-0001-9638-4667",
+        "works_count": 37,
+        "cited_by_count": 174,
+        "relevance_score": 3654.5918,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2022,
+              2021,
+              2020,
+              2019
+            ]
+          },
+          {
+            "institution": "Emilio Aguinaldo College",
+            "years": [
+              2022
+            ]
+          },
+          {
+            "institution": "Technological Institute of the Philippines-Quezon City",
+            "years": [
+              2022,
+              2018
+            ]
+          },
+          {
+            "institution": "Technological Institute of the Philippines",
+            "years": [
+              2018
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Angel Lorraine M. Morales",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Angel+Lorraine+M.+Morales&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5159661252",
+        "display_name": "Angel Lorraine M. Morales",
+        "orcid": null,
+        "works_count": 1,
+        "cited_by_count": 0,
+        "relevance_score": 101.1867,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Edsel Matt O. Morales",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Edsel+Matt+O.+Morales&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5080108496",
+        "display_name": "Edsel Matt O. Morales",
+        "orcid": null,
+        "works_count": 16,
+        "cited_by_count": 47,
+        "relevance_score": 1928.0024,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2021,
+              2020,
+              2019,
+              2017,
+              2016
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Elbert S. Moyon",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Elbert+S.+Moyon&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5070606721",
+        "display_name": "Elbert S. Moyon",
+        "orcid": "https://orcid.org/0000-0002-1259-1624",
+        "works_count": 20,
+        "cited_by_count": 44,
+        "relevance_score": 1668.0538,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2023,
+              2022,
+              2021,
+              2020
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Takeyasu V. Nakazato",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Takeyasu+V.+Nakazato&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5051861067",
+        "display_name": "Takeyasu V. Nakazato",
+        "orcid": "https://orcid.org/0009-0004-3199-7621",
+        "works_count": 9,
+        "cited_by_count": 3,
+        "relevance_score": 635.50885,
+        "last_known_institutions": [
+          "Caraga State University",
+          "Technological Institute of the Philippines"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024
+            ]
+          },
+          {
+            "institution": "Technological Institute of the Philippines",
+            "years": [
+              2026,
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Maria Besa Joy M. Ortuyo",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Maria+Besa+Joy+M.+Ortuyo&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5094188681",
+        "display_name": "Maria Besa Joy M. Ortuyo",
+        "orcid": null,
+        "works_count": 4,
+        "cited_by_count": 0,
+        "relevance_score": 155.56238,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Paolo L. Pacaldo",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Paolo+L.+Pacaldo&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5120349545",
+        "display_name": "Paolo L. Pacaldo",
+        "orcid": null,
+        "works_count": 6,
+        "cited_by_count": 3,
+        "relevance_score": 592.39417,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Mark Phil B. Pacot",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Mark+Phil+B.+Pacot&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5024726538",
+        "display_name": "Mark Phil B. Pacot",
+        "orcid": "https://orcid.org/0000-0003-2548-4059",
+        "works_count": 22,
+        "cited_by_count": 32,
+        "relevance_score": 1782.5771,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2023,
+              2022,
+              2020,
+              2018,
+              2017
+            ]
+          },
+          {
+            "institution": "De La Salle University",
+            "years": [
+              2025,
+              2023,
+              2020
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Kimberly Ann B. Palaran",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Kimberly+Ann+B.+Palaran&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5120349505",
+        "display_name": "Kimberly Ann B. Palaran",
+        "orcid": null,
+        "works_count": 5,
+        "cited_by_count": 1,
+        "relevance_score": 511.9125,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Joanna Victoria S. Pitao",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Joanna+Victoria+S.+Pitao&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5094052604",
+        "display_name": "Joanna Victoria S. Pitao",
+        "orcid": null,
+        "works_count": 4,
+        "cited_by_count": 7,
+        "relevance_score": 865.21027,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2025,
+              2024
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Vicente A. Pitogo",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Vicente+A.+Pitogo&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5056076342",
+        "display_name": "Vicente Aquino Pitogo",
+        "orcid": "https://orcid.org/0000-0002-2061-7521",
+        "works_count": 36,
+        "cited_by_count": 99,
+        "relevance_score": 1941.5222,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024,
+              2023,
+              2022,
+              2021,
+              2020,
+              2019,
+              2018
+            ]
+          },
+          {
+            "institution": "Asia-Europe Foundation",
+            "years": [
+              2025
+            ]
+          },
+          {
+            "institution": "De La Salle University",
+            "years": [
+              2022,
+              2020,
+              2019,
+              2018
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "James V. Presbitero",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=James+V.+Presbitero&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5049211925",
+        "display_name": "James V. Presbitero",
+        "orcid": null,
+        "works_count": 1,
+        "cited_by_count": 4,
+        "relevance_score": 569.3159,
+        "last_known_institutions": [
+          "De La Salle University"
+        ],
+        "affiliations": [
+          {
+            "institution": "De La Salle University",
+            "years": [
+              2018
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Mary Rose O. Raz",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Mary+Rose+O.+Raz&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5120926324",
+        "display_name": "Mary Rose O. Raz",
+        "orcid": null,
+        "works_count": 5,
+        "cited_by_count": 3,
+        "relevance_score": 640.17035,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2024
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Dexter A. Romaguera",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Dexter+A.+Romaguera&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5095934684",
+        "display_name": "Dexter Romaguera",
+        "orcid": null,
+        "works_count": 2,
+        "cited_by_count": 16,
+        "relevance_score": 794.87585,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2025,
+              2024
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Jordylene G. Sagusay",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Jordylene+G.+Sagusay&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5138715107",
+        "display_name": "Jordylene G. Sagusay",
+        "orcid": null,
+        "works_count": 1,
+        "cited_by_count": 0,
+        "relevance_score": 134.86847,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Cherry I. Tabada",
+    "count": 0,
+    "request": "https://api.openalex.org/authors?search=Cherry+I.+Tabada&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": []
+  },
+  {
+    "query": "Jesterlyn Q. Timosan",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Jesterlyn+Q.+Timosan&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5023348383",
+        "display_name": "Jesterlyn Quibol Timosan",
+        "orcid": "https://orcid.org/0000-0003-4425-2261",
+        "works_count": 9,
+        "cited_by_count": 14,
+        "relevance_score": 1181.714,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2025,
+              2022,
+              2020
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Luisito I. Tabada",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Luisito+I.+Tabada&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5029531959",
+        "display_name": "Luisito I. Tabada",
+        "orcid": null,
+        "works_count": 2,
+        "cited_by_count": 1,
+        "relevance_score": 531.3294,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2014,
+              2009
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Kier Patrick A. Empang",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Kier+Patrick+A.+Empang&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5120631089",
+        "display_name": "Kier Patrick A. Empang",
+        "orcid": null,
+        "works_count": 3,
+        "cited_by_count": 1,
+        "relevance_score": 552.27765,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026,
+              2024
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Klinth Jerald L. Matugas",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Klinth+Jerald+L.+Matugas&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5159600799",
+        "display_name": "Klinth Jerald L. Matugas",
+        "orcid": null,
+        "works_count": 2,
+        "cited_by_count": 0,
+        "relevance_score": 171.557,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Al Christian Plaza",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Al+Christian+Plaza&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5159651905",
+        "display_name": "Al Christian Plaza",
+        "orcid": null,
+        "works_count": 1,
+        "cited_by_count": 0,
+        "relevance_score": 84.76774,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Jessie Lynde M. Poralan",
+    "count": 0,
+    "request": "https://api.openalex.org/authors?search=Jessie+Lynde+M.+Poralan&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": []
+  },
+  {
+    "query": "Junward B. Megullas",
+    "count": 0,
+    "request": "https://api.openalex.org/authors?search=Junward+B.+Megullas&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": []
+  },
+  {
+    "query": "Mary Abigail D. Soliva",
+    "count": 1,
+    "request": "https://api.openalex.org/authors?search=Mary+Abigail+D.+Soliva&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": [
+      {
+        "id": "A5159645669",
+        "display_name": "Mary Abigail D. Soliva",
+        "orcid": null,
+        "works_count": 2,
+        "cited_by_count": 0,
+        "relevance_score": 118.736145,
+        "last_known_institutions": [
+          "Caraga State University"
+        ],
+        "affiliations": [
+          {
+            "institution": "Caraga State University",
+            "years": [
+              2026
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "query": "Fritzie T. Nuez",
+    "count": 0,
+    "request": "https://api.openalex.org/authors?search=Fritzie+T.+Nuez&per_page=5&mailto=research-publication%40example.com&select=id%2Cdisplay_name%2Corcid%2Cworks_count%2Ccited_by_count%2Clast_known_institutions%2Caffiliations%2Crelevance_score",
+    "candidates": []
+  }
+]
