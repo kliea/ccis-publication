@@ -27,12 +27,13 @@
   function visibleRows(allRows) {
     const goal = document.getElementById("sdg").value;
     const year = selectedYear();
-    return allRows.flatMap((row, index) => {
+    const list = allRows.flatMap((row, index) => {
       const goals = row.sdgs || [];
       const yearOk = year === null || row.year === year;
       const goalOk = !goal || goals.some((item) => String(item.number) === goal);
       return yearOk && goalOk ? [Object.assign({ number: index + 1 }, row)] : [];
     });
+    return window.catalogSortRows ? window.catalogSortRows(list) : list;
   }
 
   function fileStem() {

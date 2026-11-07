@@ -473,7 +473,7 @@ def page(rows, built_at):
     body_rows = []
     for index, row in enumerate(rows, start=1):
         body_rows.append(
-            "<tr data-open>"
+            f'<tr data-open data-index="{index - 1}">'
             f"<td>{index}</td>"
             f"<td>{author_html(row['authors'])}</td>"
             f"<td>{cell(row['title'])}</td>"
@@ -544,7 +544,11 @@ def page(rows, built_at):
     .scroll {{ overflow-x: auto; border: 1px solid #1c1915; background: white; }}
     table {{ width: 100%; border-collapse: collapse; font: 13px/1.35 ui-sans-serif, system-ui, sans-serif; }}
     th, td {{ border-bottom: 1px solid #d9d2c5; padding: 8px 10px; vertical-align: top; text-align: left; }}
-    th {{ background: #ebe4d6; font-weight: 650; white-space: nowrap; position: sticky; top: 0; }}
+    th {{ background: #ebe4d6; font-weight: 650; white-space: nowrap; position: sticky; top: 0; padding: 0; }}
+    th button {{ font: inherit; font-weight: 650; display: flex; align-items: center; justify-content: space-between; gap: 8px; width: 100%; padding: 8px 10px; color: inherit; background: transparent; border: 0; cursor: pointer; text-align: left; white-space: nowrap; }}
+    th button:hover {{ background: #e3dccb; }}
+    .sort-icon {{ display: inline-flex; width: 14px; height: 14px; flex: none; }}
+    .sort-icon svg {{ width: 14px; height: 14px; }}
     tr[data-open] {{ cursor: pointer; }}
     tr[data-open]:hover td {{ background: #f7f3ea; }}
     .blank {{ color: #a39c90; }}
@@ -577,19 +581,19 @@ def page(rows, built_at):
         <caption class="sub">Published works recorded for {YEARS[0]}–{YEARS[-1]}.</caption>
         <thead>
           <tr>
-            <th>No.</th>
-            <th>Author/s</th>
-            <th>Title</th>
-            <th>Journal / Conference</th>
-            <th>Sponsor / Publisher</th>
-            <th>Database</th>
-            <th>Indexing</th>
-            <th>Ranking / JIF</th>
-            <th>ISSN / ISBN</th>
-            <th>Status</th>
-            <th>Date</th>
-            <th>Publication Charge</th>
-            <th>Link / DOI</th>
+            <th data-sort="number" aria-sort="none"><button type="button">No.<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="authors" aria-sort="none"><button type="button">Author/s<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="title" aria-sort="none"><button type="button">Title<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="venue" aria-sort="none"><button type="button">Journal / Conference<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="sponsor" aria-sort="none"><button type="button">Sponsor / Publisher<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="database" aria-sort="none"><button type="button">Database<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="indexing" aria-sort="none"><button type="button">Indexing<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="ranking" aria-sort="none"><button type="button">Ranking / JIF<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="issn" aria-sort="none"><button type="button">ISSN / ISBN<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="status" aria-sort="none"><button type="button">Status<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="date" aria-sort="none"><button type="button">Date<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="charge" aria-sort="none"><button type="button">Publication Charge<span class="sort-icon" aria-hidden="true"></span></button></th>
+            <th data-sort="doi" aria-sort="none"><button type="button">Link / DOI<span class="sort-icon" aria-hidden="true"></span></button></th>
           </tr>
         </thead>
         <tbody>
@@ -686,10 +690,63 @@ def page(rows, built_at):
     const pagerListEl = document.getElementById("pager-list");
     const pageStatusEl = document.getElementById("page-status");
     const sdgNames = {json.dumps(SDGS)};
+    const arrowUp = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>';
+    const arrowDown = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg>';
     const chevronLeft = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>';
     const chevronRight = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>';
     const ellipsisIcon = '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="1"/><circle cx="19" cy="12" r="1"/><circle cx="5" cy="12" r="1"/></svg>';
     let page = 1;
+    let sortKey = null;
+    let sortDir = "asc";
+    function rowRecord(index) {{
+      return Object.assign({{ number: index + 1 }}, rows[index]);
+    }}
+    function sortValue(row, key) {{
+      if (key === "number") return row.number;
+      if (key === "authors") return (row.authors || []).map((author) => author.name).join(", ");
+      if (key === "title") return row.title || "";
+      if (key === "venue") return row.venue || "";
+      if (key === "sponsor") return row.sponsor || "";
+      if (key === "issn") return row.issn || "";
+      if (key === "status") return "Published";
+      if (key === "date") return row.date || "";
+      if (key === "charge") return row.charge || "";
+      if (key === "doi") return row.doi || "";
+      return "";
+    }}
+    function compareRows(a, b, key, dir) {{
+      const av = sortValue(a, key);
+      const bv = sortValue(b, key);
+      const aBlank = av === "" || av == null;
+      const bBlank = bv === "" || bv == null;
+      if (aBlank && bBlank) return a.number - b.number;
+      if (aBlank) return 1;
+      if (bBlank) return -1;
+      let result = 0;
+      if (key === "number") result = av - bv;
+      else if (key === "charge") {{
+        const an = parseFloat(String(av).replace(/,/g, ""));
+        const bn = parseFloat(String(bv).replace(/,/g, ""));
+        result = !Number.isNaN(an) && !Number.isNaN(bn)
+          ? an - bn
+          : String(av).localeCompare(String(bv), undefined, {{ numeric: true, sensitivity: "base" }});
+      }} else {{
+        result = String(av).localeCompare(String(bv), undefined, {{ numeric: true, sensitivity: "base" }});
+      }}
+      if (result === 0) return a.number - b.number;
+      return dir === "desc" ? -result : result;
+    }}
+    function paintSort() {{
+      document.querySelectorAll("th[data-sort]").forEach((th) => {{
+        const active = th.dataset.sort === sortKey;
+        th.setAttribute("aria-sort", active ? (sortDir === "asc" ? "ascending" : "descending") : "none");
+        th.querySelector(".sort-icon").innerHTML = active ? (sortDir === "asc" ? arrowUp : arrowDown) : "";
+      }});
+    }}
+    window.catalogSortRows = function (list) {{
+      if (!sortKey) return list;
+      return list.slice().sort((a, b) => compareRows(a, b, sortKey, sortDir));
+    }};
     function selectedYear() {{
       const value = document.getElementById("year").value;
       return value ? Number(value) : null;
@@ -733,9 +790,18 @@ def page(rows, built_at):
       const goal = document.getElementById("sdg").value;
       const counts = {{}};
       sdgNames.forEach((pair) => {{ counts[pair[0]] = 0; }});
+      const body = document.querySelector("tbody");
+      const allRows = Array.from(document.querySelectorAll("tbody tr[data-open]"));
+      allRows.sort((a, b) => {{
+        const aIndex = Number(a.dataset.index);
+        const bIndex = Number(b.dataset.index);
+        if (!sortKey) return aIndex - bIndex;
+        return compareRows(rowRecord(aIndex), rowRecord(bIndex), sortKey, sortDir);
+      }});
+      allRows.forEach((tr) => body.appendChild(tr));
       const matched = [];
-      document.querySelectorAll("tbody tr[data-open]").forEach((tr, index) => {{
-        const row = rows[index];
+      allRows.forEach((tr) => {{
+        const row = rows[Number(tr.dataset.index)];
         const yearOk = year === null || row.year === year;
         if (yearOk) {{
           (row.sdgs || []).forEach((item) => {{
@@ -789,6 +855,19 @@ def page(rows, built_at):
       page = 1;
       applyFilters();
     }});
+    document.querySelector("thead").addEventListener("click", (event) => {{
+      const th = event.target.closest("th[data-sort]");
+      if (!th) return;
+      if (sortKey === th.dataset.sort) sortDir = sortDir === "asc" ? "desc" : "asc";
+      else {{
+        sortKey = th.dataset.sort;
+        sortDir = "asc";
+      }}
+      closeModal();
+      page = 1;
+      paintSort();
+      applyFilters();
+    }});
     pagerEl.addEventListener("click", (event) => {{
       const button = event.target.closest("button");
       if (!button || button.disabled) return;
@@ -803,7 +882,7 @@ def page(rows, built_at):
       if (event.target.closest("a")) return;
       const row = event.target.closest("tr[data-open]");
       if (!row) return;
-      openModal(row.sectionRowIndex);
+      openModal(Number(row.dataset.index));
     }});
     document.addEventListener("keydown", (event) => {{
       if (event.key === "Escape") closeModal();
