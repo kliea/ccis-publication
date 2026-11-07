@@ -1,6 +1,6 @@
 # Roster
 
-Closed list of 49 researchers. The pasted source listed Cherry I. Tabada twice; this file lists that researcher once. Order follows the source paste.
+Closed list of 50 researchers. The pasted source listed Cherry I. Tabada twice; this file lists that researcher once. Order follows the source paste. Clarielyn Y. Grado was added after that paste.
 
 Caraga State University is a matching hint from an OpenAlex sample. It is not a reason to add or drop a name.
 
@@ -53,3 +53,4 @@ Caraga State University is a matching hint from an OpenAlex sample. It is not a 
 47. Junward B. Megullas
 48. Mary Abigail D. Soliva
 49. Fritzie T. Nunez
+50. Clarielyn Y. Grado

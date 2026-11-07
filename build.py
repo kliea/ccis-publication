@@ -79,6 +79,7 @@ UNCHECKED = [
     ("Jessie Lynde M. Poralan", "Jessie Lynde Poralan"),
     ("Junward B. Megullas", "Junward Megullas"),
     ("Fritzie T. Nunez", "Fritzie Nunez"),
+    ("Clarielyn Y. Grado", "Clarielyn Grado"),
 ]
 MARKER = SITE / "unchecked-search.json"
 
@@ -132,20 +133,22 @@ ROSTER = [
     "Junward B. Megullas",
     "Mary Abigail D. Soliva",
     "Fritzie T. Nunez",
+    "Clarielyn Y. Grado",
 ]
 
 # Rank is the faculty profile on page 3. The seven names absent from that
-# profile are Lecturers. Unit is blank when the profile lists no department.
+# profile are Lecturers. Clarielyn Y. Grado is a Lecturer.
+# Department is Computer Science, Information Technology, or Information Systems.
 # Each year requires at least ARTICLE_EACH_YEAR published articles.
 FACULTY = (
-    ("Cristopher C. Abalorio", "Asst. Prof I", ""),
+    ("Cristopher C. Abalorio", "Asst. Prof I", "Computer Science"),
     ("Roland P. Abao", "Asst. Prof III", "Information Technology"),
     ("Jayrhom R. Almonteros", "Instructor I", "Information Systems"),
-    ("Glaicel A. Araneta", "Instructor I", ""),
+    ("Glaicel A. Araneta", "Instructor I", "Information Technology"),
     ("Jenelyn R. Asis", "Instructor I", "Information Technology"),
-    ("Mary Pilar J. Barber", "Instructor I", ""),
-    ("Robert Lee M. Bawiga", "Instructor I", ""),
-    ("Nathan Kit A. Berro", "Asst. Prof I", ""),
+    ("Mary Pilar J. Barber", "Instructor I", "Information Systems"),
+    ("Robert Lee M. Bawiga", "Instructor I", "Information Technology"),
+    ("Nathan Kit A. Berro", "Asst. Prof I", "Information Technology"),
     ("Ronnel O. Cacho", "Instructor I", "Computer Science"),
     ("Rudolph Joshua U. Candare", "Asso. Prof IV", "Computer Science"),
     ("Hannah Faye A. Capoy", "Instructor I", "Information Systems"),
@@ -156,19 +159,19 @@ FACULTY = (
     ("Jayson C. Dollete", "Instructor I", "Information Systems"),
     ("Paulo A. Duga", "Instructor I", "Information Systems"),
     ("Riah E. Encarnacion", "Asst. Prof I", "Information Technology"),
-    ("John Binze B. Escol", "Instructor I", ""),
+    ("John Binze B. Escol", "Instructor I", "Computer Science"),
     ("Giovanni T. Esma", "Instructor I", "Information Technology"),
-    ("Kent T. Espejon", "Instructor I", ""),
+    ("Kent T. Espejon", "Instructor I", "Information Technology"),
     ("Clark Justine L. Gonzales", "Instructor I", "Computer Science"),
     ("Edwin Manuel M. Jarlata", "Instructor I", "Information Technology"),
     ("Jaymer M. Jayoma", "Professor VI", "Computer Science"),
     ("Junrie B. Matias", "Professor VI", "Computer Science"),
-    ("Angel Lorraine M. Morales", "Instructor I", ""),
+    ("Angel Lorraine M. Morales", "Instructor I", "Computer Science"),
     ("Edsel Matt O. Morales", "Instructor I", "Information Technology"),
     ("Elbert S. Moyon", "Asst. Prof I", "Information Systems"),
     ("Takeyasu V. Nakazato", "Asso. Prof III", "Computer Science"),
     ("Maria Besa Joy M. Ortuyo", "Asso. Prof V", "Computer Science"),
-    ("Paolo L. Pacaldo", "Instructor I", ""),
+    ("Paolo L. Pacaldo", "Instructor I", "Information Technology"),
     ("Mark Phil B. Pacot", "Asso. Prof V", "Computer Science"),
     ("Kimberly Ann B. Palaran", "Instructor I", "Information Systems"),
     ("Joanna Victoria S. Pitao", "Instructor I", "Computer Science"),
@@ -176,17 +179,18 @@ FACULTY = (
     ("James V. Presbitero", "Asso. Prof I", "Information Technology"),
     ("Mary Rose O. Raz", "Instructor I", "Information Technology"),
     ("Dexter A. Romaguera", "Instructor I", "Information Technology"),
-    ("Jordylene G. Sagusay", "Instructor I", ""),
+    ("Jordylene G. Sagusay", "Instructor I", "Information Systems"),
     ("Cherry I. Tabada", "Asst. Prof III", "Information Technology"),
     ("Jesterlyn Q. Timosan", "Asso. Prof V", "Information Systems"),
     ("Luisito I. Tabada", "Professor V", "Computer Science"),
-    ("Kier Patrick A. Empang", "Lecturer", ""),
-    ("Klinth Jerald L. Matugas", "Lecturer", ""),
-    ("Al Christian Plaza", "Lecturer", ""),
-    ("Jessie Lynde M. Poralan", "Lecturer", ""),
-    ("Junward B. Megullas", "Lecturer", ""),
-    ("Mary Abigail D. Soliva", "Lecturer", ""),
-    ("Fritzie T. Nunez", "Lecturer", ""),
+    ("Kier Patrick A. Empang", "Lecturer", "Information Technology"),
+    ("Klinth Jerald L. Matugas", "Lecturer", "Computer Science"),
+    ("Al Christian Plaza", "Lecturer", "Information Systems"),
+    ("Jessie Lynde M. Poralan", "Lecturer", "Information Systems"),
+    ("Junward B. Megullas", "Lecturer", "Computer Science"),
+    ("Mary Abigail D. Soliva", "Lecturer", "Information Systems"),
+    ("Fritzie T. Nunez", "Lecturer", "Information Technology"),
+    ("Clarielyn Y. Grado", "Lecturer", "Computer Science"),
 )
 
 
@@ -656,7 +660,7 @@ def faculty_section(rows):
     if [item[0] for item in FACULTY] != ROSTER:
         raise SystemExit("Faculty names and roster names differ")
     body = []
-    for number, (name, rank, unit) in enumerate(FACULTY, start=1):
+    for number, (name, rank, department) in enumerate(FACULTY, start=1):
         counts = faculty_year_counts(rows, name)
         year_cells = "".join(
             f'<td class="num" data-year="{year}">{counts[year]}</td>' for year in YEARS
@@ -665,8 +669,8 @@ def faculty_section(rows):
             "<tr>"
             f"<td>{number}</td>"
             f"<td>{escape(name)}</td>"
-            f"<td>{escape(rank)}</td>"
-            f"<td>{cell(unit)}</td>"
+            f"<td>{cell(rank)}</td>"
+            f"<td>{cell(department)}</td>"
             f'<td class="num">{ARTICLE_EACH_YEAR}</td>'
             f"{year_cells}"
             "</tr>"
@@ -690,7 +694,7 @@ def faculty_section(rows):
             <th>No.</th>
             <th>Name</th>
             <th>Rank</th>
-            <th>Unit</th>
+            <th>Department</th>
             <th class="num">Req. Article</th>
             {year_headers}
           </tr>
