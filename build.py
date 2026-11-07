@@ -602,9 +602,9 @@ def page(rows, built_at):
       <div class="table-foot-controls">
         <label class="rows-label" for="page-size">Rows per page</label>
         <select id="page-size">
-          <option value="5">5</option>
+          <option value="5" selected>5</option>
           <option value="10">10</option>
-          <option value="25" selected>25</option>
+          <option value="25">25</option>
           <option value="50">50</option>
         </select>
         <nav class="pager" id="pager" aria-label="pagination">
