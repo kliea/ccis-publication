@@ -1,28 +1,31 @@
 @import "tailwindcss";
 
 :root {
-  --radius: 0.625rem;
-  --background: #ffffff;
-  --foreground: #0b1c33;
-  --card: #ffffff;
-  --card-foreground: #0b1c33;
-  --popover: #ffffff;
-  --popover-foreground: #0b1c33;
-  --primary: #1f4b7a;
-  --primary-foreground: #ffffff;
-  --secondary: #e7eef6;
-  --secondary-foreground: #0b1c33;
-  --muted: #e7eef6;
-  --muted-foreground: #5d738c;
-  --accent: #e7eef6;
-  --accent-foreground: #0b1c33;
-  --destructive: #b42318;
-  --border: #d0dced;
-  --input: #d0dced;
-  --ring: #f08a2a;
-  --navy: #0b1c33;
-  --dusk: #1f4b7a;
-  --orange: #f08a2a;
+  --radius: 0.875rem;
+  --background: #f0dfcb;
+  --foreground: #21130f;
+  --card: #fbf6ee;
+  --card-foreground: #21130f;
+  --popover: #fbf6ee;
+  --popover-foreground: #21130f;
+  --primary: #21130f;
+  --primary-foreground: #f0dfcb;
+  --secondary: #e7d4bc;
+  --secondary-foreground: #21130f;
+  --muted: #e7d4bc;
+  --muted-foreground: #5c534c;
+  --accent: #e7d4bc;
+  --accent-foreground: #21130f;
+  --destructive: #cc0a0d;
+  --border: #d9c6ae;
+  --input: #d9c6ae;
+  --ring: #f87f23;
+  --navy: #21130f;
+  --dusk: #21130f;
+  --orange: #f87f23;
+  --red: #cc0a0d;
+  --cream: #f0dfcb;
+  --stone: #9e9a9a;
 }
 
 @theme inline {
@@ -47,6 +50,10 @@
   --color-navy: var(--navy);
   --color-dusk: var(--dusk);
   --color-orange: var(--orange);
+  --color-ink: var(--foreground);
+  --color-red: var(--red);
+  --color-cream: var(--cream);
+  --color-stone: var(--stone);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -60,6 +67,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background font-serif text-foreground;
+    @apply bg-orange font-serif text-foreground;
   }
 }

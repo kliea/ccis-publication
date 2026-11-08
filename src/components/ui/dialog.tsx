@@ -35,7 +35,7 @@ function DialogContent({ className, children, ...props }: React.ComponentProps<t
       <DialogPrimitive.Content
         data-slot="dialog-content"
         className={cn(
-          "fixed top-[8vh] left-1/2 z-50 grid max-h-[calc(100vh-6rem)] w-full max-w-2xl -translate-x-1/2 gap-4 overflow-y-auto rounded-xl border border-t-4 border-t-orange bg-background p-6 shadow-lg",
+          "fixed top-[8vh] left-1/2 z-50 grid max-h-[calc(100vh-6rem)] w-full max-w-2xl -translate-x-1/2 gap-4 overflow-y-auto rounded-xl border border-t-4 border-t-red bg-background p-6 shadow-lg",
           className,
         )}
         {...props}
