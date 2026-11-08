@@ -1,10 +1,11 @@
 import { useMemo, useState, type ReactNode } from "react"
-import { ArrowDown, ArrowUp, FileDown, FileSpreadsheet, RefreshCw } from "lucide-react"
+import { ArrowDown, ArrowUp, FileDown, FileSpreadsheet, RefreshCw, Search } from "lucide-react"
 
 import { Authors, Empty } from "@/components/authors"
 import { Pager } from "@/components/pager"
 import { Button } from "@/components/ui/button"
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog"
+import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
@@ -47,6 +48,8 @@ export function PublicationView({
 }) {
   const [year, setYear] = useState("all")
   const [sdg, setSdg] = useState("all")
+  const [draft, setDraft] = useState("")
+  const [query, setQuery] = useState("")
   const [page, setPage] = useState(1)
   const [pageSize, setPageSize] = useState("5")
   const [sortKey, setSortKey] = useState<SortKey | null>(null)
@@ -82,10 +85,28 @@ export function PublicationView({
   }, [yearRows])
   const matched = useMemo(() => {
     const goal = sdg === "all" ? null : Number(sdg)
-    const list = yearRows.filter((row) => !goal || row.sdgs.some((item) => item.number === goal))
+    const needle = query.toLowerCase()
+    const list = yearRows.filter((row) => {
+      const goalOk = !goal || row.sdgs.some((item) => item.number === goal)
+      if (!goalOk) return false
+      if (!needle) return true
+      const haystack = [
+        row.title,
+        row.venue,
+        row.sponsor,
+        row.issn,
+        row.doi,
+        row.date,
+        String(row.year || ""),
+        indexText(row),
+        ...row.authors.map((author) => author.name),
+        ...row.sdgs.map((item) => `${item.number} ${item.name}`),
+      ].join(" ").toLowerCase()
+      return haystack.includes(needle)
+    })
     if (!sortKey) return list
     return [...list].sort((a, b) => compareRows(a, b, sortKey, sortDir))
-  }, [yearRows, sdg, sortKey, sortDir])
+  }, [yearRows, sdg, query, sortKey, sortDir])
 
   const size = Number(pageSize)
   const pages = Math.max(1, Math.ceil(matched.length / size) || 1)
@@ -94,12 +115,13 @@ export function PublicationView({
   const visible = matched.slice(start, start + size)
   const yearLabel = year === "all" ? yearSpan() : year
   const goalLabel = sdg === "all" ? "" : SDGS.find((goal) => String(goal.number) === sdg)?.name || ""
-  const whole = year === "all" && sdg === "all"
+  const whole = year === "all" && sdg === "all" && !query
   const noun = matched.length === 1 ? "publication" : "publications"
   const summary = whole
     ? `${numbered.length} ${numbered.length === 1 ? "publication" : "publications"} · ${yearLabel} · snapshot ${builtAt}`
-    : `${matched.length} of ${numbered.length} ${noun} · ${yearLabel}${goalLabel ? ` · ${goalLabel}` : ""} · snapshot ${builtAt}`
-  const fileStem = `publication-catalog-${year === "all" ? `${YEARS[0]}-${YEARS[YEARS.length - 1]}` : year}${sdg === "all" ? "" : `-sdg-${sdg}`}`
+    : `${matched.length} of ${numbered.length} ${noun} · ${yearLabel}${goalLabel ? ` · ${goalLabel}` : ""}${query ? ` · ${query}` : ""} · snapshot ${builtAt}`
+  const searchSlug = query.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "").slice(0, 40)
+  const fileStem = `publication-catalog-${year === "all" ? `${YEARS[0]}-${YEARS[YEARS.length - 1]}` : year}${sdg === "all" ? "" : `-sdg-${sdg}`}${searchSlug ? `-search-${searchSlug}` : ""}`
 
   function toggleSort(key: SortKey) {
     if (sortKey === key) setSortDir((dir) => (dir === "asc" ? "desc" : "asc"))
@@ -160,6 +182,27 @@ export function PublicationView({
             ))}
           </SelectContent>
         </Select>
+        <form
+          className="flex items-center gap-2"
+          onSubmit={(event) => {
+            event.preventDefault()
+            setQuery(draft.trim())
+            setPage(1)
+          }}
+        >
+          <Label htmlFor="publication-search" className="sr-only">Search</Label>
+          <Input
+            id="publication-search"
+            value={draft}
+            onChange={(event) => setDraft(event.target.value)}
+            placeholder="Title, author, venue"
+            className="w-[min(100%,240px)]"
+          />
+          <Button type="submit" variant="outline">
+            <Search />
+            Search
+          </Button>
+        </form>
         <Button onClick={onRefresh} disabled={refreshing}>
           <RefreshCw className={refreshing ? "animate-spin" : ""} />
           Refresh
@@ -176,7 +219,7 @@ export function PublicationView({
       <p className="min-h-5 font-sans text-sm text-muted-foreground" aria-live="polite">
         {status}
       </p>
-      {matched.length === 0 ? <p>No publications for that year and goal.</p> : null}
+      {matched.length === 0 ? <p>{query ? "No publications match that search." : "No publications for that year and goal."}</p> : null}
       <div className="rounded-xl border bg-card">
         <Table>
           <caption className="sr-only">Published works recorded for {yearSpan()}.</caption>

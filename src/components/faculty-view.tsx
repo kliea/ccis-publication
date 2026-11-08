@@ -1,6 +1,9 @@
-import { useState } from "react"
+import { useMemo, useState } from "react"
+import { Search } from "lucide-react"
 
 import { Pager } from "@/components/pager"
+import { Button } from "@/components/ui/button"
+import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
@@ -9,13 +12,22 @@ import { facultyCounts, type Row } from "@/lib/catalog"
 
 export function FacultyView({ rows }: { rows: Row[] }) {
   const [year, setYear] = useState("all")
+  const [draft, setDraft] = useState("")
+  const [query, setQuery] = useState("")
   const [page, setPage] = useState(1)
   const [pageSize, setPageSize] = useState("5")
+  const filtered = useMemo(() => {
+    const needle = query.toLowerCase()
+    if (!needle) return FACULTY
+    return FACULTY.filter((person) =>
+      [person.name, person.rank, person.department].some((value) => value.toLowerCase().includes(needle)),
+    )
+  }, [query])
   const size = Number(pageSize)
-  const pages = Math.max(1, Math.ceil(FACULTY.length / size))
-  const current = Math.min(page, pages)
+  const pages = Math.max(1, Math.ceil(filtered.length / size) || 1)
+  const current = filtered.length ? Math.min(page, pages) : 1
   const start = (current - 1) * size
-  const visible = FACULTY.slice(start, start + size)
+  const visible = filtered.slice(start, start + size)
   const shownYears = year === "all" ? YEARS : [Number(year)]
 
   return (
@@ -41,6 +53,27 @@ export function FacultyView({ rows }: { rows: Row[] }) {
             ))}
           </SelectContent>
         </Select>
+        <form
+          className="flex items-center gap-2"
+          onSubmit={(event) => {
+            event.preventDefault()
+            setQuery(draft.trim())
+            setPage(1)
+          }}
+        >
+          <Label htmlFor="faculty-search" className="sr-only">Search</Label>
+          <Input
+            id="faculty-search"
+            value={draft}
+            onChange={(event) => setDraft(event.target.value)}
+            placeholder="Name, rank, department"
+            className="w-[min(100%,240px)]"
+          />
+          <Button type="submit" variant="outline">
+            <Search />
+            Search
+          </Button>
+        </form>
       </div>
       <div className="rounded-xl border bg-card">
         <Table>
@@ -59,11 +92,11 @@ export function FacultyView({ rows }: { rows: Row[] }) {
             </TableRow>
           </TableHeader>
           <TableBody>
-            {visible.map((person, index) => {
+            {visible.map((person) => {
               const counts = facultyCounts(rows, person.name)
               return (
                 <TableRow key={person.name}>
-                  <TableCell className="tabular-nums">{start + index + 1}</TableCell>
+                  <TableCell className="tabular-nums">{FACULTY.indexOf(person) + 1}</TableCell>
                   <TableCell className="font-medium">{person.name}</TableCell>
                   <TableCell>{person.rank}</TableCell>
                   <TableCell>{person.department}</TableCell>
@@ -79,9 +112,12 @@ export function FacultyView({ rows }: { rows: Row[] }) {
           </TableBody>
         </Table>
       </div>
+      {filtered.length === 0 ? <p>No faculty match that search.</p> : null}
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="font-sans text-sm">
-          Showing {start + 1}–{Math.min(start + size, FACULTY.length)} of {FACULTY.length}
+          {filtered.length
+            ? `Showing ${start + 1}–${Math.min(start + size, filtered.length)} of ${filtered.length}`
+            : "Showing 0 of 0"}
         </p>
         <div className="ml-auto flex flex-wrap items-center gap-3">
           <Label htmlFor="faculty-page-size">Rows per page</Label>
