@@ -59,7 +59,7 @@ export function yearSpan() {
 }
 
 export function tokens(name: string) {
-  const folded = (name || "").normalize("NFD")
+  const folded = (name || "").normalize("NFD").replace(/\p{Mn}/gu, "")
   return folded.replace(/[^A-Za-z\s]/g, " ").split(/\s+/).filter(Boolean)
 }
 

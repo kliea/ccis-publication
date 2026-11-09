@@ -68,7 +68,7 @@ A refresh happens when someone asks. There is no schedule. Whoever rebuilds and 
 
 A refresh replaces the snapshot with a newer copy from OpenAlex and prepares the pages again. The same binding rule applies.
 
-The next refresh also searches these four researchers without the middle initial: Cherry I. Tabada, Jessie Lynde M. Poralan, Junward B. Megullas, and Fritzie T. Nuez. Their earlier search kept the middle initial and found nobody. A clear match is bound. Nobody found stays out, and that researcher is then unmatched. Later refreshes do not repeat this special search.
+The next refresh also searches these four researchers without the middle initial: Cherry I. Tabada, Jessie Lynde M. Poralan, Junward B. Megullas, and Fritzie T. Nunez. Their earlier search kept the middle initial and found nobody. A clear match is bound. Nobody found stays out, and that researcher is then unmatched. Later refreshes do not repeat this special search.
 
 Mary Pilar J. Barber and Robert Lee M. Bawiga were already searched both with and without the middle initial. They are not part of that special search.
 
